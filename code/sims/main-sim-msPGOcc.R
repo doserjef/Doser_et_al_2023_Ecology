@@ -124,6 +124,7 @@ for (j in 1:n.sims) {
         	   n.thin = n.thin, 
         	   n.chains = n.chains, 
         	   NNGP = TRUE, 
+		   n.omp.threads = 3,
         	   n.neighbors = 5, 
         	   verbose = FALSE)
   beta.mean.samples[j, 2, ] <- apply(out$beta.samples, 2, mean)
@@ -164,6 +165,7 @@ for (j in 1:n.sims) {
         	   n.thin = n.thin, 
         	   n.chains = n.chains, 
         	   NNGP = TRUE, 
+		   n.omp.threads = 3,
         	   n.neighbors = 5, 
         	   n.factors = 3,
         	   verbose = FALSE)
@@ -206,6 +208,7 @@ for (j in 1:n.sims) {
         	n.thin = n.thin, 
         	n.chains = n.chains, 
         	NNGP = TRUE, 
+		n.omp.threads = 3,
         	n.neighbors = 5, 
         	n.factors = 3,
         	verbose = FALSE)

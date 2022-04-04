@@ -128,6 +128,7 @@ for (j in 1:n.sims) {
         	   n.chains = n.chains, 
         	   NNGP = TRUE, 
         	   n.neighbors = 5, 
+		   n.omp.threads = 3,
         	   verbose = FALSE)
   beta.mean.samples[j, 2, ] <- apply(out$beta.samples, 2, mean)
   beta.low.samples[j, 2, ] <- apply(out$beta.samples, 2, quantile, 0.025)
@@ -169,6 +170,7 @@ for (j in 1:n.sims) {
         	   NNGP = TRUE, 
         	   n.neighbors = 5, 
         	   n.factors = 3,
+		   n.omp.threads = 3,
         	   verbose = FALSE)
   beta.mean.samples[j, 4, ] <- apply(out$beta.samples, 2, mean)
   beta.low.samples[j, 4, ] <- apply(out$beta.samples, 2, quantile, 0.025)
@@ -211,6 +213,7 @@ for (j in 1:n.sims) {
         	NNGP = TRUE, 
         	n.neighbors = 5, 
         	n.factors = 3,
+		n.omp.threads = 3,
         	verbose = FALSE)
   beta.mean.samples[j, 6, ] <- apply(out$beta.samples, 2, mean)
   beta.low.samples[j, 6, ] <- apply(out$beta.samples, 2, quantile, 0.025)

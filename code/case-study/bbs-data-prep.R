@@ -1,7 +1,6 @@
 # bbs-data-prep.R: this script takes the RAW BBS data and preps it for analysis
-#                  with the binary spatial factor NNGP model. 
+#                  with the spatial factor multi-species occupancy model.  
 # Author: Jeffrey W. Doser
-# Citation: 
 
 rm(list = ls())
 library(tidyverse)
@@ -41,7 +40,6 @@ bbs.2018 <- bbs.2018 %>%
 # Replace NAs with 0s for all columns at once.
 bbs.2018 <- bbs.2018 %>%
   replace(is.na(.), 0)
-# TODO: need to go back here and make sure this is all correct. 
 # Filter for community of interest. 
 aou.info <- AOU_species_codes %>%
   mutate(AOU = spp.num)
@@ -65,7 +63,6 @@ weather.dat$date <- as.Date(weather.dat$date, tz = "America/New_York")
 weather.dat$julian <- as.numeric(format(weather.dat$date, '%j'))
 weather.covs <- weather.dat %>%
   filter(RouteDataID %in% unique(curr.dat$RouteDataID))
-
 
 # Get data in format for spOccupancy --------------------------------------
 # Ensure ordering is the same. 
@@ -124,9 +121,9 @@ for (i in 1:length(vals)) {
 occ.covs <- data.frame(elev = elev.cov, 
 		       forest = for.cov)
 
+# Save results in a data bundle for spOccupancy
 data.list <- list(y = y, det.covs = det.covs, 
 		  occ.covs = occ.covs, coords = coords)
-
 save(data.list, sp.codes, file = "data/data-bundle.R")
 
 

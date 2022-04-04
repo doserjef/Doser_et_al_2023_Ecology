@@ -11,6 +11,10 @@ library(coda)
 
 # Get chain number from command line run ----------------------------------
 chain <- as.numeric(commandArgs(trailingOnly = TRUE))
+# Alternatively, if not running the script from the command line:
+# chain <- 1
+# Or, can use the n.chains function in spOccupancy (for sequential runs of
+# chains).
 if(length(chain) == 0) base::stop('Need to tell spOccupancy the chain number')
 
 # Read in the data --------------------------------------------------------
@@ -30,6 +34,7 @@ indices.other <- indices.other[-indices]
 y.ordered <- data.list$y[c(indices, indices.other), , ]
 # Update the new data. 
 data.list$y <- y.ordered
+# Updated species codes
 sp.codes <- sp.codes[c(indices, indices.other)]
 
 # Prep the model ----------------------------------------------------------
@@ -41,13 +46,9 @@ prior.list <- list(beta.comm.normal = list(mean = 0, var = 2.72),
 # Initial values ----------------------
 load("data/inits-msPGOcc.rda")
 # Run the model -----------------------------------------------------------
-# n.samples <- 150000
-# n.burn <- 100000
-# n.thin <- 50
-# n.chains <- 1
-n.samples <- 10000
-n.burn <- 5000
-n.thin <- 5
+n.samples <- 150000
+n.burn <- 100000
+n.thin <- 50
 n.chains <- 1
 out <- msPGOcc(occ.formula = ~ scale(elev) + I(scale(elev)^2) + scale(forest), 
 	       det.formula = ~ scale(day) + I(scale(day)^2) + scale(tod) + (1 | obs), 

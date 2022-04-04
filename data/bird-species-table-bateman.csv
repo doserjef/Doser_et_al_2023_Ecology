@@ -1,0 +1,1143 @@
+Common.Name,Scientific.Name,Code,Audubon.Habitat.Guild,Habitat,Start.Date,End.Date,Type,Vagrant,Group,Background,Threshold,Drop.BCR,Drop.from.M,Add.to.M,BCR.Mask,Season,Generation.Time,Dispersal.Distance,Dispersal.Rate
+Abert's Towhee,Melozone aberti,ABTO,Sh,D,1,366,resident,8,Aridlands,background_jan_dec,mo,,,,,Breeding,2,3,1.5
+Acadian Flycatcher,Empidonax virescens,ACFL,Wd,F-E,152,213,breeding,2,Eastern.Forests,background_jun_jul,custom,,"6,10,17",,"33,34,16,43,44,45,47,48,50,55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51,9,10",Breeding,1,3,3
+Acorn Woodpecker,Melanerpes formicivorus,ACWO,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Breeding,1.5,3,2
+Alder Flycatcher,Empidonax alnorum,ALFL,Wet,"F-E,F-B",152,213,breeding,2,Boreal.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Allen's Hummingbird,Selasphorus sasin,ALHU,Sh,D,152,182,two-season,2,Aridlands,background_jun,tss,5,5,"34, 43",,Breeding,2,14.5,7.25
+Altamira Oriole,Icterus gularis,ALOR,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,om_10,,,,"31,33,34,40,41,42,43,44,47",Breeding,1,3,3
+American Avocet,Recurvirostra americana,AMAV,Wet,GEN,152,213,two-season,15,Marshlands,background_jun_jul,mk,"14, 15, 27, 28, 29, 30",,"2, 4, 5",,Breeding,1,14.5,14.5
+American Bittern,Botaurus lentiginosus,AMBI,Wet,M,152,213,two-season,8,Marshlands,background_jun_jul,tss,"4, 5, 6, 7",,2,"1, 2, 3, 4, 5",Breeding,1,37,37
+American Black Duck,Anas rubripes,ABDU,Wet,F-B,152,213,two-season,2,Waterbirds,background_jun_jul,om_10,"6,24,22,11",,"1,2,4,10,5,9","1,2,4,5,10",Breeding,1,3,3
+American Coot,Fulica americana,AMCO,Wet,M,152,213,two-season,2,Marshlands,background_jun_jul,tss,"4, 5, 7, 8",,2,"1, 2, 4, 5",Breeding,1,14.5,14.5
+American Crow,Corvus brachyrhynchos,AMCR,Var,GEN,152,213,two-season,2,Generalists,background_jun_jul,custom,,,,"33,36,34,35 38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,65,66,2,4",Breeding,2,3,1.5
+American Dipper,Cinclus mexicanus,AMDI,Wet,"F-W,F-B",1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,"1,3,7",Breeding,1,14.5,14.5
+American Golden-Plover,Pluvialis dominica,AMGP,Gr,A,152,182,breeding,2,Waterbirds,background_jun,mk,"8,11,22,23",,,7,Breeding,1,3,3
+American Goldfinch,Spinus tristis,AMGO,Var,"F-W,F-E",152,213,two-season,2,Generalists,background_jun_jul,om_10,"3,4,34,35,36",,"1,2,4",,Breeding,0.9,3,3.333333333
+American Kestrel,Falco sparverius,AMKE,Gr,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,,,,Breeding,1,14.5,14.5
+American Oystercatcher,Haematopus palliatus,AMOY,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,custom,,,,"5,1,2",Breeding,3.5,14.5,4.142857143
+American Pipit,Anthus rubescens,AMPI,Gr,A,152,213,two-season,9,Arctic,background_jun_jul,mk,100,,"27, 43","7, 8",Breeding,1,37,37
+American Redstart,Setophaga ruticilla,AMRE,Wd,"F-E,F-W,F-B",152,213,two-season,11,Boreal.Forests,background_jun_jul,custom,,,,"1,2",Breeding,1,3,3
+American Robin,Turdus migratorius,AMRO,Wd,GEN,152,213,two-season,2,Generalists,background_jun_jul,custom,,,,,Breeding,1,3,3
+American Three-toed Woodpecker,Picoides dorsalis,ATTW,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,om_10,"15,33,33",,,"15,33,33",Breeding,1,3,3
+American Tree Sparrow,Spizella arborea,ATSP,Sh,"A,F-B",152,213,two-season,5,Arctic,background_jun_jul,om_10,"13, 100",,,"9, 10, 11, 14, 16",Breeding,1,3,3
+American White Pelican,Pelecanus erythrorhynchos,AWPE,Wet,GEN,152,213,two-season,9,Marshlands,background_jun_jul,tss,"5, 6, 8, 12, 13, 15, 21, 22, 23, 24, 25, 26, 27, 30, 31, 33, 34, 35, 36, 100",,"2, 4","1, 2, 4, 5",Breeding,3,37,12.33333333
+American Wigeon,Anas americana,AMWI,Wet,GEN,152,213,two-season,10,Marshlands,background_jun_jul,tss,"3, 13, 23, 30, 32, 33, 34 ",,,,Breeding,1,149.5,149.5
+American Woodcock,Scolopax minor,AMWO,Wet,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,custom,6,"4,3,10,11,6",,"17,10,2,4,33,34,55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51",Breeding,0.9,14.5,16.11111111
+Ancient Murrelet,Synthliboramphus antiquus,ANMU,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,custom,,,,"7,32,8",Breeding,3.5,3,0.857142857
+Anhinga,Anhinga anhinga,ANHI,Wet,"F-E,F-S",152,213,two-season,2,Marshlands,background_jun_jul,eq,,,"32, 40",,Breeding,2,14.5,7.25
+Anna's Hummingbird,Calypte anna,ANHU,Wd,"D,F-W",152,182,two-season,2,Generalists,background_jun,om_10,"40,16","4,6,16,17,35,34,11,43,46",,"35,36,41,42,43,45,46,47,48,49,50,51,52,53,54,18,19,20,21,22,24,25",Breeding,1,14.5,14.5
+Aplomado Falcon,Falco femoralis,APFA,Gr,"G,D",1,366,resident,2,Grasslands,background_jan_dec,tss,,,,"40,42,31",Breeding,1,74.5,74.5
+Arctic Tern,Sterna paradisaea,ARTE,Wet,"A,F-B,C",152,213,breeding,10,Waterbirds,background_jun_jul,eq,"8,14",,,,Breeding,1,14.5,14.5
+Arctic Warbler,Phylloscopus borealis,ARWA,Sh,A,152,213,breeding,2,Arctic,background_jun_jul,mo,"3, 5",10,7,"5, 6, 7, 8, 10",Breeding,1,14.5,14.5
+Arizona Woodpecker,Picoides arizonae,ARWO,Wd,F-W,1,366,resident,2,Subtropical.Forests,background_jan_dec,mo,,"5,9,10,11,12,13,16,18,19,20,21,22,23,24,25,26,27,28,29,30,32",,"16,18,19,20,21,22,23,24,25,26,27,28,29",Breeding,1,14.5,14.5
+Ash-throated Flycatcher,Myiarchus cinerascens,ATFL,Sh,D,152,213,two-season,2,Aridlands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Audubon's Oriole,Icterus graduacauda,AUOR,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mo,,,,"33,38,40,42,43,44",Breeding,1,3,3
+Bachman's Sparrow,Peucaea aestivalis,BACS,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,om_10,,,,"55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51",Breeding,1,3,3
+Baird's Sandpiper,Calidris bairdii,BASA,Wet,A,152,182,breeding,2,Waterbirds,background_jun,min_pred,,,,,Breeding,1,14.5,14.5
+Baird's Sparrow,Ammodramus bairdii,BAIS,Gr,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Bald Eagle,Haliaeetus leucocephalus,BAEA,Wet,GEN,152,213,two-season,2,Generalists,background_jun_jul,custom,,,,"38,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,66",Breeding,4.5,74.5,16.55555556
+Baltimore Oriole,Icterus galbula,BAOR,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,custom,,,,"10,16,1,2,4,5,9",Breeding,1,3,3
+Band-tailed Pigeon,Patagioenas fasciata,BTPI,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,mo,,,,,Breeding,1,37,37
+Bank Swallow,Riparia riparia,BANS,Var,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,"46,56,55,31,34,35,27,16",,,Breeding,1,14.5,14.5
+Barn Owl,Tyto alba,BANO,Gr,GEN,1,366,resident,2,Generalists,background_jan_dec,custom,,,,,Breeding,1,14.5,14.5
+Barn Swallow,Hirundo rustica,BARS,Var,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,"31,51,56,58,52",,,Breeding,1,3,3
+Barred Owl,Strix varia,BADO,Wd,"F-E,F-B,F-W",1,366,resident,2,Eastern.Forests,background_jan_dec,custom,,,"2,3,4,36,40,49,16,52,33","1,2,52,65,66,55,56,57,58,59,60,61,49,33,38,39,16,18",Breeding,2,14.5,7.25
+Barrow's Goldeneye,Bucephala islandica,BAGO,Wet,"F-B,F-W",152,213,two-season,2,Waterbirds,background_jun_jul,mk,"6,11",,,,Breeding,3,3,1
+Bay-breasted Warbler,Setophaga castanea,BBWA,Wd,F-B,152,213,breeding,7,Boreal.Forests,background_jun_jul,mo,,,,,Breeding,1,3,3
+Bell's Sparrow,Artemisiospiza belli,BESP,Sh,D,152,213,two-season,2,Aridlands,background_jun_jul,mo,9,,,,Breeding,1,3,3
+Bell's Vireo,Vireo bellii,BEVI,Sh,D,152,213,two-season,10,Aridlands,background_jun_jul,mo,,"5, 6, 10",29,,Breeding,1,3,3
+Belted Kingfisher,Megaceryle alcyon,BEKI,Wet,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,,,,Breeding,0.8,3,3.75
+Bendire's Thrasher,Toxostoma bendirei,BETH,Sh,D,152,213,two-season,6,Aridlands,background_jun_jul,tss,,"10, 17","18, 19, 20, 21, 36","18, 32, 35, 36, 39, 40, 41, 42, 48",Breeding,0.8,14.5,18.125
+Bewick's Wren,Thryomanes bewickii,BEWR,Sh,D,152,213,two-season,2,Aridlands,background_jun_jul,eq,,,,,Breeding,1,3,3
+Black Guillemot,Cepphus grylle,BLGU,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,tss,,,,"5,10,2,4,6",Breeding,3.5,3,0.857142857
+Black Oystercatcher,Haematopus bachmani,BLOY,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,min_pred,,,"8,16,34","33,30,14,8,7,12,13,43,44,45,3,29",Breeding,4.5,14.5,3.222222222
+Black Phoebe,Sayornis nigricans,BLPH,Wet,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,,,,Breeding,1,3,3
+Black Rail,Laterallus jamaicensis,BLRA,Wet,"M,C",152,213,two-season,1,Marshlands,background_jun_jul,tss,"22, 28, 30, 100",,,,Breeding,1,3,3
+Black Rosy-Finch,Leucosticte atrata,BLRF,Var,A,152,213,two-season,2,Arctic,background_jun_jul,mo,,"4, 5, 6, 11, 15, 17, 18, 33, 34, 35",,"2, 3, 4, 5, 6, 7, 8, 15, 34, 47",Breeding,1,14.5,14.5
+Black Scoter,Melanitta americana,BLSC,Wet,"F-B,A",152,213,two-season,2,Coastal,background_jun_jul,mo,"0,5,14,30",,,,Breeding,2,14.5,7.25
+Black Skimmer,Rynchops niger,BLSK,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,tss,,,,"5,1,2,9",Breeding,1.5,37,24.66666667
+Black Swift,Cypseloides niger,BLSW,Var,F-W,152,213,breeding,2,Western.Forests,background_jun_jul,mo,,,,"0,1,2,3,12,14,28,31,35,36,40,42,55,56,65,100",Breeding,1,14.5,14.5
+Black Tern,Chlidonias niger,BLTE,Wet,M,152,213,breeding,10,Marshlands,background_jun_jul,tss,"0, 14, 16, 18, 19, 21, 27, 30, 31, 32, 33, 34, 36, 37",,"2, 3, 4, 5","1, 2, 4, 5",Breeding,1,74.5,74.5
+Black Turnstone,Arenaria melanocephala,BLTU,Wet,A,152,213,breeding,2,Waterbirds,background_jun_jul,mo,"22,32,13,30,11,7,40,23,5,8,12,33,6,27,14,31,37,100,0",,"5,6,7,8","7,8,9,10,4,5,16,30,12,13,28,22,100,14",Breeding,1,3,3
+Black Vulture,Coragyps atratus,BLVU,Var,GEN,1,366,resident,2,Generalists,background_jan_dec,tss,,"23,41,32",,"5,9,40,41,42",Breeding,7.5,3,0.4
+Black-and-white Warbler,Mniotilta varia,BAWW,Wd,"F-E,F-B",152,213,two-season,2,Eastern.Forests,background_jun_jul,om_10,"36,37,9,48,0,19","4,10,3",3,"1,2,5,9",Breeding,1,3,3
+Black-backed Woodpecker,Picoides arcticus,BBWO,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,eq,,,,"16,34",Breeding,1,14.5,14.5
+Black-bellied Plover,Pluvialis squatarola,BBPL,Wet,A,152,182,two-season,4,Waterbirds,background_jun,mk,,,,,Breeding,1.5,3,2
+Black-bellied Whistling-Duck,Dendrocygna autumnalis,BBWD,Wet,M,152,213,two-season,9,Marshlands,background_jun_jul,om_10,,,,"40, 42",Breeding,1,3,3
+Black-billed Cuckoo,Coccyzus erythropthalmus,BBCU,Wd,"F-B,F-E",152,213,breeding,2,Eastern.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Black-billed Magpie,Pica hudsonia,BBMA,Wd,GEN,1,366,resident,2,Generalists,background_jan_dec,om_10,,,,,Breeding,2,3,1.5
+Blackburnian Warbler,Setophaga fusca,BLBW,Wd,"F-E,F-B",152,213,breeding,2,Boreal.Forests,background_jun_jul,eq,,,,,Breeding,1,3,3
+Black-capped Chickadee,Poecile atricapillus,BCCH,Wd,"F-E,F-W,F-B",1,366,resident,2,Boreal.Forests,background_jan_dec,custom,,,,"15,34",Breeding,0.5,3,6
+Black-capped Vireo,Vireo atricapilla,BCVI,Sh,D,152,213,two-season,2,Aridlands,background_jun_jul,om_10,,,,,Breeding,1,3,3
+Black-chinned Hummingbird,Archilochus alexandri,BCHU,Wd,D,152,182,two-season,2,Aridlands,background_jun,tss,,,,,Breeding,1,14.5,14.5
+Black-chinned Sparrow,Spizella atrogularis,BCSP,Sh,D,152,213,two-season,5,Aridlands,background_jun_jul,tss,,"5, 10, 17, 19, 52, 53, 54",,,Breeding,1,3,3
+Black-crested Titmouse,Baeolophus atricristatus,BCTI,Wd,"F-W,F-S",1,366,resident,2,Subtropical.Forests,background_jan_dec,om_10,,,,"33,34,43,44",Breeding,1,3,3
+Black-crowned Night-Heron,Nycticorax nycticorax,BCNH,Wet,GEN,152,213,two-season,2,Marshlands,background_jun_jul,eq,5,,2,"1, 2, 4, 5",Breeding,1,14.5,14.5
+Black-headed Grosbeak,Pheucticus melanocephalus,BHGR,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,mk,,,,,Breeding,1,3,3
+Black-legged Kittiwake,Rissa tridactyla,BLKI,Wet,"O,C",152,213,two-season,2,Coastal,background_jun_jul,mo,,"11,12,22,23",,,Breeding,4,74.5,18.625
+Black-necked Stilt,Himantopus mexicanus,BNST,Wet,GEN,152,213,two-season,2,Marshlands,background_jun_jul,mk,5,,"2, 4, 5",,Breeding,1,14.5,14.5
+Blackpoll Warbler,Setophaga striata,BLPW,Wd,F-B,152,213,breeding,2,Boreal.Forests,background_jun_jul,eq,,,,,Breeding,1,3,3
+Black-tailed Gnatcatcher,Polioptila melanura,BTGN,Sh,D,1,366,resident,8,Aridlands,background_jan_dec,tss,,"10, 17",,"40, 42",Breeding,1,3,3
+Black-throated Blue Warbler,Setophaga caerulescens,BTBW,Wd,"F-B,F-E",152,213,breeding,2,Eastern.Forests,background_jun_jul,tss,,,,"4,5,34,10,34,16",Breeding,1,3,3
+Black-throated Gray Warbler,Setophaga nigrescens,BTYW,Var,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,mk,,,,"2,4,34,35,36,39,42,43,45,46,47,48,49,50,51,52,53,54,59,60",Breeding,1,3,3
+Black-throated Green Warbler,Setophaga virens,BTNW,Wd,"F-E,F-B",152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,"1,2,3,4,5,9,16,33,34,35,36,40,43,45,46,47,48,49,50,51,52,53,54,58,16,17,18",,"10,4,2,1,4,9,16,33,32,15,34,43,44,45,35,36,40,43,45,46,47,48,49,50,51,52,53,54,58",Breeding,1,3,3
+Black-throated Sparrow,Amphispiza bilineata,BTSP,Sh,D,152,213,two-season,2,Aridlands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Black-vented Shearwater,Puffinus opisthomelas,BVSH,Wet,"O,C",152,213,two-season,2,Coastal,background_jun_jul,tss,,,,,Breeding,1,14.5,14.5
+Blue Grosbeak,Passerina caerulea,BLGR,Sh,"F-E,F-W",152,213,two-season,2,Subtropical.Forests,background_jun_jul,tss,,,,,Breeding,2,3,1.5
+Blue Jay,Cyanocitta cristata,BLJA,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,custom,,"3,4,10,17",,"5,9,10,55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51,34,35,36,33,38,41,42,43,44",Breeding,1,3,3
+Blue-gray Gnatcatcher,Polioptila caerulea,BGGN,Wd,"F-E,F-W",152,213,two-season,2,Generalists,background_jun_jul,tss,,,,,Breeding,1,3,3
+Blue-headed Vireo,Vireo solitarius,BHVI,Wd,"F-E,F-B,F-W",152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,"9,10","6,11",,,Breeding,1,3,3
+Blue-winged Teal,Anas discors,BWTE,Wet,G,152,213,two-season,10,Marshlands,background_jun_jul,om_10,,,,,Breeding,0.6,149.5,249.1666667
+Blue-winged Warbler,Vermivora cyanoptera,BWWA,Sh,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,eq,,,,,Breeding,1,14.5,14.5
+Boat-tailed Grackle,Quiscalus major,BTGR,Wet,"C,M",1,366,resident,2,Coastal,background_jan_dec,tss,"0,13,14,28,100",,,"36,44,45,47,48,49,52,56,57,59",Breeding,1,14.5,14.5
+Bobolink,Dolichonyx oryzivorus,BOBO,Gr,G,152,213,breeding,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Bohemian Waxwing,Bombycilla garrulus,BOWA,Wd,F-B,152,213,two-season,2,Boreal.Forests,background_jun_jul,mo,,5,,8,Breeding,1,74.5,74.5
+Bonaparte's Gull,Chroicocephalus philadelphia,BOGU,Wet,F-B,152,213,two-season,2,Waterbirds,background_jun_jul,tss,"5,32,33,40,0","10,5",8,,Breeding,2,37,18.5
+Boreal Chickadee,Poecile hudsonicus,BOCH,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,mk,,,,"34,35",Breeding,1,3,3
+Boreal Owl,Aegolius funereus,BOOW,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,mk,,,,,Breeding,1,14.5,14.5
+Botteri's Sparrow,Peucaea botterii,BOSP,Gr,"D,G",1,366,resident,2,Grasslands,background_jan_dec,tss,,,,"40,42",Breeding,1,3,3
+Brandt's Cormorant,Phalacrocorax penicillatus,BRAC,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,tss,,,,,Breeding,3,14.5,4.833333333
+Brant,Branta bernicla,BRAN,Wet,A,152,213,two-season,2,Waterbirds,background_jun_jul,om_10,"16,40,31,18,29,28,22,13,33,23,9,12,14,30,32,11,3,5,0,100",,,,Breeding,2.5,3,1.2
+Brewer's Blackbird,Euphagus cyanocephalus,BRBL,Var,GEN,152,213,two-season,2,Generalists,background_jun_jul,custom,,,,"1,2,4,7,28,34,35,36,39,40,41,42,43,46,47,48,50,51,53,54",Breeding,1,3,3
+Brewer's Sparrow,Spizella breweri,BRSP,Sh,D,152,213,two-season,2,Aridlands,background_jun_jul,om_10,,,,,Breeding,1,3,3
+Bridled Titmouse,Baeolophus wollweberi,BRTI,Wd,F-W,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,,Breeding,1,3,3
+Broad-billed Hummingbird,Cynanthus latirostris,BBIH,Wd,F-W,152,182,two-season,2,Subtropical.Forests,background_jun,mo,,,,"40,42",Breeding,1,14.5,14.5
+Broad-tailed Hummingbird,Selasphorus platycercus,BTAH,Wd,F-W,152,182,two-season,2,Western.Forests,background_jun,mo,,,,"4,5,32,42",Breeding,1,14.5,14.5
+Broad-winged Hawk,Buteo platypterus,BWHA,Wd,"F-E,F-B",152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,31,"3,4,5,31,9,16",,"34,35,36,37,43,45,46,47,48,49,50,52,54,5,9",Breeding,1.5,74.5,49.66666667
+Bronzed Cowbird,Molothrus aeneus,BROC,Var,D,152,213,two-season,8,Aridlands,background_jun_jul,om_10,,,,"40, 42",Breeding,2,14.5,7.25
+Brown Creeper,Certhia americana,BRCR,Wd,"F-E,F-B,F-W",152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,14.5,14.5
+Brown Pelican,Pelecanus occidentalis,BRPE,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,om_10,"19,18,13,35,16,100",,"1,2,3,7,8",,Breeding,1.5,3,2
+Brown Thrasher,Toxostoma rufum,BRTH,Sh,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,,,"5,0,34,35,45,47,48,49,52,54,56,57,58,60,61",Breeding,0.8,3,3.75
+Brown-capped Rosy-Finch,Leucosticte australis,BCRF,Var,A,152,213,two-season,2,Arctic,background_jun_jul,mo,,"9, 33, 34, 35 ",,"3, 4, 5, 6, 7, 9, 10, 15, 34, 47, 48",Breeding,1,14.5,14.5
+Brown-crested Flycatcher,Myiarchus tyrannulus,BCFL,Wd,"F-W,D",152,213,two-season,2,Aridlands,background_jun_jul,mo,,,,"31, 40, 42",Breeding,1,3,3
+Brown-headed Cowbird,Molothrus ater,BHCO,Var,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,"40,54,50,4,42,45",,,Breeding,1,14.5,14.5
+Brown-headed Nuthatch,Sitta pusilla,BHNU,Wd,F-E,1,366,resident,9,Eastern.Forests,background_jan_dec,tss,,,,"55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51,40,42,33,43,44,35,36,34",Breeding,1,14.5,14.5
+Buff-bellied Hummingbird,Amazilia yucatanensis,BBEH,Wd,F-S,152,182,two-season,2,Subtropical.Forests,background_jan_dec,mo,,,,"33,34,40,41,42,43,45",Breeding,1,14.5,14.5
+Buff-breasted Sandpiper,Calidris subruficollis,BBSA,Wet,A,152,182,breeding,2,Waterbirds,background_jun,tss,"32,5,12,14,29,33,13,9,40,30,0,100",,,5,Breeding,1,3,3
+Bufflehead,Bucephala albeola,BUFF,Wet,F-B,152,213,two-season,2,Waterbirds,background_jun_jul,mk,"34,2,14,22,23,33,28,17,29,19,5",,,"31,32,33,34,35,36,39,40,41,43,44,46,47,48,50,54,14,13",Breeding,2,3,1.5
+Bullock's Oriole,Icterus bullockii,BUOR,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,"40,42",Breeding,2,3,1.5
+Burrowing Owl,Athene cunicularia,BUOW,Gr,"G,D",152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,"55,56,66,52",Breeding,1,37,37
+Bushtit,Psaltriparus minimus,BUSH,Var,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Breeding,1,14.5,14.5
+Cackling Goose,Branta hutchinsii,CACG,Wet,GEN,152,213,two-season,6,Marshlands,background_jun_jul,mo,"4, 5, 18, 32",,,"5, 9, 10, 11, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 27, 31, 32, 33, 34, 35, 36, 40, 41, 42, 43, 45, 46, 47, 48, 49, 50, 51, 53",Breeding,1,37,37
+Cactus Wren,Campylorhynchus brunneicapillus,CACW,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,tss,,,,"50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61",Breeding,0.7,3,4.285714286
+California Gnatcatcher,Polioptila californica,CAGN,Sh,D,1,366,resident,10,Aridlands,background_jan_dec,om_10,,5,"34, 35, 43","34, 35, 36, 43, 45, 46, 47, 48, 50, 51, 53, 54",Breeding,1,3,3
+California Gull,Larus californicus,CAGU,Wet,GEN,152,213,two-season,2,Waterbirds,background_jun_jul,om_10,"28,29,5,4",,,,Breeding,4,37,9.25
+California Quail,Callipepla californica,CAQU,Sh,D,1,366,resident,3,Aridlands,background_jan_dec,mk,,,,16,Breeding,0.8,3,3.75
+California Scrub-Jay,Aphelocoma californica,CASJ,Sh,F-W,1,366,resident,14,Western.Forests,background_jan_dec,mk,"9,10,15,16,33,34",,,"9,10,15,16,18,19,20,21,33,34,35,36,38,39,43,44,45,46,47,48,49,50,51,52,53,54,59",Breeding,1,3,3
+California Thrasher,Toxostoma redivivum,CATH,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,eq,"5, 33",,,,Breeding,0.6,14.5,24.16666667
+California Towhee,Melozone crissalis,CALT,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,tss,,,,"16,33,34,35,36,38,43,44,46,47,48,49,51,52,53,54",Breeding,1,3,3
+Calliope Hummingbird,Selasphorus calliope,CAHU,Wd,F-W,152,182,two-season,2,Western.Forests,background_jun,mo,,,,"1,2,4",Breeding,1,14.5,14.5
+Canada Goose,Branta canadensis,CANG,Wet,GEN,152,213,two-season,2,Waterbirds,background_jun_jul,custom,,,,"38,40,41,42,43,44,45,46,47,48,50,51,52,53,54,56,58,60,65,1,2,3",Breeding,1,74.5,74.5
+Canada Jay,Perisoreus canadensis,CAJA,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,mk,,,,,Breeding,1,14.5,14.5
+Canada Warbler,Cardellina canadensis,CAWA,Wd,"F-B,F-E",152,213,breeding,2,Boreal.Forests,background_jun_jul,mk,,,,,Breeding,1,3,3
+Canvasback,Aythya valisineria,CANV,Wet,M,152,213,two-season,7,Marshlands,background_jun_jul,tss,"2, 5, 12, 13, 16, 19, 22, 23, 30, 32, 100",,,,Breeding,1,149.5,149.5
+Canyon Towhee,Melozone fusca,CANT,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,tss,,,,"32, 40, 42, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61",Breeding,1,3,3
+Canyon Wren,Catherpes mexicanus,CANW,Var,D,1,366,resident,2,Aridlands,background_jan_dec,mk,,,,,Breeding,2,14.5,7.25
+Cape May Warbler,Setophaga tigrina,CMWA,Wd,F-B,152,213,two-season,5,Boreal.Forests,background_jun_jul,mo,,,,,Breeding,1,3,3
+Carolina Chickadee,Poecile carolinensis,CACH,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,tss,"13,23","11,35,36,16,17,18,48,49,52,100",,,Breeding,1,3,3
+Carolina Wren,Thryothorus ludovicianus,CARW,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,custom,8,"6,7,10,11,16,17,34,45,46,47",,"4,5,6,9,10,16,33,34,35,38,42,43,44,45,46,47,48,49,50,51,52,53,54,58,59,60,61,65",Breeding,1,3,3
+Caspian Tern,Hydroprogne caspia,CATE,Wet,GEN,152,213,two-season,4,Waterbirds,background_jun_jul,mk,,,,"66,52,58,59,60,61,35,34,43",Breeding,2.5,74.5,29.8
+Cassin's Auklet,Ptychoramphus aleuticus,CAAU,Wet,C,1,366,resident,2,Coastal,background_jan_dec,custom,,"9,10",,"8,7,3",Breeding,3,3,1
+Cassin's Finch,Haemorhous cassinii,CAFI,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,37,37
+Cassin's Kingbird,Tyrannus vociferans,CAKI,Wd,"D,F-W",152,213,two-season,8,Aridlands,background_jun_jul,mo,,,,"40, 42",Breeding,2,3,1.5
+Cassin's Sparrow,Peucaea cassinii,CASP,Gr,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Cassin's Vireo,Vireo cassinii,CAVI,Wd,"F-E,F-B,F-W",152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Cattle Egret,Bubulcus ibis,CAEG,Wet,GEN,152,213,two-season,6,Waterbirds,background_jun_jul,tss,44,,,,Breeding,2.5,3,1.2
+Cave Swallow,Petrochelidon fulva,CASW,Var,D,152,213,two-season,9,Aridlands,background_jun_jul,mo,,"11, 17, 22","33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66","33, 34, 43, 44, 45",Breeding,1,37,37
+Cedar Waxwing,Bombycilla cedrorum,CEDW,Wd,"F-E,F-W",152,213,two-season,2,Generalists,background_jun_jul,custom,,,,"1,2,33,34,35,36,38,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,66",Breeding,1,74.5,74.5
+Cerulean Warbler,Setophaga cerulea,CERW,Wd,F-E,152,213,breeding,2,Eastern.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Chestnut-backed Chickadee,Poecile rufescens,CBCH,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,mk,,,,"33,34,35,36,43,46,47,48,50,53,54",Breeding,1,3,3
+Chestnut-collared Longspur,Calcarius ornatus,CCLO,Gr,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,"3,2,5,4",Breeding,1,14.5,14.5
+Chestnut-sided Warbler,Setophaga pensylvanica,CSWA,Sh,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,37,,,Breeding,1,3,3
+Chihuahuan Raven,Corvus cryptoleucus,CHRA,Sh,D,152,213,two-season,4,Aridlands,background_jun_jul,mk,,,,"33, 40, 42",Breeding,1,14.5,14.5
+Chimney Swift,Chaetura pelagica,CHSW,Var,F-E,152,213,breeding,2,Eastern.Forests,background_jun_jul,custom,"5,9,16,17",,,"55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51,34,33,9,10,16,38,43,44,45,46,47,48,66,35,38,5,9",Breeding,1,3,3
+Chipping Sparrow,Spizella passerina,CHSP,Wd,"F-W,F-E,F-B",152,213,two-season,2,Generalists,background_jun_jul,om_10,,,,,Breeding,1,3,3
+Chuck-will's-widow,Antrostomus carolinensis,CWWI,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,"3,4,5,48,49,52,34,35,36,33",,"55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51,36,35,34,33,16,9,10,42,43,45",Breeding,1,3,3
+Chukar,Alectoris chukar,CHUK,Gr,"D,G",1,366,resident,13,Aridlands,background_jan_dec,tss,,,,,Breeding,1,37,37
+Cinnamon Teal,Anas cyanoptera,CITE,Wet,"M,G",152,213,two-season,2,Marshlands,background_jun_jul,mk,,,"2, 3, 7, 8, 12, 22, 23",,Breeding,1,149.5,149.5
+Clapper Rail,Rallus longirostris,CLRA,Wet,"C,M",1,366,two-season,2,Coastal,background_jun_jul,tss,"32,33,29",,,"3,7,38,44,45",Breeding,1,14.5,14.5
+Clark's Grebe,Aechmophorus clarkii,CLGR,Wet,M,152,213,two-season,2,Marshlands,background_jun_jul,tss,"33, 40",,"4, 12, 13, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 100",,Breeding,1,37,37
+Clark's Nutcracker,Nucifraga columbiana,CLNU,Wd,F-W,1,366,resident,22,Western.Forests,background_jan_dec,mk,,,,,Breeding,2,14.5,7.25
+Clay-colored Sparrow,Spizella pallida,CCSP,Sh,G,152,213,two-season,5,Grasslands,background_jun_jul,om_10,,,,"1,2,4,5",Breeding,1,3,3
+Cliff Swallow,Petrochelidon pyrrhonota,CLSW,Var,GEN,152,213,breeding,2,Generalists,background_jun_jul,om_10,,"40,42,27,31",,,Breeding,1,37,37
+Common Eider,Somateria mollissima,COEI,Wet,"A,C",152,213,two-season,2,Coastal,background_jun_jul,om_10,,,5,"9,10,13,26,27,28,29,31,37,40,42",Breeding,2.5,3,1.2
+Common Gallinule,Gallinula chloropus,COGA,Wet,M,152,213,two-season,2,Marshlands,background_jun_jul,tss,,,,"1, 2, 4, 5, 10",Breeding,1,3,3
+Common Goldeneye,Bucephala clangula,COGO,Wet,F-B,152,213,two-season,2,Waterbirds,background_jun_jul,tss,,,,,Breeding,2,3,1.5
+Common Grackle,Quiscalus quiscula,COGR,Var,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,om_10,"32,35,16","3,4,6,10,16,32,35,36,48,49,52,100",,"5,9,34,35,38,43,44,45,46,47,48,49,52,54,56,57,58,59,61,66",Breeding,1,14.5,14.5
+Common Ground-Dove,Columbina passerina,COGD,Sh,D,1,366,resident,9,Aridlands,background_jan_dec,tss,,,,,Breeding,0.2,14.5,72.5
+Common Loon,Gavia immer,COLO,Wet,F-B,152,213,two-season,2,Waterbirds,background_jun_jul,custom,"15,16,18,19,25,37,27,31,32,33,24,26,0,100,28,29,30",,,,Breeding,2.5,14.5,5.8
+Common Merganser,Mergus merganser,COME,Wet,"F-B,F-E,F-W",152,213,two-season,2,Waterbirds,background_jun_jul,om_10,,,," 22,23,24,25,27,32,33,35,36,39,40,41,42,43,45,46,47,48,50,51,53,54,60 ,34",Breeding,2,74.5,37.25
+Common Murre,Uria aalge,COMU,Wet,"O,C",152,213,two-season,2,Coastal,background_jun_jul,eq,,28,"27,31,10,40",,Breeding,5,3,0.6
+Common Myna,Acridotheres tristis,COMY,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,om_10,,,,"36,37,38,43,44,45,47,48,49,50,52,53,54,56,57,58,59,60,61,66",Breeding,1,3,3
+Common Nighthawk,Chordeiles minor,CONI,Var,GEN,152,213,breeding,2,Generalists,background_jun_jul,custom,,,,"1,2,33,38,39,40,41,42,43,44,45,48,49,52,54,55,56,65,66",Breeding,1,3,3
+Common Pauraque,Nyctidromus albicollis,COPA,Sh,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,"31,33,40,41,42",Breeding,1,3,3
+Common Poorwill,Phalaenoptilus nuttallii,COPO,Sh,D,152,213,two-season,2,Aridlands,background_jun_jul,mk,,,,,Breeding,1,3,3
+Common Raven,Corvus corax,CORA,Var,GEN,1,366,resident,2,Generalists,background_jan_dec,custom,,,,"55,56,57,64",Breeding,1,37,37
+Common Redpoll,Acanthis flammea,CORE,Sh,"A,F-B",152,213,two-season,12,Arctic,background_jun_jul,eq,,,,"9, 10, 12, 14, 16",Breeding,1,14.5,14.5
+Common Tern,Sterna hirundo,COTE,Wet,GEN,152,213,two-season,6,Waterbirds,background_jun_jul,tss,"9,10,28,33,31,32,5,37,17,29",,,"1,2,5,9,15,16,18,19,20,21,24,25,26,31,32,33,34,35,36,37,45,46,47,52,56,58,66",Breeding,3,74.5,24.83333333
+Common Yellowthroat,Geothlypis trichas,COYE,Sh,GEN,152,213,two-season,2,Generalists,background_jun_jul,custom,,,,"1,2,38,42,48,49,50,51,52,53,54,55,56,57,58,59,60,61,65,66",Breeding,1,3,3
+Connecticut Warbler,Oporornis agilis,CONW,Wd,F-B,152,213,breeding,2,Boreal.Forests,background_jun_jul,mo,"22,23,24,25,26,26,27,28,29,30,100",100,,,Breeding,1,3,3
+Cooper's Hawk,Accipiter cooperii,COHA,Wd,"F-E,F-W,F-S",152,213,two-season,2,Generalists,background_jun_jul,om_10,,"46,54,43,53,45,47,48",,,Breeding,2,14.5,7.25
+Cordilleran Flycatcher,Empidonax occidentalis,COFL,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,mo,,,,,Breeding,1,3,3
+Costa's Hummingbird,Calypte costae,COHU,Sh,D,152,182,two-season,8,Aridlands,background_jun,mo,9,"5, 10",36,35,Breeding,1,14.5,14.5
+Couch's Kingbird,Tyrannus couchii,COKI,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,,Breeding,1,3,3
+Crested Caracara,Caracara cheriway,CRCA,Sh,"D,F-S",1,366,resident,8,Aridlands,background_jan_dec,tss,,,,,Breeding,3,14.5,4.833333333
+Crissal Thrasher,Toxostoma crissale,CRTH,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,eq,,,,"40, 42",Breeding,0.8,14.5,18.125
+Curve-billed Thrasher,Toxostoma curvirostre,CBTH,Sh,D,1,366,resident,3,Aridlands,background_jan_dec,tss,,"5, 9, 10, 11, 15, 17, 22, 27",40,"40, 42, 52, 58, 59, 60, 61",Breeding,1,37,37
+Dark-eyed Junco,Junco hyemalis,DEJU,Wd,"F-W,F-B",152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,"18,33,34,35,36,39,40,42,43,45,46,47,48,50,51,52,53,54,58,60,61,65",Breeding,1,3,3
+Dickcissel,Spiza americana,DICK,Gr,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,"33,43,44,45,49,52,66,56,55",Breeding,1,3,3
+Double-crested Cormorant,Phalacrocorax auritus,DCCO,Wet,GEN,152,213,two-season,2,Waterbirds,background_jun_jul,om_10,"27,20,42,28,21,24,37,36,22,16,18,19",,,,Breeding,2,14.5,7.25
+Downy Woodpecker,Picoides pubescens,DOWO,Wd,"F-E,F-B,F-W",1,366,resident,2,Generalists,background_jan_dec,custom,,,,"33,34,35 36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,65,66",Breeding,1,3,3
+Dunlin,Calidris alpina,DUNL,Wet,A,152,213,two-season,2,Waterbirds,background_jun_jul,om_10,"24,29,31,14,32,28,37,27,30,13,100,0,5,11,12,22,23",,,,Breeding,1.5,3,2
+Dusky Flycatcher,Empidonax oberholseri,DUFL,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,mk,,,,,Breeding,1,3,3
+Dusky Grouse,Dendragapus obscurus,DUGR,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,mo,"1,2,5,15,32",,,"1,2,3,5,7,8,15,32,35,39,47,48",Breeding,1,3,3
+Dusky-capped Flycatcher,Myiarchus tuberculifer,DCFL,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,mk,,,,,Breeding,1,3,3
+Eared Grebe,Podiceps nigricollis,EAGR,Wet,M,152,213,two-season,6,Marshlands,background_jun_jul,tss,"4, 15, 40, 47",,"2, 13, 14","1, 2, 4, 5",Breeding,1.5,37,24.66666667
+Eastern Bluebird,Sialia sialis,EABL,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,om_10,,,,,Breeding,1,3,3
+Eastern Kingbird,Tyrannus tyrannus,EAKI,Wd,G,152,213,breeding,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Eastern Meadowlark,Sturnella magna,EAME,Gr,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Eastern Phoebe,Sayornis phoebe,EAPH,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,"3,4,5,36,9,35",,,Breeding,1,3,3
+Eastern Screech-Owl,Megascops asio,EASO,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,custom,"15,16,6,32",,,"55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51,35,34,33,32,15,9,10,5,16,38,43,44",Breeding,1,3,3
+Eastern Towhee,Pipilo erythrophthalmus,EATO,Sh,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,custom,,,,"5,34,36,43,44,45,46,47,48,49,50,51,52,53,54,56,58,59,60,61,9,10",Breeding,1,3,3
+Eastern Whip-poor-will,Antrostomus vociferus,EWPW,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,"18,32,52,31,6,36,11,17","3,4,5,32,100,35,36,48,49,52",,,Breeding,1,3,3
+Eastern Wood-Pewee,Contopus virens,EAWP,Wd,F-E,152,213,breeding,2,Eastern.Forests,background_jun_jul,custom,,,,"34,35,37,43,47,48,1,2,4,5,9,10,16",Breeding,1,3,3
+Emperor Goose,Chen canagica,EMGO,Wet,A,152,213,two-season,2,Waterbirds,background_jun_jul,tss,,,,,Breeding,3.5,3,0.857142857
+Eurasian Collared-Dove,Streptopelia decaocto,EUCD,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,custom,,,,"1,2,8",Breeding,1,74.5,74.5
+Eurasian Tree Sparrow,Passer montanus,ETSP,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,eq,,,,,Breeding,1,3,3
+European Starling,Sturnus vulgaris,EUST,U,GEN,152,213,two-season,2,Generalists,background_jun_jul,custom,,"4,47,42,100",,"38,39,42,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,65,66",Breeding,1,3,3
+Evening Grosbeak,Coccothraustes vespertinus,EVGR,Wd,"F-B,F-W",152,213,two-season,2,Boreal.Forests,background_jun_jul,tss,,,"1,2,4","1,2",Breeding,1,14.5,14.5
+Ferruginous Hawk,Buteo regalis,FEHA,Gr,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1.5,37,24.66666667
+Ferruginous Pygmy-Owl,Glaucidium brasilianum,FEPO,Wd,D,1,366,resident,5,Aridlands,background_jan_dec,tss,,,,"27, 31, 40, 42",Breeding,1,14.5,14.5
+Field Sparrow,Spizella pusilla,FISP,Sh,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,om_10,,,,,Breeding,1,3,3
+Fish Crow,Corvus ossifragus,FICR,U,GEN,1,366,resident,2,Generalists,background_jan_dec,tss,,,,"43,44,45,47,48,49,50,52,54,56,59",Breeding,2,14.5,7.25
+Florida Scrub-Jay,Aphelocoma coerulescens,FLSJ,Sh,F-E,1,366,resident,2,Subtropical.Forests,background_jan_dec,tss,"27,35,32,47",27,,"55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51,36,37,38,43,44",Breeding,2.5,3,1.2
+Forster's Tern,Sterna forsteri,FOTE,Wet,"C,M",152,213,two-season,10,Marshlands,background_jun_jul,tss,"12, 13, 15, 16, 18, 19, 22, 26, 27, 29, 31, 100",,"2, 4, 5",5,Breeding,2,37,18.5
+Fox Sparrow,Passerella iliaca,FOSP,Sh,"F-W,F-B",152,213,two-season,2,Boreal.Forests,background_jun_jul,eq,,,,,Breeding,1,3,3
+Franklin's Gull,Leucophaeus pipixcan,FRGU,Wet,M,152,213,breeding,10,Marshlands,background_jun_jul,mo,"8, 12, 16, 18, 19, 22, 34, 100",,2,5,Breeding,2,37,18.5
+Fulvous Whistling-Duck,Dendrocygna bicolor,FUWD,Wet,M,152,213,two-season,4,Marshlands,background_jun_jul,tss,,,,,Breeding,1,149.5,149.5
+Gadwall,Anas strepera,GADW,Wet,GEN,152,213,two-season,10,Marshlands,background_jun_jul,tss,,,,,Breeding,1.5,3,2
+Gambel's Quail,Callipepla gambelii,GAQU,Sh,D,1,366,resident,21,Aridlands,background_jan_dec,mk,"16, 35","10, 17","18, 19, 20, 21, 36","18, 19, 32, 35, 36, 39, 40, 41, 42, 48",Breeding,1,3,3
+Gila Woodpecker,Melanerpes uropygialis,GIWO,Wd,D,1,366,resident,6,Aridlands,background_jan_dec,mk,,,,"35, 36, 48, 50, 51, 53, 54, 59",Breeding,1,3,3
+Gilded Flicker,Colaptes chrysoides,GIFL,Wd,D,1,366,resident,3,Aridlands,background_jan_dec,mo,,,"20, 36, 48, 49, 50","34, 35, 36, 43, 45, 46, 47, 48, 49",Breeding,1,37,37
+Glaucous Gull,Larus hyperboreus,GLGU,Wet,A,152,213,two-season,2,Waterbirds,background_jun_jul,om_10,,,,,Breeding,3.5,37,10.57142857
+Glaucous-winged Gull,Larus glaucescens,GWGU,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,mk,32,,"7,8,14,30,13,28","7,8",Breeding,5.5,74.5,13.54545455
+Glossy Ibis,Plegadis falcinellus,GLIB,Wet,"C,F-S",152,213,two-season,4,Marshlands,background_jun_jul,mk,,,,"28, 29, 33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66",Breeding,2.5,74.5,29.8
+Golden Eagle,Aquila chrysaetos,GOEA,Gr,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,,,,Breeding,5.5,37,6.727272727
+Golden-cheeked Warbler,Setophaga chrysoparia,GCWA,Wd,F-W,152,213,two-season,12,Subtropical.Forests,background_jun_jul,tss,,,,"33,34,35,36,43,46,47,48,53,54",Breeding,1,3,3
+Golden-crowned Kinglet,Regulus satrapa,GCKI,Wd,"F-W,F-E,F-B",152,213,two-season,2,Boreal.Forests,background_jun_jul,tss,,,,,Breeding,1,14.5,14.5
+Golden-crowned Sparrow,Zonotrichia atricapilla,GCSP,Sh,"A,F-B",152,213,two-season,2,Boreal.Forests,background_jun_jul,mo,"9,15,32",,,"3,7,8,16,47",Breeding,1,3,3
+Golden-fronted Woodpecker,Melanerpes aurifrons,GFWO,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,"31,33,40,42,43,44",Breeding,1,3,3
+Golden-winged Warbler,Vermivora chrysoptera,GWWA,Sh,F-E,152,213,breeding,2,Eastern.Forests,background_jun_jul,tss,"17,18,36","3,4,48,49,52,35,36,100",,,Breeding,1,14.5,14.5
+Grace's Warbler,Setophaga graciae,GRWA,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,om_10,,,,,Breeding,1,3,3
+Grasshopper Sparrow,Ammodramus savannarum,GRSP,Gr,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Gray Catbird,Dumetella carolinensis,GRCA,Sh,"F-E,F-W",152,213,two-season,2,Eastern.Forests,background_jun_jul,custom,,,,"4,5,9,31,34",Breeding,1,14.5,14.5
+Gray Flycatcher,Empidonax wrightii,GRFL,Var,F-W,152,213,two-season,2,Aridlands,background_jun_jul,om_10,,,,,Breeding,2,3,1.5
+Gray Hawk,Buteo plagiatus,GRHA,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,mk,,,,,Breeding,1,37,37
+Gray Kingbird,Tyrannus dominicensis,GRAK,Wd,"F-S,C",152,213,breeding,2,Subtropical.Forests,background_jun_jul,mo,,,,,Breeding,1,3,3
+Gray Partridge,Perdix perdix,GRAP,Gr,G,1,366,resident,2,Grasslands,background_jan_dec,tss,,,,"2,4,5,3",Breeding,1,3,3
+Gray Vireo,Vireo vicinior,GRVI,Sh,F-W,152,213,two-season,2,Aridlands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Gray-cheeked Thrush,Catharus minimus,GCTH,Wd,F-B,152,213,breeding,2,Boreal.Forests,background_jun_jul,mk,"9,10,11,12,13,14,22,23,24,28,29,30,100",100,,"5,9,10,11",Breeding,1,3,3
+Gray-crowned Rosy-Finch,Leucosticte tephrocotis,GCRF,Var,A,152,213,two-season,2,Arctic,background_jun_jul,tss,,,"8, 12","3, 7, 8, 12, 14, 16, 28, 33, 34, 35, 47, 48",Breeding,1,14.5,14.5
+Great Black-backed Gull,Larus marinus,GBBG,Wet,GEN,152,213,two-season,2,Coastal,background_jun_jul,om_10,"23,27,31",,"1,2,4,5,31","5,1,2,4,10,37,36,31,27,55,56,57",Breeding,4.5,37,8.222222222
+Great Blue Heron,Ardea herodias,GBHE,Wet,GEN,152,213,two-season,2,Waterbirds,background_jun_jul,custom,,,,"1,2,46,47,50",Breeding,1.5,74.5,49.66666667
+Great Cormorant,Phalacrocorax carbo,GRCO,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,tss,,,,"1,2,4,5",Breeding,3,74.5,24.83333333
+Great Crested Flycatcher,Myiarchus crinitus,GCFL,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,,,"55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51,38,43,44",Breeding,1,3,3
+Great Egret,Ardea alba,GREG,Wet,GEN,152,213,two-season,2,Waterbirds,background_jun_jul,om_10,,,,,Breeding,2,74.5,37.25
+Great Gray Owl,Strix nebulosa,GGOW,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,mo,"13,14",,,,Breeding,3.5,14.5,4.142857143
+Great Horned Owl,Bubo virginianus,GHOW,Wd,GEN,1,366,resident,2,Generalists,background_jan_dec,om_10,,,,,Breeding,2,37,18.5
+Great Kiskadee,Pitangus sulphuratus,GKIS,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,"31,40,42",Breeding,2,3,1.5
+Greater Prairie-Chicken,Tympanuchus cupido,GRPC,Gr,G,1,366,resident,2,Grasslands,background_jan_dec,tss,,,,"37,36,52,49,31",Breeding,0.8,3,3.75
+Greater Roadrunner,Geococcyx californianus,GRRO,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,om_10,,"5, 10, 11, 13, 17, 23, 100",29,,Breeding,2.5,3,1.2
+Greater Sage-Grouse,Centrocercus urophasianus,GRSG,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,tss,,,,,Breeding,1,14.5,14.5
+Greater Scaup,Aythya marila,GRSC,Wet,"A,F-B",152,213,two-season,2,Waterbirds,background_jun_jul,mo,,,,,Breeding,1,3,3
+Greater White-fronted Goose,Anser albifrons,GWFG,Wet,A,152,213,two-season,11,Waterbirds,background_jun_jul,tss,"22,29,32,23,28,9,0,10,12,100,13,11,30",,,,Breeding,3,3,1
+Greater Yellowlegs,Tringa melanoleuca,GRYE,Wet,F-B,152,213,two-season,23,Waterbirds,background_jun_jul,om_10,"32,30,34,19,24,0,40,5,21,29,18,27,28,11,8,10,13,14,31,33,9,100",,,,Breeding,1.5,37,24.66666667
+Great-tailed Grackle,Quiscalus mexicanus,GTGR,Var,GEN,1,366,resident,2,Generalists,background_jan_dec,eq,,,,31,Breeding,1,14.5,14.5
+Green Heron,Butorides virescens,GRHE,Wet,GEN,152,213,two-season,5,Marshlands,background_jun_jul,tss,,,,,Breeding,1,14.5,14.5
+Green Jay,Cyanocorax yncas,GRJA,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,eq,,"32, 33, 40, 42",,"31,32,33,39,40,41,42,43,44",Breeding,1,3,3
+Green Kingfisher,Chloroceryle americana,GKIN,Wet,F-S,1,366,resident,2,Waterbirds,background_jan_dec,eq,"11,32,21",,,,Breeding,1,3,3
+Green-tailed Towhee,Pipilo chlorurus,GTTO,Sh,D,152,213,two-season,2,Aridlands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Green-winged Teal,Anas crecca,GWTE,Wet,GEN,152,213,two-season,6,Marshlands,background_jun_jul,tss,,,,,Breeding,0.4,14.5,36.25
+Groove-billed Ani,Crotophaga sulcirostris,GBAN,Sh,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,"31,42",Breeding,2,3,1.5
+Gull-billed Tern,Gelochelidon nilotica,GBTE,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,om_10,,,,"5,45,55,56,57,66,35,58,59,60,61,53",Breeding,4.5,37,8.222222222
+Gyrfalcon,Falco rusticolus,GYRF,Gr,A,152,213,two-season,2,Arctic,background_jun_jul,om_10,,,,"5, 9, 10",Breeding,2,74.5,37.25
+Hairy Woodpecker,Picoides villosus,HAWO,Wd,"F-E,F-B,F-W",1,366,resident,2,Generalists,background_jan_dec,om_10,,,,,Breeding,1,14.5,14.5
+Hammond's Flycatcher,Empidonax hammondii,HAFL,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,"1,2",Breeding,2,3,1.5
+Harlequin Duck,Histrionicus histrionicus,HADU,Wet,"F-W,F-B",152,213,two-season,2,Waterbirds,background_jun_jul,mo,"32,100",,,"12,13,14,15,16,17,28,32,33,34,35,39,43,46,47,48,53,54 ",Breeding,1,14.5,14.5
+Harris's Hawk,Parabuteo unicinctus,HASH,Sh,D,1,366,resident,7,Aridlands,background_jan_dec,om_10,,"5, 17, 22","31, 55, 56",,Breeding,1,74.5,74.5
+Harris's Sparrow,Zonotrichia querula,HASP,Sh,F-B,152,213,two-season,2,Boreal.Forests,background_jun_jul,mk,,,,,Breeding,2,3,1.5
+Heermann's Gull,Larus heermanni,HEEG,Wet,C,1,366,resident,2,Coastal,background_jan_dec,tss,"0,5,9,34",,,"31,55,56,66,52,65,48,49,36,61,34,36,37,38,47,50,53,57,35,46",Breeding,4,37,9.25
+Henslow's Sparrow,Ammodramus henslowii,HESP,Gr,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Hepatic Tanager,Piranga flava,HETA,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,"40,42,55,56",Breeding,1,3,3
+Hermit Thrush,Catharus guttatus,HETH,Wd,"F-E,F-W,F-B",152,213,two-season,2,Western.Forests,background_jun_jul,mk,,,,,Breeding,1,3,3
+Hermit Warbler,Setophaga occidentalis,HEWA,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Herring Gull,Larus argentatus,HERG,Wet,GEN,152,213,two-season,7,Waterbirds,background_jun_jul,tss,"37,31,27,29,32,9,28,0,11",,,,Breeding,4,74.5,18.625
+Hoary Redpoll,Acanthis hornemanni,HORE,Sh,A,152,213,two-season,2,Arctic,background_jun_jul,mk,"4, 6",,,,Breeding,1,14.5,14.5
+Hooded Merganser,Lophodytes cucullatus,HOME,Wet,"F-B,F-E",152,213,two-season,2,Waterbirds,background_jun_jul,om_10,"0,15,19,17,18,32",,"1,2","1,2",Breeding,2,14.5,7.25
+Hooded Oriole,Icterus cucullatus,HOOR,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Hooded Warbler,Setophaga citrina,HOWA,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,custom,"31,32,100",,,,Breeding,1,3,3
+Hook-billed Kite,Chondrohierax uncinatus,HBKI,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,31,Breeding,1,37,37
+Horned Grebe,Podiceps auritus,HOGR,Wet,M,152,213,two-season,8,Marshlands,background_jun_jul,mk,"5, 9, 30, 32, 100",,,,Breeding,1,37,37
+Horned Lark,Eremophila alpestris,HOLA,Gr,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,14.5,14.5
+House Finch,Haemorhous mexicanus,HOFI,Var,GEN,1,366,resident,2,Generalists,background_jan_dec,om_10,,,,,Breeding,1,74.5,74.5
+House Sparrow,Passer domesticus,HOSP,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,custom,,,,"1,2",Breeding,0.4,14.5,36.25
+House Wren,Troglodytes aedon,HOWR,Wd,"F-E,F-W",152,213,two-season,2,Generalists,background_jun_jul,om_10,,"65,21,25,26,27,33,34,35,37,0,47,48,52,53,56,59,57,58,60,100,45",,"1,2,4",Breeding,1,3,3
+Hudsonian Godwit,Limosa haemastica,HUGO,Wet,A,152,213,breeding,2,Waterbirds,background_jun_jul,mk,"11,6",,,,Breeding,1,37,37
+Hutton's Vireo,Vireo huttoni,HUVI,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,eq,,,,,Breeding,1,3,3
+Inca Dove,Columbina inca,INDO,Sh,D,1,366,resident,4,Aridlands,background_jan_dec,mk,,,,"31, 40, 42, 55, 56",Breeding,1,14.5,14.5
+Indigo Bunting,Passerina cyanea,INBU,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,om_10,"32,31",,,"34,43",Breeding,1,3,3
+Juniper Titmouse,Baeolophus ridgwayi,JUTI,Wd,F-W,1,366,resident,7,Western.Forests,background_jan_dec,mk,,,,,Breeding,1,3,3
+Kentucky Warbler,Geothlypis formosa,KEWA,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Killdeer,Charadrius vociferus,KILL,Var,GEN,152,213,two-season,2,Waterbirds,background_jun_jul,om_10,3,,,"55,56,57,52,65,66,58,59,60,61",Breeding,1,3,3
+King Eider,Somateria spectabilis,KIEI,Wet,A,152,213,two-season,5,Waterbirds,background_jun_jul,tss,,,,,Breeding,2,3,1.5
+King Rail,Rallus elegans,KIRA,Wet,M,152,213,two-season,2,Marshlands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Kittlitz's Murrelet,Brachyramphus brevirostris,KIMU,Wet,C,152,213,breeding,2,Coastal,background_jun_jul,mk,,,"7,8","7,8,3",Breeding,1,3,3
+Ladder-backed Woodpecker,Picoides scalaris,LBWO,Wd,D,1,366,resident,2,Aridlands,background_jan_dec,om_10,,,,31,Breeding,1,14.5,14.5
+Lapland Longspur,Calcarius lapponicus,LALO,Gr,A,152,213,two-season,10,Arctic,background_jun_jul,mo,,,,"5, 6, 8, 9, 10, 16",Breeding,1,14.5,14.5
+Lark Bunting,Calamospiza melanocorys,LARB,Gr,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,2,3,1.5
+Lark Sparrow,Chondestes grammacus,LASP,Var,D,152,213,two-season,10,Aridlands,background_jun_jul,tss,,,,"4, 27, 28, 29",Breeding,1,3,3
+Laughing Gull,Leucophaeus atricilla,LAGU,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,tss,"3,28,23,22,13,12,16,18,19,0,8,100",,,,Breeding,2.5,74.5,29.8
+Lawrence's Goldfinch,Spinus lawrencei,LAGO,Var,D,152,213,two-season,5,Aridlands,background_jun_jul,om_10,,,,,Breeding,2,14.5,7.25
+Lazuli Bunting,Passerina amoena,LAZB,Sh,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Le Conte's Sparrow,Ammodramus leconteii,LCSP,Wet,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Le Conte's Thrasher,Toxostoma lecontei,LCTH,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,om_10,,,,35,Breeding,0.8,14.5,18.125
+Least Bittern,Ixobrychus exilis,LEBI,Wet,M,152,213,two-season,5,Marshlands,background_jun_jul,tss,,,,,Breeding,1,37,37
+Least Flycatcher,Empidonax minimus,LEFL,Wd,"F-E,F-B",152,213,two-season,15,Boreal.Forests,background_jun_jul,tss,"16,18,19,20,21,22,35,36,100",100,,"1,2",Breeding,1,3,3
+Least Grebe,Tachybaptus dominicus,LEGR,Wet,M,1,366,resident,2,Marshlands,background_jan_dec,mo,,,31,31,Breeding,1,74.5,74.5
+Least Sandpiper,Calidris minutilla,LESA,Wet,F-B,152,182,two-season,9,Waterbirds,background_jun,tss,"11,6,13,30,22,28,32,23,100,27",,,,Breeding,1,14.5,14.5
+Least Tern,Sternula antillarum,LETE,Wet,"C,G",152,213,two-season,2,Waterbirds,background_jun_jul,mk,,,"12,13,22,23",,Breeding,1,14.5,14.5
+Lesser Goldfinch,Spinus psaltria,LEGO,Var,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,14.5,14.5
+Lesser Nighthawk,Chordeiles acutipennis,LENI,Sh,D,152,213,two-season,2,Aridlands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Lesser Prairie-Chicken,Tympanuchus pallidicinctus,LEPC,Sh,G,1,366,resident,2,Grasslands,background_jan_dec,tss,,,,,Breeding,1,3,3
+Lesser Scaup,Aythya affinis,LESC,Wet,F-B,152,213,two-season,8,Waterbirds,background_jun_jul,tss,"28,22,30,33,18,14,31,37,32,23",,,,Breeding,1,3,3
+Lesser Yellowlegs,Tringa flavipes,LEYE,Wet,F-B,152,213,two-season,14,Waterbirds,background_jun_jul,mo,"22,30,13,11,22,30,9,33,100,34,21,27,19,29,31,27,28,10,37,18,32,14,23",,,,Breeding,1.5,14.5,9.666666667
+Lewis's Woodpecker,Melanerpes lewis,LEWO,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Limpkin,Aramus guarauna,LIMP,Wet,"F-S,F-E",1,366,resident,3,Marshlands,background_jan_dec,tss,,,,,Breeding,1,74.5,74.5
+Lincoln's Sparrow,Melospiza lincolnii,LISP,Sh,"F-W,F-B",152,213,two-season,2,Boreal.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Little Blue Heron,Egretta caerulea,LBHE,Wet,GEN,152,213,two-season,9,Marshlands,background_jun_jul,tss,,,,,Breeding,1,74.5,74.5
+Little Gull,Hydrocoloeus minutus,LIGU,Wet,F-B,152,213,breeding,3,Waterbirds,background_jun_jul,mo,"0,30,14,8",0,"1,2","5,9,10,1,2,4",Breeding,1.5,37,24.66666667
+Loggerhead Shrike,Lanius ludovicianus,LOSH,Sh,"G,D",152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Long-billed Curlew,Numenius americanus,LBCU,Gr,G,152,213,two-season,10,Grasslands,background_jun_jul,tss,"5,20,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66","2,3,4,6,7,8",,"2,4,5,32",Breeding,2.5,37,14.8
+Long-billed Dowitcher,Limnodromus scolopaceus,LBDO,Wet,A,152,213,two-season,5,Waterbirds,background_jun_jul,tss,"32,11,5,9,33,22,23,10,16,18,13,27,31,30,34,35,21,36,6,19,37,4",,"1,8","4,5",Breeding,1,74.5,74.5
+Long-billed Thrasher,Toxostoma longirostre,LBTH,Sh,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mo,"34,43,44","34,43,44",,,Breeding,0.8,14.5,18.125
+Long-eared Owl,Asio otus,LEOW,Wd,"F-W,F-E",152,213,two-season,2,Western.Forests,background_jun_jul,om_10,,,"2,4,6,7","1,2,3,34,35,42,43,45,46,47,48,50,51,53,54,100",Breeding,1,37,37
+Long-tailed Duck,Clangula hyemalis,LTDU,Wet,A,152,213,two-season,2,Waterbirds,background_jun_jul,custom,"11,12,32,14,0,100,30,13",,,,Breeding,2,14.5,7.25
+Long-tailed Jaeger,Stercorarius longicaudus,LTJA,Wet,"A,F-B",152,213,breeding,2,Waterbirds,background_jun_jul,tss,30,,,,Breeding,1,14.5,14.5
+Louisiana Waterthrush,Parkesia motacilla,LOWA,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,31,,,,Breeding,1,3,3
+Lucy's Warbler,Oreothlypis luciae,LUWA,Sh,D,152,213,two-season,5,Aridlands,background_jun_jul,mo,,,,"40, 42",Breeding,1,14.5,14.5
+MacGillivray's Warbler,Geothlypis tolmiei,MGWA,Sh,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,mk,,,,"1,2",Breeding,1,3,3
+Magnificent Frigatebird,Fregata magnificens,MAFR,Wet,"O,C",1,366,resident,2,Coastal,background_jan_dec,mk,,,,,Breeding,5,74.5,14.9
+Magnolia Warbler,Setophaga magnolia,MAWA,Wd,"F-B,F-E",152,213,two-season,2,Boreal.Forests,background_jun_jul,mk,36,"0,100",,,Breeding,1,3,3
+Mallard,Anas platyrhynchos,MALL,Wet,GEN,152,213,two-season,2,Waterbirds,background_jun_jul,custom,31,,,"38,40,41,42,43,44 45,46,47,48,49,50,51,52,53,54,56,57,58,60,61,66 ",Breeding,1,74.5,74.5
+Mangrove Cuckoo,Coccyzus minor,MACU,Wd,C,1,366,resident,2,Coastal,background_jan_dec,om_10,33,,,"40,42,10,17,11,16,18,19,41,39,15,32,5,9,35,34",Breeding,1,3,3
+Marbled Godwit,Limosa fedoa,MAGO,Wet,G,152,213,two-season,2,Marshlands,background_jun_jul,mk,"5, 9, 27, 30, 31, 32, 33, 34, 37, 40",,,"33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66",Breeding,2.5,3,1.2
+Marbled Murrelet,Brachyramphus marmoratus,MAMU,Wet,"C,F-W",152,213,two-season,2,Coastal,background_jun_jul,eq,,,"7,8,3","3,8,7",Breeding,1.5,3,2
+Marsh Wren,Cistothorus palustris,MAWR,Wet,"M,C",152,213,two-season,4,Marshlands,background_jun_jul,eq,0,,"2, 3","1, 2, 4",Breeding,1,3,3
+McCown's Longspur,Rhynchophanes mccownii,MCLO,Gr,G,152,213,two-season,2,Grasslands,background_jun_jul,mo,,,,"2,3,4,5,6,7,9,10,16,34",Breeding,1,14.5,14.5
+Merlin,Falco columbarius,MERL,Wd,"F-B,F-E",152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,,,,Breeding,1.5,3,2
+Mew Gull,Larus canus,MEGU,Wet,"C,F-B",152,213,breeding,2,Waterbirds,background_jun_jul,eq,"32,10,11",,,"7,8,10,11,12,14,16,33,35,36,37,41,42,43,44,45,47,50,55",Breeding,2.5,37,14.8
+Mexican Jay,Aphelocoma wollweberi,MEJA,Wd,F-W,1,366,resident,2,Subtropical.Forests,background_jan_dec,tss,,,,"5,18,40,42",Breeding,1,3,3
+Mississippi Kite,Ictinia mississippiensis,MIKI,Wd,F-E,152,213,breeding,2,Eastern.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Monk Parakeet,Myiopsitta monachus,MOPA,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,mo,,,,,Breeding,2.5,3,1.2
+Montezuma Quail,Cyrtonyx montezumae,MONQ,Wd,F-W,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,"40,42",Breeding,1,3,3
+Mottled Duck,Anas fulvigula,MODU,Wet,"C,M",1,366,resident,5,Marshlands,background_jan_dec,mo,,,"33, 43, 56",,Breeding,1,74.5,74.5
+Mountain Bluebird,Sialia currucoides,MOBL,Sh,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,om_10,,,,"7,8",Breeding,1,3,3
+Mountain Chickadee,Poecile gambeli,MOCH,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,mk,,,,"1,2,3",Breeding,1,3,3
+Mountain Plover,Charadrius montanus,MOPL,Gr,G,152,213,two-season,2,Grasslands,background_jun,tss,,,,,Breeding,1,14.5,14.5
+Mountain Quail,Oreortyx pictus,MOUQ,Sh,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Breeding,1,3,3
+Mourning Dove,Zenaida macroura,MODO,Var,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,,,"55,56,57,66,58,59,60,61",Breeding,0.3,3,10
+Mourning Warbler,Geothlypis philadelphia,MOWA,Wd,"F-E,F-B",152,213,breeding,2,Boreal.Forests,background_jun_jul,tss,"21,22,24",,,,Breeding,1,3,3
+Muscovy Duck,Cairina moschata,MUDU,Wet,F-S,1,366,resident,2,Waterbirds,background_jan_dec,tss,"0,100,9,18,19,23,5,26,31,33,32,27,28,29,22,24,13,21,20,30,37",,,,Breeding,1,14.5,14.5
+Mute Swan,Cygnus olor,MUSW,Wet,"M,C",1,366,resident,2,Waterbirds,background_jan_dec,eq,,,,,Breeding,2.5,74.5,29.8
+Nashville Warbler,Oreothlypis ruficapilla,NAWA,Wd,"F-W,F-B,F-E",152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,,,"1,2,4",Breeding,1,14.5,14.5
+Nelson's Sparrow,Ammodramus nelsoni,NESP,Wet,"G,C",152,213,two-season,2,Grasslands,background_jun_jul,mo,,,,"2,4",Breeding,1,3,3
+Neotropic Cormorant,Phalacrocorax brasilianus,NECO,Wet,GEN,1,366,resident,2,Coastal,background_jan_dec,eq,"11,29,13,23,31,32,24,22,0,100",,,,Breeding,1,14.5,14.5
+Northern Beardless-Tyrannulet,Camptostoma imberbe,NOBT,Wd,D,1,366,resident,8,Aridlands,background_jan_dec,tss,,,,"31, 40, 42",Breeding,2,3,1.5
+Northern Bobwhite,Colinus virginianus,NOBO,Sh,"F-E,G",1,366,resident,10,Grasslands,background_jan_dec,tss,,,,,Breeding,1,3,3
+Northern Cardinal,Cardinalis cardinalis,NOCA,Sh,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,custom,,,,,Breeding,1,3,3
+Northern Flicker,Colaptes auratus,NOFL,Wd,"F-E,F-B,F-W",152,213,two-season,2,Generalists,background_jun_jul,custom,,,,"55,56,57",Breeding,1,74.5,74.5
+Northern Fulmar,Fulmarus glacialis,NOFU,Wet,"O,C",152,213,two-season,2,Coastal,background_jun_jul,tss,"5,14,32,0",,,,Breeding,12.5,74.5,5.96
+Northern Gannet,Morus bassanus,NOGA,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,tss,"31,27,30",,,,Breeding,3,3,1
+Northern Goshawk,Accipiter gentilis,NOGO,Wd,"F-W,F-B,F-E",152,213,two-season,2,Boreal.Forests,background_jun_jul,tss,,,,32,Breeding,2,14.5,7.25
+Northern Harrier,Circus cyaneus,NOHA,Gr,GEN,152,213,two-season,10,Marshlands,background_jun_jul,tss,,,,,Breeding,2.5,14.5,5.8
+Northern Hawk Owl,Surnia ulula,NHOW,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,mo,,,,"11,13,14,22,23",Breeding,1,14.5,14.5
+Northern Mockingbird,Mimus polyglottos,NOMO,Sh,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,,,"55,56,57,58,59,60,61,66",Breeding,1,3,3
+Northern Parula,Setophaga americana,NOPA,Wd,"F-E,F-B",152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,"0,6,32",,,"2,4,5,6,9,10,16,34,35,36,37,43,44,45,46,47,48,49,51,52,53,54,56,57,58,59,60,61",Breeding,1,3,3
+Northern Pintail,Anas acuta,NOPI,Wet,"G,A",152,213,two-season,9,Marshlands,background_jun_jul,tss,,,,,Breeding,1,14.5,14.5
+Northern Pygmy-Owl,Glaucidium gnoma,NOPO,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,"1,2,3,7,8,27,28,29",Breeding,1,37,37
+Northern Rough-winged Swallow,Stelgidopteryx serripennis,NRWS,Var,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,,,"40,42,55,56,57",Breeding,1,3,3
+Northern Saw-whet Owl,Aegolius acadicus,NSWO,Wd,"F-B,F-E,F-W",152,213,two-season,2,Boreal.Forests,background_jun_jul,tss,,,"1,2,4","1,2",Breeding,1,14.5,14.5
+Northern Shoveler,Anas clypeata,NSHO,Wet,G,152,213,two-season,8,Marshlands,background_jun_jul,eq,,,,,Breeding,0.6,3,5
+Northern Shrike,Lanius excubitor,NSHR,Sh,"A,F-B",152,213,two-season,5,Boreal.Forests,background_jun_jul,mo,,,,,Breeding,1,3,3
+Northern Waterthrush,Parkesia noveboracensis,NOWA,Wd,"F-B,F-E,F-W",152,213,two-season,29,Boreal.Forests,background_jun_jul,tss,"0,100","0,100",,,Breeding,1,3,3
+Northwestern Crow,Corvus caurinus,NOCR,Wet,F-W,1,366,resident,18,Generalists,background_jan_dec,mo,,,,,Breeding,2,14.5,7.25
+Nuttall's Woodpecker,Picoides nuttallii,NUWO,Wd,F-W,1,366,resident,22,Western.Forests,background_jan_dec,tss,,,,,Breeding,1,14.5,14.5
+Oak Titmouse,Baeolophus inornatus,OATI,Wd,F-W,1,366,resident,10,Western.Forests,background_jan_dec,eq,,,,,Breeding,1,3,3
+Olive Sparrow,Arremonops rufivirgatus,OLSP,Sh,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,"31,40,42",Breeding,1,3,3
+Olive Warbler,Peucedramus taeniatus,OLWA,Wd,F-W,152,213,two-season,2,Subtropical.Forests,background_jun_jul,tss,,"5,9,10,13,16,18,19,22,23,24,28,32",,"0,5,9,10,15,16,18,19,22,23,24,25,27,28,29,30,32,39,42",Breeding,1,3,3
+Olive-sided Flycatcher,Contopus cooperi,OSFL,Wd,"F-W,F-E,F-B",152,213,two-season,2,Boreal.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Orange-crowned Warbler,Oreothlypis celata,OCWA,Var,"F-W,F-B",152,213,two-season,2,Western.Forests,background_jun_jul,mk,,,,"1,34,35,36,40,43,46,47,48,50,51,52,53,54,100",Breeding,2,3,1.5
+Orchard Oriole,Icterus spurius,OROR,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Osprey,Pandion haliaetus,OSPR,Wet,GEN,152,213,two-season,2,Waterbirds,background_jun_jul,om_10,,,,,Breeding,3,37,12.33333333
+Ovenbird,Seiurus aurocapilla,OVEN,Wd,"F-E,F-B,F-W",152,213,two-season,2,Eastern.Forests,background_jun_jul,om_10,,,,,Breeding,1,3,3
+Pacific Golden-Plover,Pluvialis fulva,PAGP,Gr,A,152,182,two-season,2,Waterbirds,background_jun,mo,5,,,"4,10,6,7",Breeding,1,3,3
+Pacific Loon,Gavia pacifica,PALO,Wet,"A,F-B",152,213,two-season,2,Waterbirds,background_jun_jul,om_10,"32,5,40,33,18",,,,Breeding,1,14.5,14.5
+Pacific Wren,Troglodytes pacificus,PAWR,Wd,"F-E,F-W,F-B",152,213,two-season,2,Western.Forests,background_jun_jul,eq,,,,"8, 100",Breeding,1,14.5,14.5
+Pacific-slope Flycatcher,Empidonax difficilis,PSFL,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,mk,,,,"45,47,48,51,52,53,54,58,60",Breeding,1,3,3
+Painted Bunting,Passerina ciris,PABU,Sh,"F-E,D",152,213,two-season,8,Aridlands,background_jun_jul,eq,,,"33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66","9, 16, 33, 34, 43, 45, 47, 50",Breeding,1,3,3
+Painted Redstart,Myioborus pictus,PARE,Wd,F-W,152,213,two-season,2,Subtropical.Forests,background_jun_jul,mk,,,,,Breeding,1,3,3
+Palm Warbler,Setophaga palmarum,PAWA,Var,F-B,152,213,two-season,2,Boreal.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Parasitic Jaeger,Stercorarius parasiticus,PAJA,Wet,"A,C",152,213,two-season,2,Coastal,background_jun_jul,mk,"11,30,32,0",,,,Breeding,4.5,3,0.666666667
+Pectoral Sandpiper,Calidris melanotos,PESA,Wet,A,152,182,breeding,2,Waterbirds,background_jun,eq,"11,6",,,,Breeding,1,3,3
+Pelagic Cormorant,Phalacrocorax pelagicus,PECO,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,custom,,,"7,8,14,30","7,8,14",Breeding,2.5,74.5,29.8
+Peregrine Falcon,Falco peregrinus,PEFA,Var,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,,,"55,56,57,58,59,60,61,54,53,66,65,52,49,36,48",Breeding,2,74.5,37.25
+Phainopepla,Phainopepla nitens,PHAI,Wd,D,152,213,two-season,2,Aridlands,background_jun_jul,tss,"9, 15, 16",,,,Breeding,0.8,3,3.75
+Philadelphia Vireo,Vireo philadelphicus,PHVI,Wd,F-B,152,213,breeding,2,Boreal.Forests,background_jun_jul,mk,,,,,Breeding,1,3,3
+Pied-billed Grebe,Podilymbus podiceps,PBGR,Wet,M,152,213,two-season,5,Marshlands,background_jun_jul,tss,,,2,"1, 2, 4, 5",Breeding,1.5,37,24.66666667
+Pigeon Guillemot,Cepphus columba,PIGU,Wet,C,1,366,resident,2,Coastal,background_jan_dec,custom,,,"7,8,14,30","7,8,12,13,14,30",Breeding,3.5,3,0.857142857
+Pileated Woodpecker,Dryocopus pileatus,PIWO,Wd,"F-E,F-W",1,366,resident,2,Eastern.Forests,background_jan_dec,om_10,,,"1,2,4","55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51,36,33,34,38,43,44",Breeding,1,14.5,14.5
+Pine Grosbeak,Pinicola enucleator,PIGR,Wd,F-B,152,213,two-season,2,Boreal.Forests,background_jan_dec,mo,,,,,Breeding,1,3,3
+Pine Siskin,Spinus pinus,PISI,Wd,"F-W,F-B",152,213,two-season,2,Western.Forests,background_jun_jul,eq,"22,23,24,28,29,30",,,,Breeding,1,14.5,14.5
+Pine Warbler,Setophaga pinus,PIWA,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,custom,"4,7,0","2,3,4,40,33,34,35,36",,,Breeding,1,3,3
+Pinyon Jay,Gymnorhinus cyanocephalus,PIJA,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Breeding,2,14.5,7.25
+Piping Plover,Charadrius melodus,PIPL,Wet,"C,G",152,182,two-season,2,Coastal,background_jun,mo,"37,26,27,31,0",,"1,2,5,31","5,1,2,4",Breeding,1,14.5,14.5
+Plain Chachalaca,Ortalis vetula,PLCH,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,om_10,,,,"31,33,34,38,43,44,45,47,50,53",Breeding,1,3,3
+Plumbeous Vireo,Vireo plumbeus,PLVI,Wd,"F-E,F-B,F-W",152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Pomarine Jaeger,Stercorarius pomarinus,POJA,Wet,A,152,213,two-season,2,Waterbirds,background_jun_jul,om_10,"37,30,32,0",,,,Breeding,1,37,37
+Prairie Falcon,Falco mexicanus,PRFA,Gr,GEN,152,213,two-season,9,Aridlands,background_jun_jul,mk,,,,,Breeding,1.5,14.5,9.666666667
+Prairie Warbler,Setophaga discolor,PRAW,Sh,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,,,"55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51,36,33,34,38,43,44",Breeding,1,3,3
+Prothonotary Warbler,Protonotaria citrea,PROW,Wet,F-E,152,213,breeding,2,Eastern.Forests,background_jun_jul,tss,"32,18,11,12","31,32,18,11,12,37",,"55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51,33,34,38,43,44",Breeding,1,3,3
+Purple Finch,Haemorhous purpureus,PUFI,Wd,"F-B,F-W,F-E",152,213,two-season,2,Boreal.Forests,background_jun_jul,mk,,,"1,2,4",,Breeding,1,37,37
+Purple Martin,Progne subis,PUMA,Var,GEN,152,213,breeding,2,Generalists,background_jun_jul,om_10,,"55,56,57,45,0,52,100",,"55,56,57,66,58,59,60,61,65,52,53,45,44",Breeding,1,37,37
+Pygmy Nuthatch,Sitta pygmaea,PYNU,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Breeding,1,3,3
+Pyrrhuloxia,Cardinalis sinuatus,PYRR,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,tss,,,,,Breeding,1,3,3
+Razorbill,Alca torda,RAZO,Wet,"O,C",152,213,two-season,2,Coastal,background_jun_jul,om_10,,,,"5,4,10",Breeding,4.5,3,0.666666667
+Red Crossbill,Loxia curvirostra,RECR,Wd,"F-W,F-B,F-E",152,213,two-season,2,Boreal.Forests,background_jun_jul,om_10,,,,"1,2",Breeding,1,14.5,14.5
+Red Phalarope,Phalaropus fulicarius,REPH,Wet,A,152,213,breeding,2,Waterbirds,background_jun_jul,min_pred,,,,,Breeding,2.5,74.5,29.8
+Red-bellied Woodpecker,Melanerpes carolinus,RBWO,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,tss,,,,"55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51",Breeding,1,3,3
+Red-breasted Merganser,Mergus serrator,RBME,Wet,"F-B,A",152,213,two-season,2,Waterbirds,background_jun_jul,tss,"0,5,9,10,11,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66",,,,Breeding,2.5,14.5,5.8
+Red-breasted Nuthatch,Sitta canadensis,RBNU,Wd,"F-W,F-E,F-B",152,213,two-season,2,Boreal.Forests,background_jan_dec,tss,,,,,Breeding,1,14.5,14.5
+Red-breasted Sapsucker,Sphyrapicus ruber,RBSA,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,mo,,,,"1,2",Breeding,1,3,3
+Red-cockaded Woodpecker,Picoides borealis,RCWO,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,tss,"32,4",,,,Breeding,1,74.5,74.5
+Red-crowned Parrot,Amazona viridigenalis,RCPA,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,tss,"31,32",,"31,32","31,33,34,38,40,41,42,43,44,45,50,51,53,54,56,58,59,60,61",Breeding,4,14.5,3.625
+Reddish Egret,Egretta rufescens,REEG,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,om_10,,,,"16,18,19,21,35",Breeding,4,14.5,3.625
+Red-eyed Vireo,Vireo olivaceus,REVI,Wd,"F-E,F-B,F-W",152,213,breeding,2,Eastern.Forests,background_jun_jul,custom,,,2,"1,2,32,33,34,43,47,48,49,52,54,56,58,65,4,3",Breeding,1,3,3
+Red-faced Cormorant,Phalacrocorax urile,RFCO,Wet,C,1,366,resident,2,Coastal,background_jan_dec,tss,"0,5",,,,Breeding,3,14.5,4.833333333
+Red-faced Warbler,Cardellina rubrifrons,RFWA,Wd,F-W,152,213,two-season,2,Subtropical.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Redhead,Aythya americana,REDH,Wet,M,152,213,two-season,10,Marshlands,background_jun_jul,eq,,,,,Breeding,1,3,3
+Red-headed Woodpecker,Melanerpes erythrocephalus,RHWO,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,,,"55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51",Breeding,1,3,3
+Red-naped Sapsucker,Sphyrapicus nuchalis,RNSA,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Red-necked Grebe,Podiceps grisegena,RNGR,Wet,M,152,213,two-season,8,Marshlands,background_jun_jul,mo,13,,,,Breeding,1,3,3
+Red-necked Phalarope,Phalaropus lobatus,RNPH,Wet,"A,F-B",152,213,two-season,2,Waterbirds,background_jun_jul,tss,"34,28,12,14,16,18,40,9,32,11,5,13,0,10,30,22,23,17,33",,,,Breeding,1,3,3
+Red-shouldered Hawk,Buteo lineatus,RSHA,Wd,"F-E,F-W",152,213,two-season,2,Eastern.Forests,background_jun_jul,custom,"33,34,5,9,18,32,10",,,"55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51,43,44,34,35,33,42,43,44,34,35,36,16,18,40,41,42",Breeding,1,14.5,14.5
+Red-tailed Hawk,Buteo jamaicensis,RTHA,Wd,GEN,152,213,two-season,2,Generalists,background_jun_jul,custom,,,,"55,56,57,45,58,59,60,61,66,65,49",Breeding,3,37,12.33333333
+Red-throated Loon,Gavia stellata,RTLO,Wet,"A,F-B",152,213,two-season,2,Waterbirds,background_jun_jul,om_10,"32,5,37,27,31,30,14,12,13,100,0",,,,Breeding,2.5,3,1.2
+Red-winged Blackbird,Agelaius phoeniceus,RWBL,Var,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,,,,Breeding,2,14.5,7.25
+Rhinoceros Auklet,Cerorhinca monocerata,RHAU,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,tss,,,,,Breeding,2.5,3,1.2
+Ridgway's Rail,Rallus obsoletus,RIRA,Wet,M,1,366,resident,2,Marshlands,background_jan_dec,om_10,,,,"31, 37, 49, 52, 56, 57, 66",Breeding,1,14.5,14.5
+Ring-billed Gull,Larus delawarensis,RBGU,Wet,GEN,152,213,two-season,12,Waterbirds,background_jun_jul,om_10,"32,100,30,14,13,12",,,,Breeding,2,74.5,37.25
+Ringed Kingfisher,Megaceryle torquata,RIKI,Wet,F-S,1,366,resident,2,Waterbirds,background_jan_dec,mo,,,,,Breeding,1,3,3
+Ring-necked Duck,Aythya collaris,RNDU,Wet,F-B,152,213,two-season,4,Waterbirds,background_jun_jul,om_10,"31,15,27,19,20,21",,,,Breeding,1,149.5,149.5
+Ring-necked Pheasant,Phasianus colchicus,RNEP,Gr,G,1,366,resident,10,Grasslands,background_jan_dec,tss,,,,,Breeding,1,3,3
+Rock Pigeon,Columba livia,ROPI,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,custom,,,,3,Breeding,1,37,37
+Rock Ptarmigan,Lagopus muta,ROPT,Gr,A,1,366,resident,2,Arctic,background_jan_dec,om_10,,,,"8, 9, 10, 12, 14, 16, 17",Breeding,1,14.5,14.5
+Rock Sandpiper,Calidris ptilocnemis,ROSA,Wet,A,152,182,breeding,2,Waterbirds,background_jun,min_pred,,,"3,7,8,5,10,6","5,7,10,3,9,16,8,4",Breeding,1,3,3
+Rock Wren,Salpinctes obsoletus,ROWR,Var,D,152,213,two-season,2,Aridlands,background_jun_jul,mk,,,,,Breeding,1,3,3
+Roseate Spoonbill,Platalea ajaja,ROSP,Wet,"F-S,C",152,213,two-season,2,Coastal,background_jun_jul,om_10,"29,25,47,21,26",,,,Breeding,1,14.5,14.5
+Rose-breasted Grosbeak,Pheucticus ludovicianus,RBGR,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,"35,36",,,Breeding,1,3,3
+Ross's Goose,Chen rossii,ROGO,Wet,A,152,213,two-season,2,Waterbirds,background_jun_jul,mo,"21,37,9,33,11,32,24,19,26,22,6",,,,Breeding,2.5,3,1.2
+Rough-legged Hawk,Buteo lagopus,RLHA,Gr,A,152,213,two-season,8,Arctic,background_jun_jul,om_10,"6, 11",,,,Breeding,2.5,74.5,29.8
+Royal Tern,Thalasseus maximus,ROYT,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,om_10,"8,14,18",,"1,2,3,7,8,4",,Breeding,3.5,37,10.57142857
+Ruby-crowned Kinglet,Regulus calendula,RCKI,Wd,"F-W,F-B",152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,2,14.5,7.25
+Ruby-throated Hummingbird,Archilochus colubris,RTHU,Wd,F-E,152,182,two-season,2,Eastern.Forests,background_jun,custom,,,,"1,2,4,5,9,10,34,35,38,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,66 ",Breeding,1,14.5,14.5
+Ruddy Duck,Oxyura jamaicensis,RUDU,Wet,M,152,213,two-season,10,Marshlands,background_jun_jul,tss,"5, 13, 29, 30",,2,"1, 2, 4, 5",Breeding,1,37,37
+Ruddy Turnstone,Arenaria interpres,RUTU,Wet,A,152,213,two-season,2,Waterbirds,background_jun_jul,mo,"30,31,32,24,28,12,33,57,6,100,29,40,55,56,23,11,27,0,22,13,14,37,8,7,5",,,,Breeding,2,74.5,37.25
+Ruffed Grouse,Bonasa umbellus,RUGR,Wd,"F-B,F-W,F-E",1,366,resident,2,Boreal.Forests,background_jan_dec,tss,,,,,Breeding,0.3,3,10
+Rufous Hummingbird,Selasphorus rufus,RUHU,Wd,F-W,152,182,two-season,2,Western.Forests,background_jun,mk,"15,16,32,33,34",,,"1,2,7,8,16,33,34,35,39,43,47,48",Breeding,1,14.5,14.5
+Rufous-crowned Sparrow,Aimophila ruficeps,RCSP,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,mk,,,,,Breeding,1,14.5,14.5
+Rufous-winged Sparrow,Peucaea carpalis,RWSP,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,mk,,"9, 15, 16, 32",36,"18, 19, 20, 21, 35, 36, 40, 41, 42, 46, 48, 50",Breeding,1,3,3
+Rusty Blackbird,Euphagus carolinus,RUBL,Wet,F-B,152,213,two-season,2,Boreal.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Sabine's Gull,Xema sabini,SAGU,Wet,"A,C",152,213,breeding,2,Coastal,background_jun_jul,eq,"0,30,32,6,7,5",,,,Breeding,1,3,3
+Sage Thrasher,Oreoscoptes montanus,SATH,Sh,D,152,213,two-season,2,Aridlands,background_jun_jul,tss,,,,,Breeding,2,3,1.5
+Sagebrush Sparrow,Artemisiospiza nevadensis,SABS,Sh,D,152,213,two-season,2,Aridlands,background_jun_jul,mk,,,,,Breeding,1,3,3
+Saltmarsh Sparrow,Ammodramus caudacutus,SALS,Wet,"G,C",152,213,two-season,6,Marshlands,background_jun_jul,custom,14,"13, 27",,"3, 4, 6, 7, 8, 11, 12, 13, 22, 23, 24, 100",Breeding,1,3,3
+Sanderling,Calidris alba,SAND,Wet,A,152,213,two-season,4,Waterbirds,background_jun_jul,mk,"16,35,4,100,31,27,30,32,11,26,34,10,21,12,13,14,22,23,24,29,37,0,5",,,"5,9,4,10",Breeding,2,74.5,37.25
+Sandhill Crane,Grus canadensis,SACR,Wet,GEN,152,213,two-season,7,Marshlands,background_jun_jul,tss,,,"36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66","33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66",Breeding,4.5,14.5,3.222222222
+Sandwich Tern,Thalasseus sandvicensis,SATE,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,tss,,,,"40,42,33,43,44,7,8,4,2",Breeding,3.5,74.5,21.28571429
+Savannah Sparrow,Passerculus sandwichensis,SAVS,Gr,"G,A",152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Say's Phoebe,Sayornis saya,SAPH,Var,GEN,152,213,two-season,2,Generalists,background_jun_jul,tss,,,,"40,42",Breeding,1,3,3
+Scaled Quail,Callipepla squamata,SCQU,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,eq,,,,,Breeding,1,3,3
+Scarlet Tanager,Piranga olivacea,SCTA,Wd,F-E,152,213,breeding,2,Eastern.Forests,background_jun_jul,custom,,,,"5,9,10,16,17,34,35,47,52,54",Breeding,1,3,3
+Scissor-tailed Flycatcher,Tyrannus forficatus,STFL,Sh,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Scott's Oriole,Icterus parisorum,SCOR,Sh,"F-W,D",152,213,two-season,2,Aridlands,background_jun_jul,tss,,,,"52, 54, 58, 59, 60, 61",Breeding,1,3,3
+Seaside Sparrow,Ammodramus maritimus,SESP,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,tss,,,,"36,38,43,44,45,49,52,56,57,66",Breeding,1,3,3
+Sedge Wren,Cistothorus platensis,SEWR,Wet,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,"4,45,46,47,48,49,50,51,52,53,54",Breeding,1,3,3
+Semipalmated Plover,Charadrius semipalmatus,SEPL,Wet,"F-B,A",152,182,breeding,2,Waterbirds,background_jun,eq,"10,24,14,29,12,31,37,30,13,11,28,23,27,22,32,100,0",,,"9,10,11,12",Breeding,2.5,3,1.2
+Semipalmated Sandpiper,Calidris pusilla,SESA,Wet,A,152,182,breeding,6,Waterbirds,background_jun,mo,"12,14,11,13,30,29,31,37,28,23,27,22,100,0",,,5,Breeding,1,3,3
+Sharp-shinned Hawk,Accipiter striatus,SSHA,Wd,"F-E,F-W,F-B",152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,2,14.5,7.25
+Sharp-tailed Grouse,Tympanuchus phasianellus,STGR,Sh,G,1,366,resident,2,Grasslands,background_jan_dec,tss,,,,,Breeding,0.6,3,5
+Short-billed Dowitcher,Limnodromus griseus,SBDO,Wet,F-B,152,213,two-season,4,Waterbirds,background_jun_jul,mo,"12,14,11,13,40,30,32,23,22,27,28,100,37,33,29,9,24,26,31,0",,,,Breeding,1,74.5,74.5
+Short-eared Owl,Asio flammeus,SEOW,Gr,"A,G",152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Short-tailed Hawk,Buteo brachyurus,STHA,Wd,F-S,152,213,two-season,2,Subtropical.Forests,background_jun_jul,custom,,,,"40,42",Breeding,1.5,37,24.66666667
+Smith's Longspur,Calcarius pictus,SMLO,Gr,A,152,213,two-season,2,Arctic,background_jun_jul,mk,11,,,,Breeding,1,3,3
+Snail Kite,Rostrhamus sociabilis,SNKI,Wet,M,1,366,resident,6,Marshlands,background_jan_dec,mo,,,,,Breeding,1,37,37
+Snow Bunting,Plectrophenax nivalis,SNBU,Gr,A,152,213,two-season,2,Arctic,background_jun_jul,mk,"6, 11",,,"5, 6, 7, 8, 9, 10, 14, 16",Breeding,1,14.5,14.5
+Snow Goose,Chen caerulescens,SNGO,Wet,A,152,213,two-season,2,Waterbirds,background_jun_jul,mk,"27,34,35,9,19,21,5,30,13,11,33,18,12,28,32,22,29,14",,,,Breeding,2,3,1.5
+Snowy Egret,Egretta thula,SNEG,Wet,GEN,152,213,two-season,10,Marshlands,background_jun_jul,mk,,,,"2, 3, 4, 5",Breeding,1.5,74.5,49.66666667
+Snowy Owl,Bubo scandiacus,SNOW,Gr,A,152,213,two-season,2,Arctic,background_jun_jul,eq,"6, 11",,,,Breeding,2,74.5,37.25
+Snowy Plover,Charadrius nivosus,SNPL,Wet,"C,D",152,182,two-season,2,Coastal,background_jun,mk,,,"34,35,56,66,45,61",,Breeding,1,3,3
+Solitary Sandpiper,Tringa solitaria,SOSA,Wet,F-B,152,182,two-season,2,Waterbirds,background_jun,tss,"18,23,28,29,100,9,5,12,13,22,30,11",,," 5,9,15,16,17,18,32,33,34,35,47,48 ",Breeding,2,37,18.5
+Song Sparrow,Melospiza melodia,SOSP,Sh,GEN,152,213,two-season,2,Generalists,background_jun_jul,custom,,,,,Breeding,1,3,3
+Sora,Porzana carolina,SORA,Wet,M,152,213,two-season,10,Marshlands,background_jun_jul,tss,,,2,"2, 5",Breeding,1,3,3
+Spectacled Eider,Somateria fischeri,SPEI,Wet,"A,C",152,213,breeding,2,Coastal,background_jun_jul,mk,,,"1,2,8,4,12,14,10,9,5",,Breeding,1,3,3
+Spot-breasted Oriole,Icterus pectoralis,SBOR,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,custom,,,,"33,34,36,43,44,48,49,52,54,55,56,57,66",Breeding,1,3,3
+Spotted Dove,Streptopelia chinensis,SPDO,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,mo,,,,,Breeding,1,3,3
+Spotted Owl,Strix occidentalis,SPOW,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Breeding,3,14.5,4.833333333
+Spotted Sandpiper,Actitis macularius,SPSA,Wet,GEN,152,182,two-season,10,Waterbirds,background_jun,om_10,33,,,,Breeding,1,37,37
+Spotted Towhee,Pipilo maculatus,SPTO,Sh,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Sprague's Pipit,Anthus spragueii,SPPI,Gr,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,37,37
+Spruce Grouse,Falcipennis canadensis,SPGR,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,mk,,,,"15,16,17,19,32,33",Breeding,0.9,3,3.333333333
+Steller's Eider,Polysticta stelleri,STEI,Wet,"A,C",152,213,two-season,2,Coastal,background_jun_jul,mo,"4,1,2",,"1,2,8,4,12,14,10,9,5",,Breeding,2.5,3,1.2
+Steller's Jay,Cyanocitta stelleri,STJA,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Breeding,1,3,3
+Stilt Sandpiper,Calidris himantopus,STSA,Wet,A,152,182,two-season,7,Waterbirds,background_jun,mk,11,,,,Breeding,1.5,3,2
+Sulphur-bellied Flycatcher,Myiodynastes luteiventris,SBFL,Wd,F-W,152,213,breeding,2,Subtropical.Forests,background_jun_jul,mk,,,,"5,15,31,32,40,42",Breeding,1,3,3
+Summer Tanager,Piranga rubra,SUTA,Wd,"F-E,F-W",152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,,,"40,42",Breeding,1,3,3
+Surf Scoter,Melanitta perspicillata,SUSC,Wet,F-B,152,213,breeding,7,Waterbirds,background_jun_jul,om_10,"32,5,30,14,0,12",,,"5,10,9",Breeding,2.5,14.5,5.8
+Surfbird,Calidris virgata,SURF,Wet,A,152,213,two-season,2,Waterbirds,background_jun_jul,mo,"5,32",,,"5,6,9,10",Breeding,1,37,37
+Swainson's Hawk,Buteo swainsoni,SWHA,Var,G,152,213,breeding,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1.5,37,24.66666667
+Swainson's Thrush,Catharus ustulatus,SWTH,Wd,"F-W,F-B",152,213,two-season,19,Boreal.Forests,background_jun_jul,mo,,,,"34,35,43,46,47,48,51,53,54",Breeding,1,3,3
+Swainson's Warbler,Limnothlypis swainsonii,SWWA,Wd,F-E,152,213,breeding,2,Eastern.Forests,background_jun_jul,eq,,,,"4,5,16,18,19,33,34,35,36,38,40,43,46,47,48,49,50,51,52,53,54,58",Breeding,1,3,3
+Swallow-tailed Kite,Elanoides forficatus,STKI,Wd,"F-E,F-S",152,213,breeding,2,Subtropical.Forests,background_jun_jul,om_10,,,,"34,43,45,47,48,49,52,53,55,56,61,66",Breeding,1,37,37
+Swamp Sparrow,Melospiza georgiana,SWSP,Wet,M,152,213,two-season,7,Marshlands,background_jun_jul,eq,,,,,Breeding,1,3,3
+Tennessee Warbler,Oreothlypis peregrina,TEWA,Wd,F-B,152,213,two-season,2,Boreal.Forests,background_jun_jul,tss,,,,"2,5,9,16,17",Breeding,1,14.5,14.5
+Thick-billed Kingbird,Tyrannus crassirostris,TBKI,Wd,F-W,152,213,two-season,2,Subtropical.Forests,background_jun_jul,mo,,,,"18,19,20,36,40",Breeding,1,3,3
+Thick-billed Murre,Uria lomvia,TBMU,Wet,"O,C",152,213,two-season,2,Coastal,background_jun_jul,om_10,,,,10,Breeding,4.5,3,0.666666667
+Townsend's Solitaire,Myadestes townsendi,TOSO,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,mk,,,,"1,2,3,7,8",Breeding,1,3,3
+Townsend's Warbler,Setophaga townsendi,TOWA,Wd,"F-W,F-B",152,213,two-season,2,Western.Forests,background_jun_jul,mo,,,,"15,16,17,18,32,33,34,35,39,47,48,100",Breeding,1,3,3
+Tree Swallow,Tachycineta bicolor,TRES,Var,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,"35,36,31,37,34",,,Breeding,1,3,3
+Tricolored Blackbird,Agelaius tricolor,TRBL,Wet,M,152,213,two-season,2,Marshlands,background_jun_jul,tss,"5, 9, 10, 15",,"33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66",,Breeding,1,14.5,14.5
+Tricolored Heron,Egretta tricolor,TRHE,Wet,GEN,152,213,two-season,6,Marshlands,background_jun_jul,mk,,,,,Breeding,1.5,74.5,49.66666667
+Tropical Kingbird,Tyrannus melancholicus,TRKI,Wd,D,152,213,two-season,5,Aridlands,background_jun_jul,eq,40,9,"31, 40","31, 40, 42",Breeding,1,3,3
+Tropical Parula,Setophaga pitiayumi,TRPA,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,"55,56",Breeding,1,3,3
+Trumpeter Swan,Cygnus buccinator,TRUS,Wet,F-B,152,213,two-season,2,Waterbirds,background_jun_jul,mo,,,,,Breeding,5.5,74.5,13.54545455
+Tufted Titmouse,Baeolophus bicolor,TUTI,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,tss,"8,48,0,11","6,48,49,52",,"5,9,10,34,36,37,43,46,47,48,49,52,54 ",Breeding,1,3,3
+Tundra Swan,Cygnus columbianus,TUSW,Wet,A,152,213,two-season,10,Waterbirds,background_jun_jul,tss,"13,11",,,"4,5,6,8,9,10,11",Breeding,3,14.5,4.833333333
+Turkey Vulture,Cathartes aura,TUVU,Var,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,,,,Breeding,10.5,3,0.285714286
+Upland Sandpiper,Bartramia longicauda,UPSA,Gr,G,152,213,breeding,2,Grasslands,background_jun,tss,,,,,Breeding,1,3,3
+Varied Bunting,Passerina versicolor,VABU,Sh,D,152,213,two-season,2,Aridlands,background_jun_jul,tss,,,,"55, 56",Breeding,1,3,3
+Varied Thrush,Ixoreus naevius,VATH,Wd,"F-W,F-B",152,213,two-season,2,Western.Forests,background_jun_jul,mo,,,,"3,7,8",Breeding,1,14.5,14.5
+Vaux's Swift,Chaetura vauxi,VASW,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,mo,,,,,Breeding,1,3,3
+Veery,Catharus fuscescens,VEER,Wd,"F-E,F-W,F-B",152,213,breeding,2,Eastern.Forests,background_jun_jul,tss,"5,15","3,4,33,34,35,15","2,3,4","5,32,15,33",Breeding,1,3,3
+Verdin,Auriparus flaviceps,VERD,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,om_10,,,,,Breeding,1,14.5,14.5
+Vermilion Flycatcher,Pyrocephalus rubinus,VEFL,Sh,D,152,213,two-season,2,Aridlands,background_jun_jul,mk,,,,,Breeding,2,3,1.5
+Vesper Sparrow,Pooecetes gramineus,VESP,Gr,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,2,Breeding,2,14.5,7.25
+Violet-green Swallow,Tachycineta thalassina,VGSW,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Virginia Rail,Rallus limicola,VIRA,Wet,M,152,213,two-season,2,Marshlands,background_jun_jul,tss,"5, 6, 8,",,"2, 4, 7","1, 2, 4, 5",Breeding,1,14.5,14.5
+Virginia's Warbler,Oreothlypis virginiae,VIWA,Sh,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,14.5,14.5
+Wandering Tattler,Tringa incana,WATA,Wet,A,152,213,two-season,2,Waterbirds,background_jun_jul,om_10,32,,8,"1,3,6,7,8,9,10,15,16",Breeding,2.5,74.5,29.8
+Warbling Vireo,Vireo gilvus,WAVI,Wd,"F-E,F-W",152,213,two-season,2,Generalists,background_jun_jul,custom,,42,,"1,2,20,35,36,37,39,40,41,42,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,65,66",Breeding,1,3,3
+Western Bluebird,Sialia mexicana,WEBL,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Western Grebe,Aechmophorus occidentalis,WEGR,Wet,M,152,213,two-season,9,Marshlands,background_jun_jul,tss,"6, 23",,"2, 7, 8, 27, 31",,Breeding,1,37,37
+Western Gull,Larus occidentalis,WEGU,Wet,C,152,213,two-season,2,Coastal,background_jun_jul,tss,33,,"1,2","33,43,44,42",Breeding,4.5,3,0.666666667
+Western Kingbird,Tyrannus verticalis,WEKI,Wd,"G,D",152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Western Meadowlark,Sturnella neglecta,WEME,Gr,G,152,213,two-season,2,Grasslands,background_jun_jul,tss,,,,,Breeding,1,3,3
+Western Sandpiper,Calidris mauri,WESA,Wet,A,152,182,two-season,2,Waterbirds,background_jun,mk,"41,6,13,18,22,55,10,5,33,31,32,27,30,37,9,0,4,11,40",,,"5,7",Breeding,1.5,3,2
+Western Screech-Owl,Megascops kennicottii,WESO,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Breeding,1,14.5,14.5
+Western Tanager,Piranga ludoviciana,WETA,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Western Wood-Pewee,Contopus sordidulus,WEWP,Wd,F-W,152,213,breeding,2,Western.Forests,background_jun_jul,om_10,,,,,Breeding,1,3,3
+Whimbrel,Numenius phaeopus,WHIM,Wet,"A,F-B",152,213,two-season,5,Waterbirds,background_jun_jul,mo,"5,14,30,32,12,13,37,31,100,27,33,0,8,44,11,45,40",,,,Breeding,1.5,3,2
+Whiskered Screech-Owl,Megascops trichopsis,WHSO,Wd,F-W,1,366,resident,2,Subtropical.Forests,background_jan_dec,tss,,,,,Breeding,1,3,3
+White Ibis,Eudocimus albus,WHIB,Wet,GEN,152,213,two-season,10,Marshlands,background_jun_jul,tss,,,,,Breeding,1.5,74.5,49.66666667
+White-breasted Nuthatch,Sitta carolinensis,WBNU,Wd,"F-E,F-W",1,366,resident,2,Eastern.Forests,background_jan_dec,custom,,,,,Breeding,1,14.5,14.5
+White-crowned Pigeon,Patagioenas leucocephala,WCPI,Wd,C,1,366,resident,2,Coastal,background_jan_dec,tss,,,,"45,48,49,52,55,66",Breeding,1,37,37
+White-crowned Sparrow,Zonotrichia leucophrys,WCSP,Sh,GEN,152,213,two-season,2,Generalists,background_jun_jul,om_10,,100,,,Breeding,1,3,3
+White-eyed Vireo,Vireo griseus,WEVI,Sh,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,custom,32,"47,16,34,11",,"55,56,57,64,66,65,52,58,59,60,61,54,45,53,47,46,50,48,51,34,43,33,38,43,44",Breeding,1,3,3
+White-faced Ibis,Plegadis chihi,WFIB,Wet,GEN,152,213,two-season,10,Marshlands,background_jun_jul,mk,,,,31,Breeding,2,74.5,37.25
+White-headed Woodpecker,Picoides albolarvatus,WHWO,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,mk,,,,,Breeding,1,14.5,14.5
+White-rumped Sandpiper,Calidris fuscicollis,WRSA,Wet,A,152,182,breeding,2,Waterbirds,background_jun,min_pred,"100,11,6,7,23,19",,"1,2,5","1,2,4,5,6",Breeding,1,14.5,14.5
+White-tailed Hawk,Buteo albicaudatus,WTHA,Gr,F-S,1,366,resident,2,Grasslands,background_jan_dec,mo,,,,"31,42",Breeding,2,37,18.5
+White-tailed Kite,Elanus leucurus,WTKI,Var,D,1,366,resident,8,Aridlands,background_jan_dec,tss,,,,,Breeding,1,74.5,74.5
+White-throated Sparrow,Zonotrichia albicollis,WTSP,Wd,F-B,152,213,two-season,15,Boreal.Forests,background_jun_jul,eq,,,,,Breeding,1,3,3
+White-throated Swift,Aeronautes saxatalis,WTSW,Var,D,152,213,two-season,6,Aridlands,background_jun_jul,mo,,,,3,Breeding,1,3,3
+White-tipped Dove,Leptotila verreauxi,WTDO,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,"31,41,40,42",Breeding,1,3,3
+White-winged Crossbill,Loxia leucoptera,WWCR,Wd,F-B,152,213,two-season,2,Boreal.Forests,background_jun_jul,tss,,,,,Breeding,0.4,14.5,36.25
+White-winged Dove,Zenaida asiatica,WWDO,Var,D,1,366,resident,8,Aridlands,background_jan_dec,om_10,"16, 18, 19, 21, 25, 26, 27, 32, 37",,,,Breeding,1,3,3
+White-winged Scoter,Melanitta fusca,WWSC,Wet,F-B,152,213,two-season,4,Waterbirds,background_jun_jul,tss,"5,13,32,30,100,14,0",,,"1,5,12,13,14,16,17,22,23,24,100,39,40,46,47,48,54,9,32,15,33",Breeding,2.5,3,1.2
+Whooping Crane,Grus americana,WHCR,Wet,F-B,152,213,two-season,2,Waterbirds,background_jun_jul,mo,"10,11",,,,Breeding,4.5,14.5,3.222222222
+Wild Turkey,Meleagris gallopavo,WITU,Wd,"F-E,F-W,F-S",1,366,resident,2,Generalists,background_jan_dec,om_10,,,,,Breeding,0.8,37,46.25
+Willet,Tringa semipalmata,WILL,Wet,"G,C",152,213,breeding,3,Waterbirds,background_jun_jul,om_10,"61,14,32,24,28,43,57",,"1,2",,Breeding,2,3,1.5
+Williamson's Sapsucker,Sphyrapicus thyroideus,WISA,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,tss,,,,,Breeding,2,3,1.5
+Willow Flycatcher,Empidonax traillii,WIFL,Sh,"F-E,F-W",152,213,two-season,2,Western.Forests,background_jun_jul,tss,"1,2,4,6,7,8",,,"1,2",Breeding,1,3,3
+Willow Ptarmigan,Lagopus lagopus,WIPT,Sh,A,1,366,resident,2,Arctic,background_jan_dec,min_pred,,,,"9, 11, 12, 13, 14, 15, 16, 17, 28, 34, 35, 47, 100",Breeding,1,3,3
+Wilson's Phalarope,Phalaropus tricolor,WIPH,Wet,G,152,213,breeding,14,Marshlands,background_jun_jul,tss,"5, 6, 7, 16, 18, 19, 30, 32, 33, 34, 35",,"2, 3, 7, 8","1, 2, 4, 5",Breeding,1,37,37
+Wilson's Plover,Charadrius wilsonia,WIPL,Wet,C,152,182,two-season,2,Coastal,background_jun,custom,,,"1,2,4,14,8",,Breeding,1,14.5,14.5
+Wilson's Snipe,Gallinago delicata,WISN,Wet,GEN,152,213,two-season,7,Marshlands,background_jun_jul,tss,,,,,Breeding,1,74.5,74.5
+Wilson's Warbler,Cardellina pusilla,WIWA,Sh,"F-W,F-B",152,213,two-season,2,Western.Forests,background_jun_jul,eq,,,,"33,34,35,39,40,43,45,46,47,48,50,51,52,53,54,58,60",Breeding,1,3,3
+Winter Wren,Troglodytes hiemalis,WIWR,Wd,"F-E,F-W,F-B",152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,,,,Breeding,1,14.5,14.5
+Wood Duck,Aix sponsa,WODU,Wet,F-E,152,213,two-season,2,Waterbirds,background_jun_jul,custom,"34,35,16,33",,,"55,56,57,66,65,49,52,58,64",Breeding,1,3,3
+Wood Stork,Mycteria americana,WOST,Wet,"F-E,F-S",74,135,two-season,4,Marshlands,background_jun_jul,mk,"21, 25, 26, 29, 33, 49",,,,Breeding,3.5,74.5,21.28571429
+Wood Thrush,Hylocichla mustelina,WOTH,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,custom,,,,"5,9,10,34,43,35,36,45,46,47,48,50,51,52,53,54,58,60",Breeding,1,3,3
+Woodhouse's Scrub-Jay,Aphelocoma woodhouseii,WOSJ,Sh,F-W,1,366,resident,2,Western.Forests,background_jan_dec,mk,,,,,Breeding,1,3,3
+Worm-eating Warbler,Helmitheros vermivorum,WEWA,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Wrentit,Chamaea fasciata,WREN,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,tss,,,,,Breeding,1,3,3
+Yellow Rail,Coturnicops noveboracensis,YERA,Wet,"G,M",152,213,two-season,3,Marshlands,background_jun_jul,mo,"10, 15, 23",,2,"1, 2, 4, 5",Breeding,1,74.5,74.5
+Yellow Warbler,Setophaga petechia,YEWA,Sh,"F-E,F-W,F-B",152,213,two-season,2,Boreal.Forests,background_jun_jul,om_10,"0,100","0,100",,,Breeding,1,3,3
+Yellow-bellied Flycatcher,Empidonax flaviventris,YBFL,Wd,F-B,152,213,two-season,2,Boreal.Forests,background_jun_jul,mk,"0,20,21,22,25,28,29,30,37",0,,"13,23",Breeding,1,3,3
+Yellow-bellied Sapsucker,Sphyrapicus varius,YBSA,Wd,"F-E,F-B,F-W",152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,,,,Breeding,1,3,3
+Yellow-billed Cuckoo,Coccyzus americanus,YBCU,Wd,F-E,152,213,breeding,2,Eastern.Forests,background_jun_jul,custom,,,,"45,46,47,48,49,50,51 52,53,54,57,58,59,60,61,65,66",Breeding,1,3,3
+Yellow-billed Loon,Gavia adamsii,YBLO,Wet,A,152,213,two-season,2,Waterbirds,background_jun_jul,eq,"5,4",,,,Breeding,3,14.5,4.833333333
+Yellow-billed Magpie,Pica nuttalli,YBMA,Wd,F-W,1,366,resident,8,Western.Forests,background_jan_dec,mo,,,,"16,18,19,20,33,34,35,39,43",Breeding,2,3,1.5
+Yellow-breasted Chat,Icteria virens,YBCH,Sh,"F-E,F-W",152,213,two-season,2,Eastern.Forests,background_jun_jul,om_10,"22,30,100","2,5,9,3,16,17,19",,,Breeding,1,3,3
+Yellow-crowned Night-Heron,Nyctanassa violacea,YCNH,Wet,GEN,152,213,two-season,4,Marshlands,background_jun_jul,om_10,,,,,Breeding,2,37,18.5
+Yellow-eyed Junco,Junco phaeonotus,YEJU,Wd,F-W,1,366,resident,2,Subtropical.Forests,background_jan_dec,mo,,,,,Breeding,1,3,3
+Yellow-footed Gull,Larus livens,YFGU,Wet,C,1,366,resident,2,Coastal,background_jan_dec,tss,,,,,Breeding,4.5,37,8.222222222
+Yellow-headed Blackbird,Xanthocephalus xanthocephalus,YHBL,Wet,M,152,213,two-season,9,Marshlands,background_jun_jul,tss,"34, 35",,"2, 3","2, 4, 5",Breeding,1,3,3
+Yellow-rumped Warbler,Setophaga coronata,YRWA,Wd,"F-W,F-B,F-E",152,213,two-season,2,Boreal.Forests,background_jun_jul,tss,,,,1,Breeding,1,3,3
+Yellow-throated Vireo,Vireo flavifrons,YTVI,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,custom,,,,"5,9,10,33,34,35,36,38,42,43,44,45,46,47,48,49,50,51,52,53,54,56,58,59,60,61 ",Breeding,1,3,3
+Yellow-throated Warbler,Setophaga dominica,YTWA,Wd,F-E,152,213,two-season,2,Eastern.Forests,background_jun_jul,tss,,"36,35",,"55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51,38,43,44",Breeding,1,3,3
+Zone-tailed Hawk,Buteo albonotatus,ZTHA,Wd,F-W,152,213,two-season,2,Western.Forests,background_jun_jul,mo,,,,,Breeding,2,37,18.5
+Abert's Towhee,Melozone aberti,ABTO,Sh,D,1,366,resident,8,Aridlands,background_jan_dec,mo,,,,"18, 19, 20, 35, 36, 43, 48",Non-Breeding,,,
+Acorn Woodpecker,Melanerpes formicivorus,ACWO,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Non-Breeding,,,
+Allen's Hummingbird,Selasphorus sasin,ALHU,Sh,D,335,1,two-season,2,Aridlands,background_dec,tss,,,,,Non-Breeding,,,
+Altamira Oriole,Icterus gularis,ALOR,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mo,,,,,Non-Breeding,,,
+American Avocet,Recurvirostra americana,AMAV,Wet,GEN,1,60,two-season,5,Marshlands,background_jan_feb,eq,5,,,,Non-Breeding,,,
+American Bittern,Botaurus lentiginosus,AMBI,Wet,M,1,60,two-season,3,Marshlands,background_jan_feb,mo,,,,2,Non-Breeding,,,
+American Black Duck,Anas rubripes,ABDU,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,"5,9,11,17",,"1,2,4,10,5,9","5,9",Non-Breeding,,,
+American Coot,Fulica americana,AMCO,Wet,M,1,60,two-season,2,Marshlands,background_jan_feb,om_10,,,,,Non-Breeding,,,
+American Crow,Corvus brachyrhynchos,AMCR,Var,GEN,1,60,two-season,2,Generalists,background_jan_feb,custom,,,," 38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,65,66",Non-Breeding,,,
+American Dipper,Cinclus mexicanus,AMDI,Wet,"F-W,F-B",1,366,resident,2,Western.Forests,background_jan_dec,mk,,,,"1,3,7",Non-Breeding,,,
+American Goldfinch,Spinus tristis,AMGO,Var,"F-W,F-E",1,60,two-season,2,Generalists,background_jan_feb,custom,"6,7,8,11,17",,,,Non-Breeding,,,
+American Kestrel,Falco sparverius,AMKE,Gr,GEN,1,60,two-season,2,Generalists,background_jan_feb,om_10,,,,,Non-Breeding,,,
+American Oystercatcher,Haematopus palliatus,AMOY,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,tss,,,,,Non-Breeding,,,
+American Pipit,Anthus rubescens,AMPI,Gr,A,1,60,two-season,2,Arctic,background_jan_feb,tss,"7, 9, 10, 11, 13, 14, 23, 100",,,,Non-Breeding,,,
+American Redstart,Setophaga ruticilla,AMRE,Wd,"F-E,F-W,F-B",1,60,two-season,2,Boreal.Forests,background_jan_feb,eq,"0,7,8,11,12,13,14,23,100","0,100",,,Non-Breeding,,,
+American Robin,Turdus migratorius,AMRO,Wd,GEN,1,60,two-season,2,Generalists,background_jan_feb,custom,,,,,Non-Breeding,,,
+American Three-toed Woodpecker,Picoides dorsalis,ATTW,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,om_10,"15,32,33",,,"15,32,33",Non-Breeding,,,
+American Tree Sparrow,Spizella arborea,ATSP,Sh,"A,F-B",1,60,two-season,8,Arctic,background_jan_feb,custom,,,,,Non-Breeding,,,
+American White Pelican,Pelecanus erythrorhynchos,AWPE,Wet,GEN,1,60,two-season,2,Marshlands,background_jan_feb,om_10,"9, 10, 11, 16, 18, 19, 22, 23, 24",,,,Non-Breeding,,,
+American Wigeon,Anas americana,AMWI,Wet,GEN,1,60,two-season,2,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+American Woodcock,Scolopax minor,AMWO,Wet,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,"43,47,48,50,52, 53,54,58,60",Non-Breeding,,,
+Ancient Murrelet,Synthliboramphus antiquus,ANMU,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,tss,,,,"3,7,8",Non-Breeding,,,
+Anhinga,Anhinga anhinga,ANHI,Wet,"F-E,F-S",1,60,two-season,2,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Anna's Hummingbird,Calypte anna,ANHU,Wd,"D,F-W",335,1,two-season,2,Generalists,background_dec,om_10,"20,25,26,27,21,22,29,36,37,42  ",,,,Non-Breeding,,,
+Aplomado Falcon,Falco femoralis,APFA,Gr,"G,D",1,366,resident,2,Grasslands,background_jan_dec,tss,,,,"40,42,31",Non-Breeding,,,
+Arizona Woodpecker,Picoides arizonae,ARWO,Wd,F-W,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,"5,9,10,11,12,13,16,18,19,20,21,22,23,24,25,26,27,28,29,30,32",,,Non-Breeding,,,
+Ash-throated Flycatcher,Myiarchus cinerascens,ATFL,Sh,D,1,60,two-season,9,Aridlands,background_jan_feb,tss,,,,"55, 56",Non-Breeding,,,
+Audubon's Oriole,Icterus graduacauda,AUOR,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mo,,,,"33,34,40,42,43,44",Non-Breeding,,,
+Bachman's Sparrow,Peucaea aestivalis,BACS,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,tss,,,,"43,45,47,48,49,50,51,52,53,54,56,58,60,61",Non-Breeding,,,
+Baird's Sparrow,Ammodramus bairdii,BAIS,Gr,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Bald Eagle,Haliaeetus leucocephalus,BAEA,Wet,GEN,1,60,two-season,2,Generalists,background_jan_feb,custom,,,,,Non-Breeding,,,
+Baltimore Oriole,Icterus galbula,BAOR,Wd,F-E,1,60,two-season,4,Eastern.Forests,background_jan_feb,eq,"32,5,42,33,12,7,8,13,23,12,100,33,21,25,26,37,28,26,43",,,"2,4,5,9,10",Non-Breeding,,,
+Band-tailed Pigeon,Patagioenas fasciata,BTPI,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mk,"5,6,9,10,11,16,17",,,,Non-Breeding,,,
+Bank Swallow,Riparia riparia,BANS,Var,GEN,335,1,two-season,2,Generalists,background_dec,om_10,"33,56,57,55",,,,Non-Breeding,,,
+Barn Owl,Tyto alba,BANO,Gr,GEN,1,366,resident,2,Generalists,background_jan_dec,custom,,,,,Non-Breeding,,,
+Barn Swallow,Hirundo rustica,BARS,Var,GEN,335,1,two-season,2,Generalists,background_dec,om_10,"13,27,30,31,11,5,15,32,40,42,23,33,34,36,37,0,100",,,,Non-Breeding,,,
+Barred Owl,Strix varia,BADO,Wd,"F-E,F-B,F-W",1,366,resident,2,Eastern.Forests,background_jan_dec,custom,,,1,"1,2,52,65,66,55,56,57,58,59,60,61,49,33,38,39,16,18",Non-Breeding,,,
+Barrow's Goldeneye,Bucephala islandica,BAGO,Wet,"F-B,F-W",1,60,two-season,4,Waterbirds,background_jan_feb,mo,"6,9,29,28,22,32,33,18,16",,,,Non-Breeding,,,
+Bell's Sparrow,Artemisiospiza belli,BESP,Sh,D,1,60,two-season,11,Aridlands,background_jan_feb,om_10,,"5, 10, 17",35,,Non-Breeding,,,
+Bell's Vireo,Vireo bellii,BEVI,Sh,D,1,60,two-season,10,Aridlands,background_jan_feb,tss,,5,"35, 55, 56","55, 56",Non-Breeding,,,
+Belted Kingfisher,Megaceryle alcyon,BEKI,Wet,GEN,1,60,two-season,2,Generalists,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Bendire's Thrasher,Toxostoma bendirei,BETH,Sh,D,1,60,two-season,6,Aridlands,background_jan_feb,mk,,,"18, 19, 20, 21, 36","18, 19, 35, 36",Non-Breeding,,,
+Bewick's Wren,Thryomanes bewickii,BEWR,Sh,D,1,60,two-season,7,Aridlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Black Guillemot,Cepphus grylle,BLGU,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,tss,,,,"2,5",Non-Breeding,,,
+Black Oystercatcher,Haematopus bachmani,BLOY,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,custom,,,"8,16,34","33,30,14,8,7,12,13,43,44,45,3,29",Non-Breeding,,,
+Black Phoebe,Sayornis nigricans,BLPH,Wet,GEN,1,60,two-season,2,Generalists,background_jan_feb,om_10,"5,25,18,37,0,9,10",,,,Non-Breeding,,,
+Black Rail,Laterallus jamaicensis,BLRA,Wet,"M,C",1,60,two-season,2,Marshlands,background_jan_feb,eq,,,,,Non-Breeding,,,
+Black Rosy-Finch,Leucosticte atrata,BLRF,Var,A,1,60,two-season,2,Arctic,background_jan_feb,mk,,"4, 6, 15, 19, 33, 34, 35",,"2, 4, 5, 11, 17, 18, 28, 32, 33, 34, 47, 48",Non-Breeding,,,
+Black Scoter,Melanitta americana,BLSC,Wet,"F-B,A",1,60,two-season,6,Coastal,background_jan_feb,tss,"33,23,22,29,100,0,13",,,,Non-Breeding,,,
+Black Skimmer,Rynchops niger,BLSK,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,om_10,,,,"5,3",Non-Breeding,,,
+Black Turnstone,Arenaria melanocephala,BLTU,Wet,A,1,60,wintering,2,Coastal,background_jan_feb,om_10,,"16,10",3,"3,7,65,37,9,12,14,6,31,43,44,45,49,52,56,57,66,8",Non-Breeding,,,
+Black Vulture,Coragyps atratus,BLVU,Var,GEN,1,366,resident,2,Generalists,background_jan_dec,tss,"23,41,32,5,12,14,13,11,8,0,100",,,,Non-Breeding,,,
+Black-and-white Warbler,Mniotilta varia,BAWW,Wd,"F-E,F-B",1,60,two-season,2,Eastern.Forests,background_jan_feb,mk,,,,,Non-Breeding,,,
+Black-backed Woodpecker,Picoides arcticus,BBWO,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,mk,,,,"1,2",Non-Breeding,,,
+Black-bellied Plover,Pluvialis squatarola,BBPL,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Black-bellied Whistling-Duck,Dendrocygna autumnalis,BBWD,Wet,M,1,60,two-season,2,Marshlands,background_jan_feb,eq,"34, 40",,"38, 41",,Non-Breeding,,,
+Black-billed Magpie,Pica hudsonia,BBMA,Wd,GEN,1,366,resident,2,Generalists,background_jan_dec,mk,,,,,Non-Breeding,,,
+Black-capped Chickadee,Poecile atricapillus,BCCH,Wd,"F-E,F-W,F-B",1,366,resident,2,Boreal.Forests,background_jan_dec,custom,,,,,Non-Breeding,,,
+Black-capped Vireo,Vireo atricapilla,BCVI,Sh,D,1,60,two-season,2,Aridlands,background_jan_feb,mk,,,,,Non-Breeding,,,
+Black-chinned Hummingbird,Archilochus alexandri,BCHU,Wd,D,335,1,two-season,2,Aridlands,background_dec,mo,,,5,"55, 56",Non-Breeding,,,
+Black-chinned Sparrow,Spizella atrogularis,BCSP,Sh,D,1,60,two-season,2,Aridlands,background_jan_feb,tss,32,,,,Non-Breeding,,,
+Black-crested Titmouse,Baeolophus atricristatus,BCTI,Wd,"F-W,F-S",1,366,resident,2,Subtropical.Forests,background_jan_dec,om_10,,,,"33,34,41,42,43,51,52,54,59,60",Non-Breeding,,,
+Black-crowned Night-Heron,Nycticorax nycticorax,BCNH,Wet,GEN,1,60,two-season,2,Marshlands,background_jan_feb,eq,5,,,,Non-Breeding,,,
+Black-headed Grosbeak,Pheucticus melanocephalus,BHGR,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Black-headed Gull,Chroicocephalus ridibundus,BHGU,Wet,C,1,60,two-season,11,Coastal,background_jan_feb,om_10,"29,30",,,"1,2,4,5",Non-Breeding,,,
+Black-legged Kittiwake,Rissa tridactyla,BLKI,Wet,"O,C",1,60,two-season,3,Coastal,background_jan_feb,eq,"22,37,29,44,0,100,1,2,3",,,"36,37,49,52,65",Non-Breeding,,,
+Black-necked Stilt,Himantopus mexicanus,BNST,Wet,GEN,1,60,two-season,2,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Black-tailed Gnatcatcher,Polioptila melanura,BTGN,Sh,D,1,366,resident,8,Aridlands,background_jan_dec,mk,,,,"40, 42",Non-Breeding,,,
+Black-throated Gray Warbler,Setophaga nigrescens,BTYW,Var,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mo,,,,,Non-Breeding,,,
+Black-throated Green Warbler,Setophaga virens,BTNW,Wd,"F-E,F-B",1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,"43,44,33,34,42",Non-Breeding,,,
+Black-throated Sparrow,Amphispiza bilineata,BTSP,Sh,D,1,60,two-season,6,Aridlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Black-vented Shearwater,Puffinus opisthomelas,BVSH,Wet,"O,C",1,60,two-season,2,Coastal,background_jun_jul,tss,45,,7,33,Non-Breeding,,,
+Blue Grosbeak,Passerina caerulea,BLGR,Sh,"F-E,F-W",1,60,two-season,2,Subtropical.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Blue Jay,Cyanocitta cristata,BLJA,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,"32,37,45,47","21,26,27,45,47",,,Non-Breeding,,,
+Blue-gray Gnatcatcher,Polioptila caerulea,BGGN,Wd,"F-E,F-W",1,60,two-season,2,Generalists,background_jan_feb,tss,,,,,Non-Breeding,,,
+Blue-headed Vireo,Vireo solitarius,BHVI,Wd,"F-E,F-B,F-W",1,60,two-season,2,Eastern.Forests,background_jan_feb,mo,,,,,Non-Breeding,,,
+Blue-winged Teal,Anas discors,BWTE,Wet,G,1,60,two-season,9,Marshlands,background_jan_feb,eq,,,,,Non-Breeding,,,
+Blue-winged Warbler,Vermivora cyanoptera,BWWA,Sh,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Boat-tailed Grackle,Quiscalus major,BTGR,Wet,"C,M",1,366,resident,14,Coastal,background_jan_dec,om_10,,,,"48,49,52,56,57",Non-Breeding,,,
+Bohemian Waxwing,Bombycilla garrulus,BOWA,Wd,F-B,1,60,two-season,2,Boreal.Forests,background_jan_feb,eq,"0,4,6,7,8,23,34",0,,,Non-Breeding,,,
+Bonaparte's Gull,Chroicocephalus philadelphia,BOGU,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,"6,8,11",,,,Non-Breeding,,,
+Boreal Chickadee,Poecile hudsonicus,BOCH,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,mk,,,,34,Non-Breeding,,,
+Boreal Owl,Aegolius funereus,BOOW,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,mk,,,,,Non-Breeding,,,
+Botteri's Sparrow,Peucaea botterii,BOSP,Gr,"D,G",1,366,resident,2,Grasslands,background_jan_dec,tss,,,,,Non-Breeding,,,
+Brandt's Cormorant,Phalacrocorax penicillatus,BRAC,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,custom,,,,"31,34,36,37,48,49,52,53,65,7,8,3",Non-Breeding,,,
+Brant,Branta bernicla,BRAN,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,"13,16,18",,,"12,13,22,23,24,28,34,35,45,46,47,48,50,51,53,54,100,9,10",Non-Breeding,,,
+Brewer's Blackbird,Euphagus cyanocephalus,BRBL,Var,GEN,1,60,two-season,2,Generalists,background_jan_feb,om_10,"12,17,6,11,23,22,13,31,28,29,24,30,0,100",,,,Non-Breeding,,,
+Brewer's Sparrow,Spizella breweri,BRSP,Sh,D,1,60,two-season,9,Aridlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Bridled Titmouse,Baeolophus wollweberi,BRTI,Wd,F-W,1,366,resident,2,Subtropical.Forests,background_jan_dec,mo,,,,,Non-Breeding,,,
+Broad-billed Hummingbird,Cynanthus latirostris,BBIH,Wd,F-W,335,1,two-season,2,Subtropical.Forests,background_dec,mk,"20,21,25,26,27,32,36,37,39",,,"40,42",Non-Breeding,,,
+Broad-tailed Hummingbird,Selasphorus platycercus,BTAH,Wd,F-W,335,1,two-season,2,Western.Forests,background_dec,tss,"16,20,21,25,26,27,28,29,32,33,34,35,37,43",,,"2,4,5,9,10,16",Non-Breeding,,,
+Broad-winged Hawk,Buteo platypterus,BWHA,Wd,"F-E,F-B",1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,"40,41,42,36,48,49,56,65,66,55,57,33,43,44,34",Non-Breeding,,,
+Bronzed Cowbird,Molothrus aeneus,BROC,Var,D,1,60,two-season,2,Aridlands,background_jan_feb,tss,,,,"40, 42",Non-Breeding,,,
+Brown Creeper,Certhia americana,BRCR,Wd,"F-E,F-B,F-W",1,60,two-season,2,Western.Forests,background_jan_feb,custom,,,,,Non-Breeding,,,
+Brown Pelican,Pelecanus occidentalis,BRPE,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,tss,,,,,Non-Breeding,,,
+Brown Thrasher,Toxostoma rufum,BRTH,Sh,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,om_10,,,,"45,47,48,52,53,54,58,60,33,34,49,50,51,56,57,61",Non-Breeding,,,
+Brown-capped Rosy-Finch,Leucosticte australis,BCRF,Var,A,1,60,two-season,2,Arctic,background_jan_feb,mk,,"4, 5, 6, 11, 19, 33",,"2, 4, 5, 6, 7, 8, 9, 10, 11, 15, 17, 18, 19, 22, 24, 32, 33, 34, 35, 47, 48, 60",Non-Breeding,,,
+Brown-crested Flycatcher,Myiarchus tyrannulus,BCFL,Wd,"F-W,D",1,60,two-season,2,Aridlands,background_jan_feb,mk,,,,,Non-Breeding,,,
+Brown-headed Cowbird,Molothrus ater,BHCO,Var,GEN,1,60,two-season,2,Generalists,background_jan_feb,om_10,"6,8,9,10,16,17",,,,Non-Breeding,,,
+Brown-headed Nuthatch,Sitta pusilla,BHNU,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,tss,,,,"16,19,22,33,34,35,43,45,46,47,48,49,51,52,53,54,58,60",Non-Breeding,,,
+Buff-bellied Hummingbird,Amazilia yucatanensis,BBEH,Wd,F-S,335,1,two-season,2,Subtropical.Forests,background_jan_dec,mo,,,,"33,34,43,44,45,53,60,61",Non-Breeding,,,
+Bufflehead,Bucephala albeola,BUFF,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Bullock's Oriole,Icterus bullockii,BUOR,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,tss,"5,27,28,29,14,8,37,20,21,32,26,30",,,"55,56",Non-Breeding,,,
+Burrowing Owl,Athene cunicularia,BUOW,Gr,"G,D",335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Bushtit,Psaltriparus minimus,BUSH,Var,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Non-Breeding,,,
+Cackling Goose,Branta hutchinsii,CACG,Wet,GEN,1,60,two-season,2,Marshlands,background_jan_feb,tss,,,,"33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66",Non-Breeding,,,
+Cactus Wren,Campylorhynchus brunneicapillus,CACW,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,eq,,,,"50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61",Non-Breeding,,,
+California Gnatcatcher,Polioptila californica,CAGN,Sh,D,1,366,resident,10,Aridlands,background_jan_dec,om_10,,5,"34, 35, 43","34, 35, 36, 43, 45, 46, 47, 48, 50, 51, 53, 54",Non-Breeding,,,
+California Gull,Larus californicus,CAGU,Wet,GEN,1,60,two-season,2,Waterbirds,background_jan_feb,eq,"31,6,19,21,34,24,30,37,17,100",,,,Non-Breeding,,,
+California Quail,Callipepla californica,CAQU,Sh,D,1,366,resident,3,Aridlands,background_jan_dec,mo,,,,,Non-Breeding,,,
+California Scrub-Jay,Aphelocoma californica,CASJ,Sh,F-W,1,366,resident,2,Western.Forests,background_jan_dec,mk,"9,10,15,16,33,34",,,"9,10,15,16,18,19,20,21,33,34,35,36,38,39,43,44,45,46,47,48,49,50,51,52,53,54,59",Non-Breeding,,,
+California Thrasher,Toxostoma redivivum,CATH,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,tss,"5, 33",,,"16, 18, 19, 20, 33, 34, 35, 36, 42, 43, 45, 46, 47, 48, 50, 51, 52, 53, 54",Non-Breeding,,,
+California Towhee,Melozone crissalis,CALT,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,om_10,,,,"33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66",Non-Breeding,,,
+Calliope Hummingbird,Selasphorus calliope,CAHU,Wd,F-W,335,1,two-season,2,Western.Forests,background_dec,mo,"21,22,24,25,26,27,28,29,30,31,37",,"20,21,25,26,27,31,37","22,24,28",Non-Breeding,,,
+Canada Goose,Branta canadensis,CANG,Wet,GEN,1,60,two-season,2,Waterbirds,background_jan_feb,custom,,,,,Non-Breeding,,,
+Canada Jay,Perisoreus canadensis,CAJA,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,mk,,,,,Non-Breeding,,,
+Canvasback,Aythya valisineria,CANV,Wet,M,1,60,two-season,2,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Canyon Towhee,Melozone fusca,CANT,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,mo,"32, 41","9, 10, 11, 15, 17, 22",,"32, 40, 42, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61",Non-Breeding,,,
+Canyon Wren,Catherpes mexicanus,CANW,Var,D,1,366,resident,2,Aridlands,background_jan_dec,tss,,,,,Non-Breeding,,,
+Cape May Warbler,Setophaga tigrina,CMWA,Wd,F-B,1,60,two-season,5,Boreal.Forests,background_jan_feb,mk,"7,8,100",,,,Non-Breeding,,,
+Carolina Chickadee,Poecile carolinensis,CACH,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,tss,"13,23","11,17,18,36",,"32,34,35,,43,45,46,47,48,49,50,51,52,53,54,60",Non-Breeding,,,
+Carolina Wren,Thryothorus ludovicianus,CARW,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,custom,8,"6,7,10,11,45,46,47,48,49,52",,"5,9,10,32,33,34,35,38,42,43,44,45,46,47,50,51,53,54,58,59,60,61",Non-Breeding,,,
+Caspian Tern,Hydroprogne caspia,CATE,Wet,GEN,1,60,two-season,2,Waterbirds,background_jan_feb,tss,,,,,Non-Breeding,,,
+Cassin's Auklet,Ptychoramphus aleuticus,CAAU,Wet,C,1,366,resident,2,Coastal,background_jan_dec,custom,,,,"7,8,3,14,7,8",Non-Breeding,,,
+Cassin's Finch,Haemorhous cassinii,CAFI,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Cassin's Kingbird,Tyrannus vociferans,CAKI,Wd,"D,F-W",1,60,two-season,8,Aridlands,background_jan_feb,eq,,,,,Non-Breeding,,,
+Cassin's Sparrow,Peucaea cassinii,CASP,Gr,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,"32,15",Non-Breeding,,,
+Cassin's Vireo,Vireo cassinii,CAVI,Wd,"F-E,F-B,F-W",1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Cattle Egret,Bubulcus ibis,CAEG,Wet,GEN,1,60,two-season,2,Waterbirds,background_jan_feb,tss,,,,,Non-Breeding,,,
+Cave Swallow,Petrochelidon fulva,CASW,Var,D,335,1,two-season,6,Aridlands,background_dec,mo,30,24,"32, 33, 40","43, 44, 45",Non-Breeding,,,
+Cedar Waxwing,Bombycilla cedrorum,CEDW,Wd,"F-E,F-W",1,60,two-season,2,Generalists,background_jan_feb,om_10,"4,8,6",,,,Non-Breeding,,,
+Chestnut-backed Chickadee,Poecile rufescens,CBCH,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,mk,,,,"34,35,36,39,42,43,45,46,47,48,50,54",Non-Breeding,,,
+Chestnut-collared Longspur,Calcarius ornatus,CCLO,Gr,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Chestnut-sided Warbler,Setophaga pensylvanica,CSWA,Sh,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,custom,"3,8,12,13,100,33,32,7",,"31,37,27","55,56,57",Non-Breeding,,,
+Chihuahuan Raven,Corvus cryptoleucus,CHRA,Sh,D,1,60,two-season,2,Aridlands,background_jan_feb,mo,,,,,Non-Breeding,,,
+Chipping Sparrow,Spizella passerina,CHSP,Wd,"F-W,F-E,F-B",1,60,two-season,2,Generalists,background_jan_feb,om_10,"0,17,10,6,8,5,9,12,14,13,22,23,11,16,18,19,30",,,,Non-Breeding,,,
+Chuck-will's-widow,Antrostomus carolinensis,CWWI,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,"6,8,11,12,18","6,8,10,11,48,49,52",,,Non-Breeding,,,
+Chukar,Alectoris chukar,CHUK,Gr,"D,G",1,366,resident,13,Aridlands,background_jan_dec,mk,,,,,Non-Breeding,,,
+Cinnamon Teal,Anas cyanoptera,CITE,Wet,"M,G",1,60,two-season,4,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Clapper Rail,Rallus longirostris,CLRA,Wet,"C,M",1,152,two-season,2,Coastal,background_jan_feb,custom,"32,29,33",56,"7,8,1,2,3,58,66","38,44,45,50,1,2,5",Non-Breeding,,,
+Clark's Grebe,Aechmophorus clarkii,CLGR,Wet,M,1,60,two-season,2,Marshlands,background_jan_feb,eq,"9, 15, 16, 18",,"25, 26, 27, 28, 29, 30, 31, 37",,Non-Breeding,,,
+Clark's Nutcracker,Nucifraga columbiana,CLNU,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,eq,,,,"1,2,3",Non-Breeding,,,
+Clay-colored Sparrow,Spizella pallida,CCSP,Sh,G,335,32,two-season,5,Grasslands,background_jan_feb,tss,,,,"5,11,12,13,14,22,23,24,26,27,28,29,30,31,32,39,40,42,100",Non-Breeding,,,
+Common Eider,Somateria mollissima,COEI,Wet,"A,C",1,60,two-season,2,Coastal,background_jan_feb,tss,"13,31,27,0",,,,Non-Breeding,,,
+Common Gallinule,Gallinula chloropus,COGA,Wet,M,1,60,two-season,3,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Common Goldeneye,Bucephala clangula,COGO,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Common Grackle,Quiscalus quiscula,COGR,Var,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,"34,38,43,44,45,47,48,49,50,52,53,54,56,57,58,59,60,61,66",Non-Breeding,,,
+Common Ground-Dove,Columbina passerina,COGD,Sh,D,1,366,resident,9,Aridlands,background_jan_dec,tss,,,,,Non-Breeding,,,
+Common Loon,Gavia immer,COLO,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,tss,"6,34,11,12,15,4,16,18,20,10,23,19,21,22,25,26,35,24,13,0,100,9,29",,,,Non-Breeding,,,
+Common Merganser,Mergus merganser,COME,Wet,"F-B,F-E,F-W",1,60,two-season,2,Waterbirds,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Common Murre,Uria aalge,COMU,Wet,"O,C",1,60,two-season,2,Coastal,background_jan_feb,min_pred,,,,,Non-Breeding,,,
+Common Myna,Acridotheres tristis,COMY,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,tss,,,,"36,37,38,43,44,45,47,48,49,50,52,53,54,56,57,58,59,60,61,66",Non-Breeding,,,
+Common Pauraque,Nyctidromus albicollis,COPA,Sh,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,31,Non-Breeding,,,
+Common Poorwill,Phalaenoptilus nuttallii,COPO,Sh,D,1,60,two-season,2,Aridlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Common Raven,Corvus corax,CORA,Var,GEN,1,366,resident,2,Generalists,background_jan_dec,custom,,,,"55,56,57",Non-Breeding,,,
+Common Redpoll,Acanthis flammea,CORE,Sh,"A,F-B",1,60,two-season,10,Arctic,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Common Yellowthroat,Geothlypis trichas,COYE,Sh,GEN,1,60,two-season,2,Generalists,background_jan_feb,om_10,"13,18,23,11,0,19,5,14,30,28,29,24",,,,Non-Breeding,,,
+Cooper's Hawk,Accipiter cooperii,COHA,Wd,"F-E,F-W,F-S",1,60,two-season,2,Generalists,background_jan_feb,om_10,"8,6,0",,,,Non-Breeding,,,
+Cordilleran Flycatcher,Empidonax occidentalis,COFL,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mo,,,,,Non-Breeding,,,
+Costa's Hummingbird,Calypte costae,COHU,Sh,D,335,1,two-season,10,Aridlands,background_dec,tss,,,"33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66","34, 35, 36, 37, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 58, 59, 60, 61, 65",Non-Breeding,,,
+Couch's Kingbird,Tyrannus couchii,COKI,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mo,,,,,Non-Breeding,,,
+Crested Caracara,Caracara cheriway,CRCA,Sh,"D,F-S",1,366,resident,8,Aridlands,background_jan_dec,tss,,,,,Non-Breeding,,,
+Crissal Thrasher,Toxostoma crissale,CRTH,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,om_10,,"5, 10, 17",,,Non-Breeding,,,
+Curve-billed Thrasher,Toxostoma curvirostre,CBTH,Sh,D,1,366,resident,3,Aridlands,background_jan_dec,mo,,"5, 9, 10, 11, 15, 17, 22, 27",40,"32, 40, 42",Non-Breeding,,,
+Dark-eyed Junco,Junco hyemalis,DEJU,Wd,"F-W,F-B",1,60,two-season,2,Western.Forests,background_jan_feb,custom,,,,"1,2,40,42,43,45,46,47,48,50,51,52,53,54,58,60",Non-Breeding,,,
+Dickcissel,Spiza americana,DICK,Gr,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,"4,5,12,13,14,22,23,24,26,27,28,29,30,100",Non-Breeding,,,
+Double-crested Cormorant,Phalacrocorax auritus,DCCO,Wet,GEN,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Dovekie,Alle alle,DOVE,Wet,"O,C",1,60,two-season,2,Coastal,background_jan_feb,mk,,,"3,1,2,8,5","1,2,4,5,6,9,10",Non-Breeding,,,
+Downy Woodpecker,Picoides pubescens,DOWO,Wd,"F-E,F-B,F-W",1,366,resident,2,Generalists,background_jan_dec,custom,,,,"33,34,35 36,37,38,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,65,66",Non-Breeding,,,
+Dunlin,Calidris alpina,DUNL,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,tss,"34,18,21,24,26,28,10,13,7,3,28,29,100,35",,,"3,4,7,6,8,100,9",Non-Breeding,,,
+Dusky Flycatcher,Empidonax oberholseri,DUFL,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mk,,,,,Non-Breeding,,,
+Dusky Grouse,Dendragapus obscurus,DUGR,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,mo,"1,2,5,15,32",,,"1,2,5,15,32,35,47",Non-Breeding,,,
+Dusky-capped Flycatcher,Myiarchus tuberculifer,DCFL,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mk,,,,,Non-Breeding,,,
+Eared Grebe,Podiceps nigricollis,EAGR,Wet,M,1,60,two-season,10,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Eastern Bluebird,Sialia sialis,EABL,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,om_10,,,,"32,15,5,9,11,17,10,6,2,1",Non-Breeding,,,
+Eastern Meadowlark,Sturnella magna,EAME,Gr,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Eastern Phoebe,Sayornis phoebe,EAPH,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Eastern Screech-Owl,Megascops asio,EASO,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,om_10,,"6,10,46,49,52",,"0,9,10,16,32,33,34,38,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,65,66",Non-Breeding,,,
+Eastern Towhee,Pipilo erythrophthalmus,EATO,Sh,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,custom,13,"11,36",,"5,34,36,43,44,45,46,47,48,49,50,51,52,53,54,56,58,59,60,61",Non-Breeding,,,
+Eastern Whip-poor-will,Antrostomus vociferus,EWPW,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Eurasian Collared-Dove,Streptopelia decaocto,EUCD,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,custom,,,,"1,2,8",Non-Breeding,,,
+Eurasian Tree Sparrow,Passer montanus,ETSP,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,tss,,,,,Non-Breeding,,,
+Eurasian Wigeon,Anas penelope,EUWI,Wet,GEN,1,60,wintering,2,Marshlands,background_jan_feb,mk,,,,,Non-Breeding,,,
+European Starling,Sturnus vulgaris,EUST,U,GEN,1,60,two-season,2,Generalists,background_jan_feb,custom,"4,47,42,100",,,,Non-Breeding,,,
+Evening Grosbeak,Coccothraustes vespertinus,EVGR,Wd,"F-B,F-W",1,366,two-season,2,Boreal.Forests,background_jan_dec,om_10,,,,"1,2",Non-Breeding,,,
+Ferruginous Hawk,Buteo regalis,FEHA,Gr,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Ferruginous Pygmy-Owl,Glaucidium brasilianum,FEPO,Wd,D,1,366,resident,5,Aridlands,background_jan_dec,tss,,9,31,31,Non-Breeding,,,
+Field Sparrow,Spizella pusilla,FISP,Sh,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,om_10,"11,12","8,11,34,46,48,49,52",,"5,9,10,15,16,32,33,34,35,43,45,46,47,48,49,50,51,52,53,54,60",Non-Breeding,,,
+Fish Crow,Corvus ossifragus,FICR,U,Gen,1,366,resident,2,Generalists,background_jan_dec,eq,,,,"47,48,52,54,56,57",Non-Breeding,,,
+Florida Scrub-Jay,Aphelocoma coerulescens,FLSJ,Sh,F-E,1,366,resident,2,Subtropical.Forests,background_jan_dec,tss,,,,"36,37,38,43,44,45,47,48,49,50,52,53,54,56,58,59,60,61,26,21",Non-Breeding,,,
+Forster's Tern,Sterna forsteri,FOTE,Wet,"C,M",1,60,two-season,2,Marshlands,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Fox Sparrow,Passerella iliaca,FOSP,Sh,"F-W,F-B",1,60,two-season,2,Boreal.Forests,background_jan_feb,om_10,"0,2,4,6,7,8,11,12,13,14,17,23,100","0,100",,"33,34,43,45,46,47,48,50,51,52,53,54,58,60",Non-Breeding,,,
+Fulvous Whistling-Duck,Dendrocygna bicolor,FUWD,Wet,M,1,60,two-season,2,Marshlands,background_jan_feb,mo,,,,,Non-Breeding,,,
+Gadwall,Anas strepera,GADW,Wet,GEN,1,60,two-season,2,Marshlands,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Gambel's Quail,Callipepla gambelii,GAQU,Sh,D,1,366,resident,21,Aridlands,background_jan_dec,mk,"16, 35","10, 17","18, 19, 20, 21, 36","32, 35, 40, 41",Non-Breeding,,,
+Gila Woodpecker,Melanerpes uropygialis,GIWO,Wd,D,1,366,resident,6,Aridlands,background_jan_dec,mo,,"5, 9, 15, 18, 19",,"18, 19, 21, 35, 36, 37, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 58, 59, 60",Non-Breeding,,,
+Gilded Flicker,Colaptes chrysoides,GIFL,Wd,D,1,366,resident,3,Aridlands,background_jan_dec,mo,,,"20, 36, 48, 49, 50","34, 35, 36, 43, 45, 46, 47, 48, 50, 51, 53, 54",Non-Breeding,,,
+Glaucous Gull,Larus hyperboreus,GLGU,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,tss,"35,11,17,21,16,24,25,37,27,31,33,32,15,19,22,18",,,,Non-Breeding,,,
+Glaucous-winged Gull,Larus glaucescens,GWGU,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,om_10,"10,18",,"14,30,29,27,31,37","34,35,39,40,41,43,45,46,47,48,50,52,53,54,58,60",Non-Breeding,,,
+Glossy Ibis,Plegadis falcinellus,GLIB,Wet,"C,F-S",1,60,two-season,2,Marshlands,background_jan_feb,eq,,,,,Non-Breeding,,,
+Golden Eagle,Aquila chrysaetos,GOEA,Gr,GEN,1,60,two-season,2,Generalists,background_jan_feb,om_10,"14,28,13,30,12",,,,Non-Breeding,,,
+Golden-cheeked Warbler,Setophaga chrysoparia,GCWA,Wd,F-W,1,60,two-season,2,Subtropical.Forests,background_jan_feb,mk,,,,"0,34,35,43,45,46,47,48,50",Non-Breeding,,,
+Golden-crowned Kinglet,Regulus satrapa,GCKI,Wd,"F-W,F-E,F-B",1,60,two-season,2,Boreal.Forests,background_jan_feb,tss,"4,6,7,8,12",,,,Non-Breeding,,,
+Golden-crowned Sparrow,Zonotrichia atricapilla,GCSP,Sh,"A,F-B",1,60,two-season,2,Boreal.Forests,background_jan_feb,eq,"2,4",,,,Non-Breeding,,,
+Golden-fronted Woodpecker,Melanerpes aurifrons,GFWO,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,"31,32,33,40,42,43,44",Non-Breeding,,,
+Grace's Warbler,Setophaga graciae,GRWA,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,eq,,,,,Non-Breeding,,,
+Grasshopper Sparrow,Ammodramus savannarum,GRSP,Gr,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Gray Catbird,Dumetella carolinensis,GRCA,Sh,"F-E,F-W",1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,"0,13,14,22,24","13,14,19,22,24,35,45,46,47",,,Non-Breeding,,,
+Gray Flycatcher,Empidonax wrightii,GRFL,Var,F-W,1,60,two-season,2,Aridlands,background_jan_feb,eq,,,,,Non-Breeding,,,
+Gray Hawk,Buteo plagiatus,GRHA,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mo,,,,,Non-Breeding,,,
+Gray Partridge,Perdix perdix,GRAP,Gr,G,1,366,resident,2,Grasslands,background_jan_dec,tss,,,,"2,4,5",Non-Breeding,,,
+Gray Vireo,Vireo vicinior,GRVI,Sh,F-W,1,60,two-season,2,Aridlands,background_jan_feb,mo,,,,,Non-Breeding,,,
+Gray-crowned Rosy-Finch,Leucosticte tephrocotis,GCRF,Var,A,1,60,two-season,3,Arctic,background_jan_feb,mo,"1, 4, 6, 11",,"3, 7, 8","3, 7, 8",Non-Breeding,,,
+Great Black-backed Gull,Larus marinus,GBBG,Wet,GEN,1,60,two-season,10,Coastal,background_jan_feb,om_10,18,,,"5,4,1,2,10",Non-Breeding,,,
+Great Blue Heron,Ardea herodias,GBHE,Wet,GEN,1,60,two-season,2,Waterbirds,background_jan_feb,custom,"6,7,8,11,12,3,1,2,15,34,35,46,47,50",,,"6,7,8,3,1,2,46,47,50",Non-Breeding,,,
+Great Cormorant,Phalacrocorax carbo,GRCO,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,eq,31,"23,24,26,22","10,37,1,2,5,55,56,4","1,2",Non-Breeding,,,
+Great Crested Flycatcher,Myiarchus crinitus,GCFL,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Great Egret,Ardea alba,GREG,Wet,GEN,1,60,two-season,2,Waterbirds,background_jan_feb,custom,"13,22,100,18,23",,,,Non-Breeding,,,
+Great Gray Owl,Strix nebulosa,GGOW,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,tss,,,,"16,18,33,34,35,39,47,48",Non-Breeding,,,
+Great Horned Owl,Bubo virginianus,GHOW,Wd,GEN,1,366,resident,2,Generalists,background_jan_dec,om_10,,,,,Non-Breeding,,,
+Great Kiskadee,Pitangus sulphuratus,GKIS,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mo,,,,,Non-Breeding,,,
+Greater Prairie-Chicken,Tympanuchus cupido,GRPC,Gr,G,1,366,resident,2,Grasslands,background_jan_dec,tss,,,,,Non-Breeding,,,
+Greater Roadrunner,Geococcyx californianus,GRRO,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,mk,,"5, 10, 11, 13, 17, 23, 100",29,,Non-Breeding,,,
+Greater Sage-Grouse,Centrocercus urophasianus,GRSG,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,tss,,,,,Non-Breeding,,,
+Greater Scaup,Aythya marila,GRSC,Wet,"A,F-B",1,60,two-season,2,Waterbirds,background_jan_feb,om_10,"31,34,35,19,7",3,,"7,8,3,46,47,48,49,51,52,53,54,58",Non-Breeding,,,
+Greater White-fronted Goose,Anser albifrons,GWFG,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,"40,42,31,10,14,17,22,27,28,29,24,23,13,2,0,11,16,19,30,100,18,9",,,,Non-Breeding,,,
+Greater Yellowlegs,Tringa melanoleuca,GRYE,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,"17,11,28,22,24,16,10,11,22,11,22,24,20,21,25,8,12,13,100,7,9",,,,Non-Breeding,,,
+Great-tailed Grackle,Quiscalus mexicanus,GTGR,Var,GEN,1,366,resident,2,Generalists,background_jan_dec,eq,,,,31,Non-Breeding,,,
+Green Heron,Butorides virescens,GRHE,Wet,GEN,1,60,two-season,10,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Green Jay,Cyanocorax yncas,GRJA,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,eq,,,,"31,43,44",Non-Breeding,,,
+Green Kingfisher,Chloroceryle americana,GKIN,Wet,F-S,1,366,resident,2,Waterbirds,background_jan_dec,custom,,,,"31,40,42,27",Non-Breeding,,,
+Green-tailed Towhee,Pipilo chlorurus,GTTO,Sh,D,1,60,two-season,5,Aridlands,background_jan_feb,tss,16,5,,,Non-Breeding,,,
+Green-winged Teal,Anas crecca,GWTE,Wet,GEN,1,60,two-season,2,Marshlands,background_jan_feb,eq,,,,,Non-Breeding,,,
+Groove-billed Ani,Crotophaga sulcirostris,GBAN,Sh,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mo,"16,17,18,19,20,21,25,26,27,32",,,,Non-Breeding,,,
+Gull-billed Tern,Gelochelidon nilotica,GBTE,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,tss,,,,5,Non-Breeding,,,
+Gyrfalcon,Falco rusticolus,GYRF,Gr,A,1,60,two-season,2,Arctic,background_jan_dec,tss,,,,"15, 16, 18, 19, 22, 24, 28, 30, 32, 33, 34, 35, 39, 48",Non-Breeding,,,
+Hairy Woodpecker,Picoides villosus,HAWO,Wd,"F-E,F-B,F-W",1,366,resident,2,Generalists,background_jan_dec,om_10,,,,,Non-Breeding,,,
+Hammond's Flycatcher,Empidonax hammondii,HAFL,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,"40,42",Non-Breeding,,,
+Harlequin Duck,Histrionicus histrionicus,HADU,Wet,"F-W,F-B",1,60,two-season,2,Waterbirds,background_jan_feb,mk,"10,9,11,28,29,12,27,22,23,13,0,100,32",,,,Non-Breeding,,,
+Harris's Hawk,Parabuteo unicinctus,HASH,Sh,D,1,366,resident,7,Aridlands,background_jan_dec,mk,,"5, 17, 22","31, 55, 56","55, 56",Non-Breeding,,,
+Harris's Sparrow,Zonotrichia querula,HASP,Sh,F-B,1,60,two-season,16,Boreal.Forests,background_jan_feb,mo,"5,9,10,12,13,33,34",,,"3,4,6",Non-Breeding,,,
+Heermann's Gull,Larus heermanni,HEEG,Wet,C,1,366,resident,2,Coastal,background_jan_dec,custom,,,,"55,56,66,65,52,49,48,36,37,31",Non-Breeding,,,
+Henslow's Sparrow,Ammodramus henslowii,HESP,Gr,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Hepatic Tanager,Piranga flava,HETA,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,"40,42",Non-Breeding,,,
+Hermit Thrush,Catharus guttatus,HETH,Wd,"F-E,F-W,F-B",1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Hermit Warbler,Setophaga occidentalis,HEWA,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Herring Gull,Larus argentatus,HERG,Wet,GEN,1,60,two-season,2,Waterbirds,background_jan_feb,custom,,,,,Non-Breeding,,,
+Hoary Redpoll,Acanthis hornemanni,HORE,Sh,A,1,60,two-season,2,Arctic,background_jan_feb,eq,,,," 5, 9, 10, 16",Non-Breeding,,,
+Hooded Merganser,Lophodytes cucullatus,HOME,Wet,"F-B,F-E",1,60,two-season,2,Waterbirds,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Hooded Oriole,Icterus cucullatus,HOOR,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Hooded Warbler,Setophaga citrina,HOWA,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,custom,,"34,35,36,43",,31,Non-Breeding,,,
+Hook-billed Kite,Chondrohierax uncinatus,HBKI,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mo,,,,,Non-Breeding,,,
+Horned Grebe,Podiceps auritus,HOGR,Wet,M,1,60,two-season,10,Marshlands,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Horned Lark,Eremophila alpestris,HOLA,Gr,G,335,32,two-season,6,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+House Finch,Haemorhous mexicanus,HOFI,Var,GEN,1,366,resident,2,Generalists,background_jan_dec,om_10,,,,,Non-Breeding,,,
+House Sparrow,Passer domesticus,HOSP,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,custom,,,,"1,2",Non-Breeding,,,
+House Wren,Troglodytes aedon,HOWR,Wd,"F-E,F-W",1,60,two-season,2,Generalists,background_jan_feb,om_10,"6,11,18,22,5,9,16,55,56,57,24,19",,,,Non-Breeding,,,
+Hutton's Vireo,Vireo huttoni,HUVI,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Non-Breeding,,,
+Iceland Gull,Larus glaucoides,ICGU,Wet,"A,C",1,60,two-season,2,Coastal,background_jan_feb,om_10,"31,11,4,25,16,17,35,19,10,28,0",,"1,2,3",,Non-Breeding,,,
+Inca Dove,Columbina inca,INDO,Sh,D,1,366,resident,4,Aridlands,background_jan_dec,om_10,,,,"31, 40, 42, 55, 56",Non-Breeding,,,
+Indigo Bunting,Passerina cyanea,INBU,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,"27,29,36,37,43",,,,Non-Breeding,,,
+Juniper Titmouse,Baeolophus ridgwayi,JUTI,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,mo,,,,,Non-Breeding,,,
+Kentucky Warbler,Geothlypis formosa,KEWA,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Killdeer,Charadrius vociferus,KILL,Var,GEN,1,60,two-season,2,Waterbirds,background_jan_feb,custom,,,,,Non-Breeding,,,
+King Eider,Somateria spectabilis,KIEI,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,,,,"100,32,15,9,10,4,12,23,22,13,28,16,6,11,24",Non-Breeding,,,
+King Rail,Rallus elegans,KIRA,Wet,M,1,60,two-season,2,Marshlands,background_jan_feb,eq,,,,,Non-Breeding,,,
+Ladder-backed Woodpecker,Picoides scalaris,LBWO,Wd,D,1,366,resident,2,Aridlands,background_jan_dec,tss,,,,31,Non-Breeding,,,
+Lapland Longspur,Calcarius lapponicus,LALO,Gr,A,1,60,two-season,4,Arctic,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Lark Bunting,Calamospiza melanocorys,LARB,Gr,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Lark Sparrow,Chondestes grammacus,LASP,Var,D,1,60,two-season,10,Aridlands,background_jan_feb,om_10,,,,"55, 56",Non-Breeding,,,
+Laughing Gull,Leucophaeus atricilla,LAGU,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,custom,"0,2,34,32,4,5,100",,,,Non-Breeding,,,
+Lawrence's Goldfinch,Spinus lawrencei,LAGO,Var,D,1,60,two-season,3,Aridlands,background_jan_feb,mk,32,,,"18, 19, 28, 34, 35, 36, 46, 47, 48, 51, 53, 54",Non-Breeding,,,
+Lazuli Bunting,Passerina amoena,LAZB,Sh,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mo,,,,,Non-Breeding,,,
+Le Conte's Sparrow,Ammodramus leconteii,LCSP,Wet,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Le Conte's Thrasher,Toxostoma lecontei,LCTH,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,tss,,,,"18, 35",Non-Breeding,,,
+Least Bittern,Ixobrychus exilis,LEBI,Wet,M,1,60,two-season,2,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Least Flycatcher,Empidonax minimus,LEFL,Wd,"F-E,F-B",1,60,two-season,4,Boreal.Forests,background_jan_feb,om_10,"0,13,100","0,100",,"1,2,42",Non-Breeding,,,
+Least Grebe,Tachybaptus dominicus,LEGR,Wet,M,1,366,resident,2,Marshlands,background_jan_dec,mk,,,31,,Non-Breeding,,,
+Least Sandpiper,Calidris minutilla,LESA,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,custom,"11,16,7,12,13,100,9,16,8,22,23,24,28,29",,,,Non-Breeding,,,
+Lesser Black-backed Gull,Larus fuscus,LBBG,Wet,GEN,1,60,two-season,2,Coastal,background_jan_feb,tss,"33,34,35,16,32,9,10,18",,,"9,10,6,4,2,5",Non-Breeding,,,
+Lesser Goldfinch,Spinus psaltria,LEGO,Var,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,eq,,,,,Non-Breeding,,,
+Lesser Nighthawk,Chordeiles acutipennis,LENI,Sh,D,1,60,two-season,9,Aridlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Lesser Prairie-Chicken,Tympanuchus pallidicinctus,LEPC,Sh,G,1,366,resident,2,Grasslands,background_jan_dec,tss,,,,,Non-Breeding,,,
+Lesser Scaup,Aythya affinis,LESC,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Lesser Yellowlegs,Tringa flavipes,LEYE,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,eq,"11,6,18,28,29,9,6,8,12,13,7,5,22,24",,,,Non-Breeding,,,
+Lewis's Woodpecker,Melanerpes lewis,LEWO,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mo,,,,,Non-Breeding,,,
+Limpkin,Aramus guarauna,LIMP,Wet,"F-S,F-E",1,366,resident,3,Marshlands,background_jan_dec,mk,,,,,Non-Breeding,,,
+Lincoln's Sparrow,Melospiza lincolnii,LISP,Sh,"F-W,F-B",1,60,two-season,5,Boreal.Forests,background_jan_feb,custom,"0,4,7,8,10,11,13,15,22,24,28,29,30,100","0,100",,"55,56,57",Non-Breeding,,,
+Little Blue Heron,Egretta caerulea,LBHE,Wet,GEN,1,60,two-season,2,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Little Gull,Hydrocoloeus minutus,LIGU,Wet,F-B,1,60,wintering,2,Coastal,background_jan_feb,tss,"7,24,25,21,22,100",,"1,2,4,7","1,2,4,10",Non-Breeding,,,
+Loggerhead Shrike,Lanius ludovicianus,LOSH,Sh,"G,D",335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Long-billed Curlew,Numenius americanus,LBCU,Gr,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Long-billed Dowitcher,Limnodromus scolopaceus,LBDO,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Long-billed Thrasher,Toxostoma longirostre,LBTH,Sh,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,,Non-Breeding,,,
+Long-eared Owl,Asio otus,LEOW,Wd,"F-W,F-E",1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,"1,2,3",Non-Breeding,,,
+Long-tailed Duck,Clangula hyemalis,LTDU,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,eq,"32,16,33,37,11,24,9,17,29,1,35,1,26,19,10,31,21,18,28,27",,,,Non-Breeding,,,
+Louisiana Waterthrush,Parkesia motacilla,LOWA,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,mk,,,,,Non-Breeding,,,
+Lucy's Warbler,Oreothlypis luciae,LUWA,Sh,D,1,60,two-season,7,Aridlands,background_jan_feb,mk,,,,"2, 5, 9, 10, 55, 56",Non-Breeding,,,
+MacGillivray's Warbler,Geothlypis tolmiei,MGWA,Sh,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mk,,,,,Non-Breeding,,,
+Magnificent Frigatebird,Fregata magnificens,MAFR,Wet,"O,C",1,366,resident,2,Coastal,background_jan_dec,eq,"100,26,30,27,37",,,,Non-Breeding,,,
+Magnolia Warbler,Setophaga magnolia,MAWA,Wd,"F-B,F-E",1,60,two-season,2,Boreal.Forests,background_jan_feb,mk,"0,7,8,12,13,100","0,100",,,Non-Breeding,,,
+Mallard,Anas platyrhynchos,MALL,Wet,GEN,1,60,two-season,10,Waterbirds,background_jan_feb,custom,,,,,Non-Breeding,,,
+Mangrove Cuckoo,Coccyzus minor,MACU,Wd,C,1,366,resident,2,Coastal,background_jan_dec,tss,33,,,"40,42,10,17,11,16,18,19,41,39,15,32,5,9,35,34",Non-Breeding,,,
+Marbled Godwit,Limosa fedoa,MAGO,Wet,G,1,60,two-season,4,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Marbled Murrelet,Brachyramphus marmoratus,MAMU,Wet,"C,F-W",1,60,two-season,2,Coastal,background_jan_feb,tss,,"9,10","30,14,13,12,8,7,27","3,7,8",Non-Breeding,,,
+Marsh Wren,Cistothorus palustris,MAWR,Wet,"M,C",1,60,two-season,9,Marshlands,background_jan_feb,eq,,,,,Non-Breeding,,,
+McCown's Longspur,Rhynchophanes mccownii,MCLO,Gr,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Merlin,Falco columbarius,MERL,Wd,"F-B,F-E",1,60,two-season,2,Eastern.Forests,background_jan_feb,custom,,,,,Non-Breeding,,,
+Mew Gull,Larus canus,MEGU,Wet,"C,F-B",1,60,wintering,2,Coastal,background_jan_feb,eq,"35,30,100,33,22,14,16,8,18,10,0",,,"7,8,13,14,27,28,29,30,33,34,43,47,48",Non-Breeding,,,
+Mexican Jay,Aphelocoma wollweberi,MEJA,Wd,F-W,1,366,resident,2,Subtropical.Forests,background_jan_dec,tss,,,,,Non-Breeding,,,
+Monk Parakeet,Myiopsitta monachus,MOPA,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,eq,,,,,Non-Breeding,,,
+Montezuma Quail,Cyrtonyx montezumae,MONQ,Wd,F-W,1,366,resident,2,Subtropical.Forests,background_jan_dec,om_10,,,,"40,42",Non-Breeding,,,
+Mottled Duck,Anas fulvigula,MODU,Wet,"C,M",1,366,resident,5,Marshlands,background_jan_dec,tss,,,33,,Non-Breeding,,,
+Mountain Bluebird,Sialia currucoides,MOBL,Sh,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Mountain Chickadee,Poecile gambeli,MOCH,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,om_10,,,,"1,2,3,7",Non-Breeding,,,
+Mountain Plover,Charadrius montanus,MOPL,Gr,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Mountain Quail,Oreortyx pictus,MOUQ,Sh,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,"43,45,46,47,48,50,51,52,53,54,60",Non-Breeding,,,
+Mourning Dove,Zenaida macroura,MODO,Var,GEN,1,60,two-season,2,Generalists,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Muscovy Duck,Cairina moschata,MUDU,Wet,F-S,1,366,resident,2,Waterbirds,background_jan_dec,eq,"0,100,9,18,19,23,5,26,31,33,32,27,28,29,22,24,13,21,20,30,37",,,,Non-Breeding,,,
+Mute Swan,Cygnus olor,MUSW,Wet,"M,C",1,366,resident,2,Waterbirds,background_jan_dec,eq,,,,,Non-Breeding,,,
+Nashville Warbler,Oreothlypis ruficapilla,NAWA,Wd,"F-W,F-B,F-E",1,60,two-season,2,Eastern.Forests,background_jan_feb,custom,,,,"31,55,56",Non-Breeding,,,
+Nelson's Sparrow,Ammodramus nelsoni,NESP,Wet,"G,C",335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,"5,32",Non-Breeding,,,
+Neotropic Cormorant,Phalacrocorax brasilianus,NECO,Wet,GEN,1,366,resident,2,Coastal,background_jan_dec,tss,"11,29,19,23,31,32,24,0,100,13,16,18,20,17,9,10,22,23,24,25,25,21,28,29,26",,,,Non-Breeding,,,
+Northern Beardless-Tyrannulet,Camptostoma imberbe,NOBT,Wd,D,1,366,resident,8,Aridlands,background_jan_dec,tss,,,,"31, 32, 40, 42",Non-Breeding,,,
+Northern Bobwhite,Colinus virginianus,NOBO,Sh,"F-E,G",1,366,resident,10,Grasslands,background_jan_dec,tss,,,,,Non-Breeding,,,
+Northern Cardinal,Cardinalis cardinalis,NOCA,Sh,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,custom,,,,,Non-Breeding,,,
+Northern Flicker,Colaptes auratus,NOFL,Wd,"F-E,F-B,F-W",1,60,two-season,2,Generalists,background_jan_feb,custom,,,,,Non-Breeding,,,
+Northern Fulmar,Fulmarus glacialis,NOFU,Wet,"O,C",1,60,two-season,2,Coastal,background_jan_feb,eq,,,"3,7",,Non-Breeding,,,
+Northern Gannet,Morus bassanus,NOGA,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,tss,,,"7,8",,Non-Breeding,,,
+Northern Goshawk,Accipiter gentilis,NOGO,Wd,"F-W,F-B,F-E",1,366,two-season,2,Boreal.Forests,background_jan_dec,om_10,,,,,Non-Breeding,,,
+Northern Harrier,Circus cyaneus,NOHA,Gr,GEN,1,60,two-season,2,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Northern Hawk Owl,Surnia ulula,NHOW,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,mo,,,,,Non-Breeding,,,
+Northern Mockingbird,Mimus polyglottos,NOMO,Sh,GEN,1,60,two-season,2,Generalists,background_jan_feb,om_10,"11,5,12,15,0,9,10,16,18",,,,Non-Breeding,,,
+Northern Parula,Setophaga americana,NOPA,Wd,"F-E,F-B",1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,"27,33,45","20,21,37",,,Non-Breeding,,,
+Northern Pintail,Anas acuta,NOPI,Wet,"G,A",1,60,two-season,2,Marshlands,background_jan_feb,eq,,,,,Non-Breeding,,,
+Northern Pygmy-Owl,Glaucidium gnoma,NOPO,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,"1,2,3,7,8",Non-Breeding,,,
+Northern Rough-winged Swallow,Stelgidopteryx serripennis,NRWS,Var,GEN,335,1,two-season,2,Generalists,background_dec,om_10,"11,22,30,32,35,29,0,22",,,,Non-Breeding,,,
+Northern Saw-whet Owl,Aegolius acadicus,NSWO,Wd,"F-B,F-E,F-W",1,366,two-season,2,Boreal.Forests,background_jan_dec,custom,,,,"1,2",Non-Breeding,,,
+Northern Shoveler,Anas clypeata,NSHO,Wet,G,1,60,two-season,10,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Northern Shrike,Lanius excubitor,NSHR,Sh,"A,F-B",1,60,two-season,2,Boreal.Forests,background_jan_feb,tss,"7,8",,,"33,34,39,45",Non-Breeding,,,
+Northern Waterthrush,Parkesia noveboracensis,NOWA,Wd,"F-B,F-E,F-W",1,60,two-season,7,Boreal.Forests,background_jan_feb,tss,"0,5,7,100","0,100",,,Non-Breeding,,,
+Northwestern Crow,Corvus caurinus,NOCR,Wet,F-W,1,366,resident,2,Generalists,background_jan_dec,mk,,,,"7,8",Non-Breeding,,,
+Nuttall's Woodpecker,Picoides nuttallii,NUWO,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,mk,,,,,Non-Breeding,,,
+Oak Titmouse,Baeolophus inornatus,OATI,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,eq,,,,,Non-Breeding,,,
+Olive Sparrow,Arremonops rufivirgatus,OLSP,Sh,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mo,,,,,Non-Breeding,,,
+Olive Warbler,Peucedramus taeniatus,OLWA,Wd,F-W,1,60,two-season,2,Subtropical.Forests,background_jan_feb,eq,,"5,9,10,13,15,16,18,19,22,23,24,28,32",,"0,5,9,10,15,16,18,19,20,21,22,24,25,26,27,28,29,30,32,37,39,42",Non-Breeding,,,
+Orange-crowned Warbler,Oreothlypis celata,OCWA,Var,"F-W,F-B",1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Orchard Oriole,Icterus spurius,OROR,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,om_10,"5,32,37,31,27,30,13,28,29,100",,,,Non-Breeding,,,
+Osprey,Pandion haliaetus,OSPR,Wet,GEN,1,60,two-season,2,Waterbirds,background_jan_feb,custom,"6,10,19,24,28",,,,Non-Breeding,,,
+Ovenbird,Seiurus aurocapilla,OVEN,Wd,"F-E,F-B,F-W",1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Pacific Golden-Plover,Pluvialis fulva,PAGP,Gr,A,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Pacific Loon,Gavia pacifica,PALO,Wet,"A,F-B",1,60,two-season,5,Waterbirds,background_jan_feb,custom,"28,30,9,29,18,0,27,25,24",,,,Non-Breeding,,,
+Pacific Wren,Troglodytes pacificus,PAWR,Wd,"F-E,F-W,F-B",1,60,two-season,2,Western.Forests,background_jan_feb,mk,,,,,Non-Breeding,,,
+Pacific-slope Flycatcher,Empidonax difficilis,PSFL,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mo,,,,,Non-Breeding,,,
+Painted Bunting,Passerina ciris,PABU,Sh,"F-E,D",1,60,two-season,6,Aridlands,background_jan_feb,tss,"26, 27, 28, 29, 30, 37",,,,Non-Breeding,,,
+Painted Redstart,Myioborus pictus,PARE,Wd,F-W,1,60,two-season,2,Subtropical.Forests,background_jan_feb,mk,,,,,Non-Breeding,,,
+Palm Warbler,Setophaga palmarum,PAWA,Var,F-B,1,60,two-season,2,Boreal.Forests,background_jan_feb,custom,"0,7,8,12,13,18,19,20,21,24,25,26,28,29,100","0,100",,,Non-Breeding,,,
+Parasitic Jaeger,Stercorarius parasiticus,PAJA,Wet,"A,C",1,60,two-season,2,Coastal,background_jan_feb,custom,,,,,Non-Breeding,,,
+Pelagic Cormorant,Phalacrocorax pelagicus,PECO,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,custom,,,"30,14,13,12,8,7,27","7,8",Non-Breeding,,,
+Peregrine Falcon,Falco peregrinus,PEFA,Var,GEN,1,60,two-season,2,Generalists,background_jun_jul,custom,,,,,Non-Breeding,,,
+Phainopepla,Phainopepla nitens,PHAI,Wd,D,1,60,two-season,2,Aridlands,background_jan_feb,tss,"16, 32, 33",,,,Non-Breeding,,,
+Pied-billed Grebe,Podilymbus podiceps,PBGR,Wet,M,1,60,two-season,2,Marshlands,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Pigeon Guillemot,Cepphus columba,PIGU,Wet,C,1,366,resident,2,Coastal,background_jan_dec,custom,,,"30,14,13,12,8,7,27","7,8,14",Non-Breeding,,,
+Pileated Woodpecker,Dryocopus pileatus,PIWO,Wd,"F-E,F-W",1,366,resident,2,Eastern.Forests,background_jan_dec,om_10,32,"48,49,52","3,4,2,1","1,2,34,33,34,35,36,39,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,66",Non-Breeding,,,
+Pine Grosbeak,Pinicola enucleator,PIGR,Wd,F-B,1,366,two-season,2,Boreal.Forests,background_jan_dec,eq,,,,,Non-Breeding,,,
+Pine Siskin,Spinus pinus,PISI,Wd,"F-W,F-B",1,60,two-season,2,Western.Forests,background_jan_feb,custom,,,,"1,2",Non-Breeding,,,
+Pine Warbler,Setophaga pinus,PIWA,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,"0,4,7","2,3,4,33,34,35,36,40",,"32,34,35,43,44,45,46,47,48,49,50,51,52,53,54,56,57,58,59,60,61,66",Non-Breeding,,,
+Pinyon Jay,Gymnorhinus cyanocephalus,PIJA,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Non-Breeding,,,
+Piping Plover,Charadrius melodus,PIPL,Wet,"C,G",1,60,two-season,2,Coastal,background_jan_feb,custom,,,,"43,44,45,47,53,61,9,10,16,17,18,32,33,11",Non-Breeding,,,
+Plain Chachalaca,Ortalis vetula,PLCH,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,om_10,,,,"31,33,34,38,40,42,43,44,45",Non-Breeding,,,
+Plumbeous Vireo,Vireo plumbeus,PLVI,Wd,"F-E,F-B,F-W",1,60,two-season,2,Western.Forests,background_jan_feb,mk,,,,,Non-Breeding,,,
+Prairie Falcon,Falco mexicanus,PRFA,Gr,GEN,1,60,two-season,2,Aridlands,background_jan_feb,tss,,,,"47, 51, 53, 54",Non-Breeding,,,
+Prairie Warbler,Setophaga discolor,PRAW,Sh,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,27,37,,"34,35,36,38,43,44,45,47,48,49,50,51,52,53,54,58,59,60,61,65,66,37",Non-Breeding,,,
+Purple Finch,Haemorhous purpureus,PUFI,Wd,"F-B,F-W,F-E",1,60,two-season,2,Boreal.Forests,background_jan_feb,tss,,,,"34,35,36,39,42,43,45,46,47,48,50,51,52,53,54,58,60",Non-Breeding,,,
+Purple Sandpiper,Calidris maritima,PUSA,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,custom,"31,37",,,"1,2,4,5,6,9,10,16,18,19,20,21,34,35,43,44,45,100",Non-Breeding,,,
+Pygmy Nuthatch,Sitta pygmaea,PYNU,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,28,Non-Breeding,,,
+Pyrrhuloxia,Cardinalis sinuatus,PYRR,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,eq,,,,,Non-Breeding,,,
+Razorbill,Alca torda,RAZO,Wet,"O,C",1,60,two-season,2,Coastal,background_jan_feb,eq,29,,,"37,1,2,4,27",Non-Breeding,,,
+Red Crossbill,Loxia curvirostra,RECR,Wd,"F-W,F-B,F-E",1,366,two-season,2,Boreal.Forests,background_jan_dec,om_10,,,,"1,2",Non-Breeding,,,
+Red Knot,Calidris canutus,REKN,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,tss,,,,"1,2,33,34,35,39,46,47,48,51,53,54",Non-Breeding,,,
+Red-bellied Woodpecker,Melanerpes carolinus,RBWO,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,om_10,,,,"34,36,47,48,49,52,54,56,57,58,60,61,66",Non-Breeding,,,
+Red-breasted Merganser,Mergus serrator,RBME,Wet,"F-B,A",1,60,two-season,2,Waterbirds,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Red-breasted Nuthatch,Sitta canadensis,RBNU,Wd,"F-W,F-E,F-B",1,60,two-season,2,Boreal.Forests,background_jan_feb,custom,2,,1,"55,56,57,64,66,65,52,49,58,59,60,61,54,45,53,47,46,50,48,51,40,42,43,45",Non-Breeding,,,
+Red-breasted Sapsucker,Sphyrapicus ruber,RBSA,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Red-cockaded Woodpecker,Picoides borealis,RCWO,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,tss,,,,,Non-Breeding,,,
+Red-crowned Parrot,Amazona viridigenalis,RCPA,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,"31,32",,"31,32","31,33,34,38,40,41,42,43,45,53,58,59,60,61",Non-Breeding,,,
+Reddish Egret,Egretta rufescens,REEG,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Red-faced Cormorant,Phalacrocorax urile,RFCO,Wet,C,1,366,resident,2,Coastal,background_jan_dec,tss,"0,5",,,,Non-Breeding,,,
+Red-faced Warbler,Cardellina rubrifrons,RFWA,Wd,F-W,1,60,two-season,2,Subtropical.Forests,background_jan_feb,mo,,,,,Non-Breeding,,,
+Redhead,Aythya americana,REDH,Wet,M,1,60,two-season,2,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Red-headed Woodpecker,Melanerpes erythrocephalus,RHWO,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Red-naped Sapsucker,Sphyrapicus nuchalis,RNSA,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mk,,,,,Non-Breeding,,,
+Red-necked Grebe,Podiceps grisegena,RNGR,Wet,M,1,60,two-season,10,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Red-shouldered Hawk,Buteo lineatus,RSHA,Wd,"F-E,F-W",1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Red-tailed Hawk,Buteo jamaicensis,RTHA,Wd,GEN,1,60,two-season,2,Generalists,background_jan_feb,custom,"11,17",,,"55,56,57,2",Non-Breeding,,,
+Red-throated Loon,Gavia stellata,RTLO,Wet,"A,F-B",1,60,two-season,2,Waterbirds,background_jan_feb,custom,"21,35,18,19,22,23,25,14,29,100,13,24,28",,,,Non-Breeding,,,
+Red-winged Blackbird,Agelaius phoeniceus,RWBL,Var,GEN,1,60,two-season,2,Generalists,background_jan_feb,om_10,"6,8,12,14,0,100",,,,Non-Breeding,,,
+Rhinoceros Auklet,Cerorhinca monocerata,RHAU,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,tss,,"9,10",3,"33,43,44",Non-Breeding,,,
+Ridgway's Rail,Rallus obsoletus,RIRA,Wet,M,1,366,resident,2,Marshlands,background_jan_dec,tss,,,"33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66","20, 21, 35, 36, 37, 48, 49, 52, 59",Non-Breeding,,,
+Ring-billed Gull,Larus delawarensis,RBGU,Wet,GEN,1,60,two-season,2,Waterbirds,background_jan_feb,custom,"28,29,14,24",,,,Non-Breeding,,,
+Ringed Kingfisher,Megaceryle torquata,RIKI,Wet,F-S,1,366,resident,2,Waterbirds,background_jan_dec,mo,,,,,Non-Breeding,,,
+Ring-necked Duck,Aythya collaris,RNDU,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Ring-necked Pheasant,Phasianus colchicus,RNEP,Gr,G,1,366,resident,10,Grasslands,background_jan_dec,tss,,,,,Non-Breeding,,,
+Rock Pigeon,Columba livia,ROPI,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,custom,,,,,Non-Breeding,,,
+Rock Ptarmigan,Lagopus muta,ROPT,Gr,A,1,366,resident,2,Arctic,background_jan_dec,eq,,,,"9, 10, 16, 17, 18",Non-Breeding,,,
+Rock Sandpiper,Calidris ptilocnemis,ROSA,Wet,A,1,60,wintering,2,Coastal,background_jan_feb,mo,,,"7,8,14,30","7,8,3",Non-Breeding,,,
+Rock Wren,Salpinctes obsoletus,ROWR,Var,D,1,60,two-season,3,Aridlands,background_jan_feb,tss,"5, 9, 16, 18, 19",,,,Non-Breeding,,,
+Roseate Spoonbill,Platalea ajaja,ROSP,Wet,"F-S,C",1,60,two-season,2,Coastal,background_jan_feb,mk,,,,,Non-Breeding,,,
+Rose-breasted Grosbeak,Pheucticus ludovicianus,RBGR,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,mk,,"6,10,16,35,36",,,Non-Breeding,,,
+Ross's Goose,Chen rossii,ROGO,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,eq,,,,,Non-Breeding,,,
+Rough-legged Hawk,Buteo lagopus,RLHA,Gr,A,1,60,two-season,8,Arctic,background_jan_feb,tss,"0, 5",,,,Non-Breeding,,,
+Royal Tern,Thalasseus maximus,ROYT,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,tss,"25,29",,,"5,1,2",Non-Breeding,,,
+Ruby-crowned Kinglet,Regulus calendula,RCKI,Wd,"F-W,F-B",1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Ruby-throated Hummingbird,Archilochus colubris,RTHU,Wd,F-E,335,1,two-season,2,Eastern.Forests,background_dec,tss,"26,27,36,37",,,"40,41,42",Non-Breeding,,,
+Ruddy Duck,Oxyura jamaicensis,RUDU,Wet,M,1,60,two-season,9,Marshlands,background_jan_feb,eq,,,,,Non-Breeding,,,
+Ruddy Turnstone,Arenaria interpres,RUTU,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,tss,,"9,10,16","100,7,8,3,24,28,22,23,12,13",,Non-Breeding,,,
+Ruffed Grouse,Bonasa umbellus,RUGR,Wd,"F-B,F-W,F-E",1,366,resident,2,Boreal.Forests,background_jan_dec,custom,,,,"1,15,32,33,34,35,39,43,47,48,54,60",Non-Breeding,,,
+Rufous Hummingbird,Selasphorus rufus,RUHU,Wd,F-W,335,1,two-season,2,Western.Forests,background_dec,tss,"0,2,4,5,9,10,11,12,13,15,16,18,19,21,22,23,24,25,26,27,28,29,30,32,100",,,"0,5,6,9,10,11,13,15,16,18,19,22,23,24,28,29,30,32",Non-Breeding,,,
+Rufous-crowned Sparrow,Aimophila ruficeps,RCSP,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,mo,,,,,Non-Breeding,,,
+Rufous-winged Sparrow,Peucaea carpalis,RWSP,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,tss,,"9, 15, 32, 35",,"18, 19, 20, 21, 22, 25, 28, 31, 35, 36, 37, 38, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 58, 59, 60",Non-Breeding,,,
+Rusty Blackbird,Euphagus carolinus,RUBL,Wet,F-B,1,60,two-season,2,Boreal.Forests,background_jan_feb,tss,"0,2,4,5,6,7,8,9,12,13,100","0,100",,,Non-Breeding,,,
+Sage Thrasher,Oreoscoptes montanus,SATH,Sh,D,1,60,two-season,6,Aridlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Sagebrush Sparrow,Artemisiospiza nevadensis,SABS,Sh,D,1,60,two-season,2,Aridlands,background_jan_feb,tss,"9, 16",,,,Non-Breeding,,,
+Saltmarsh Sparrow,Ammodramus caudacutus,SALS,Wet,"G,C",1,60,two-season,1,Marshlands,background_jan_feb,tss,,"14, 24, 26, 28, 29, 37, 100",,"37, 100",Non-Breeding,,,
+Sanderling,Calidris alba,SAND,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Sandhill Crane,Grus canadensis,SACR,Wet,GEN,1,60,two-season,6,Marshlands,background_jan_feb,mo,,,56,,Non-Breeding,,,
+Sandwich Tern,Thalasseus sandvicensis,SATE,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,eq,,,,,Non-Breeding,,,
+Savannah Sparrow,Passerculus sandwichensis,SAVS,Gr,"G,A",335,32,two-season,4,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Say's Phoebe,Sayornis saya,SAPH,Var,GEN,1,60,two-season,2,Generalists,background_jan_feb,om_10,"11,24,26,29,31,15,19,27,26,25,37,5,9,10,16",,,,Non-Breeding,,,
+Scaled Quail,Callipepla squamata,SCQU,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,om_10,,,,,Non-Breeding,,,
+Scissor-tailed Flycatcher,Tyrannus forficatus,STFL,Sh,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Scott's Oriole,Icterus parisorum,SCOR,Sh,"F-W,D",1,60,two-season,6,Aridlands,background_jan_feb,tss,,,,"58, 59, 60, 61",Non-Breeding,,,
+Seaside Sparrow,Ammodramus maritimus,SESP,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,custom,,,,"36,38,43,44,45,49,52,56,57,66",Non-Breeding,,,
+Sedge Wren,Cistothorus platensis,SEWR,Wet,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Semipalmated Plover,Charadrius semipalmatus,SEPL,Wet,"F-B,A",1,60,wintering,2,Coastal,background_jan_feb,custom,"11,30,5",,,,Non-Breeding,,,
+Sharp-shinned Hawk,Accipiter striatus,SSHA,Wd,"F-E,F-W,F-B",1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Sharp-tailed Grouse,Tympanuchus phasianellus,STGR,Sh,G,1,366,resident,2,Grasslands,background_jan_dec,tss,,,,,Non-Breeding,,,
+Short-billed Dowitcher,Limnodromus griseus,SBDO,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,tss,"11,10,9,6,28,29",,,,Non-Breeding,,,
+Short-eared Owl,Asio flammeus,SEOW,Gr,"A,G",335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,"2,3,4,55,56,57,52,66",Non-Breeding,,,
+Short-tailed Hawk,Buteo brachyurus,STHA,Wd,F-S,1,60,two-season,2,Subtropical.Forests,background_jan_feb,tss,,,,5,Non-Breeding,,,
+Smith's Longspur,Calcarius pictus,SMLO,Gr,A,1,60,two-season,3,Arctic,background_jan_feb,eq,,"11, 13, 17, 23, 35, 100 ",29,,Non-Breeding,,,
+Snail Kite,Rostrhamus sociabilis,SNKI,Wet,M,1,366,resident,6,Marshlands,background_jan_dec,mo,,,,,Non-Breeding,,,
+Snow Bunting,Plectrophenax nivalis,SNBU,Gr,A,1,60,two-season,2,Arctic,background_jan_feb,min_pred,"6, 7, 27",,,,Non-Breeding,,,
+Snow Goose,Chen caerulescens,SNGO,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,tss,,,,,Non-Breeding,,,
+Snowy Egret,Egretta thula,SNEG,Wet,GEN,1,60,two-season,9,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Snowy Owl,Bubo scandiacus,SNOW,Gr,A,1,60,two-season,2,Arctic,background_jan_dec,custom,,,,,Non-Breeding,,,
+Snowy Plover,Charadrius nivosus,SNPL,Wet,"C,D",1,60,two-season,2,Coastal,background_jan_feb,mk,,,,,Non-Breeding,,,
+Solitary Sandpiper,Tringa solitaria,SOSA,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,custom,"11,0,27,32,42,31",,,,Non-Breeding,,,
+Song Sparrow,Melospiza melodia,SOSP,Sh,GEN,1,60,two-season,2,Generalists,background_jan_feb,custom,"6,8",,,,Non-Breeding,,,
+Sora,Porzana carolina,SORA,Wet,M,1,60,two-season,6,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Spot-breasted Oriole,Icterus pectoralis,SBOR,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,om_10,,,,"33,34,43,44,48,49,52,54,55,56,57,65,66",Non-Breeding,,,
+Spotted Dove,Streptopelia chinensis,SPDO,U,Urban/Suburban,1,366,resident,2,Urban.Suburban,background_jan_dec,mk,,,,"34,35,36,47,48,53,54",Non-Breeding,,,
+Spotted Owl,Strix occidentalis,SPOW,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Non-Breeding,,,
+Spotted Sandpiper,Actitis macularius,SPSA,Wet,GEN,1,60,two-season,2,Waterbirds,background_jan_feb,min_pred,"6,11,30,28,29",,,,Non-Breeding,,,
+Spotted Towhee,Pipilo maculatus,SPTO,Sh,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Sprague's Pipit,Anthus spragueii,SPPI,Gr,G,335,32,two-season,3,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Spruce Grouse,Falcipennis canadensis,SPGR,Wd,F-B,1,366,resident,2,Boreal.Forests,background_jan_dec,mk,,,,"15,16,32,33,34,47,48",Non-Breeding,,,
+Steller's Eider,Polysticta stelleri,STEI,Wet,"A,C",1,60,two-season,2,Coastal,background_jan_feb,om_10,5,,,,Non-Breeding,,,
+Steller's Jay,Cyanocitta stelleri,STJA,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Non-Breeding,,,
+Stilt Sandpiper,Calidris himantopus,STSA,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,"32,11",,,,Non-Breeding,,,
+Summer Tanager,Piranga rubra,SUTA,Wd,"F-E,F-W",1,60,two-season,2,Eastern.Forests,background_jan_feb,eq,"5,9,15,18,19,21,22,23,24,25,26,27,28,29,29,30,31,32,37,39,40",,,31,Non-Breeding,,,
+Surf Scoter,Melanitta perspicillata,SUSC,Wet,F-B,1,60,wintering,2,Coastal,background_jan_feb,tss,"18,9,24,23,100,13,22,28,29,7",,,,Non-Breeding,,,
+Surfbird,Calidris virgata,SURF,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,custom,"1,2",16,"1,2,3,6,7,8,9,10,14,31,34,35,39,46,47,48,49,50,51,52,53,54,55,56,57,58,66","3,4,6,7,8,9,10,12,14,15,16,20,21,25,26,27,28,31,33,34,35,36,37,39,46,47,48,49,51,52,54,55,56,57,58,59,64,65,66",Non-Breeding,,,
+Swainson's Thrush,Catharus ustulatus,SWTH,Wd,"F-W,F-B",1,60,two-season,2,Boreal.Forests,background_jan_feb,mk,"0,5,7,8,10,11,12,13,23,30,32,100","0,100",,,Non-Breeding,,,
+Swamp Sparrow,Melospiza georgiana,SWSP,Wet,M,1,60,two-season,10,Marshlands,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Tennessee Warbler,Oreothlypis peregrina,TEWA,Wd,F-B,1,60,two-season,2,Boreal.Forests,background_jan_feb,mo,"0,7,8,11,12,13,23,29,30,32,100","0,100",,,Non-Breeding,,,
+Thick-billed Kingbird,Tyrannus crassirostris,TBKI,Wd,F-W,1,60,two-season,2,Subtropical.Forests,background_jan_feb,mo,,,,,Non-Breeding,,,
+Thick-billed Murre,Uria lomvia,TBMU,Wet,"O,C",1,60,two-season,2,Coastal,background_jan_feb,tss,,,3,"6,9,10,11,12,13,15,16,17,18,19,22,23,24,27,28,29,32,34,100",Non-Breeding,,,
+Townsend's Solitaire,Myadestes townsendi,TOSO,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mo,,,,,Non-Breeding,,,
+Townsend's Warbler,Setophaga townsendi,TOWA,Wd,"F-W,F-B",1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Tree Swallow,Tachycineta bicolor,TRES,Var,GEN,335,1,two-season,2,Generalists,background_dec,om_10,"9,11,21,0,100,5,14,21,22,24,29",,,,Non-Breeding,,,
+Tricolored Blackbird,Agelaius tricolor,TRBL,Wet,M,1,60,two-season,2,Marshlands,background_jan_feb,mo,"5, 9, 10, 15",,"33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66",,Non-Breeding,,,
+Tricolored Heron,Egretta tricolor,TRHE,Wet,GEN,1,60,two-season,2,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Tropical Kingbird,Tyrannus melancholicus,TRKI,Wd,D,1,60,two-season,7,Aridlands,background_jan_feb,tss,,,,31,Non-Breeding,,,
+Tropical Parula,Setophaga pitiayumi,TRPA,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,"55,56",Non-Breeding,,,
+Trumpeter Swan,Cygnus buccinator,TRUS,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,eq,"35,20,26,14,25,34,21,29,32,30,31,33,16,27,19,24,18,28",,,,Non-Breeding,,,
+Tufted Titmouse,Baeolophus bicolor,TUTI,Wd,F-E,1,366,resident,2,Eastern.Forests,background_jan_dec,tss,"0,8,11,48","6,48,49,52",,"5,9,10,34,36,37,43,46,47,48,49,52,54 ",Non-Breeding,,,
+Tundra Swan,Cygnus columbianus,TUSW,Wet,A,1,60,two-season,7,Waterbirds,background_jan_feb,eq,"25,21,100,13,12,23,22,8,37,2,4,12,18,31,28,13,100,23,19,24,29",,,,Non-Breeding,,,
+Turkey Vulture,Cathartes aura,TUVU,Var,GEN,1,60,two-season,2,Generalists,background_jan_feb,om_10,"10,16,18,12,100,22,23,24,13,14,5,9,19",,,,Non-Breeding,,,
+Varied Bunting,Passerina versicolor,VABU,Sh,D,1,60,two-season,4,Aridlands,background_jan_feb,tss,,,,"55, 56",Non-Breeding,,,
+Varied Thrush,Ixoreus naevius,VATH,Wd,"F-W,F-B",1,60,two-season,2,Western.Forests,background_jan_feb,om_10,,,,"8,12,14,16,17,45,47,48,52,53,54,60,100",Non-Breeding,,,
+Vaux's Swift,Chaetura vauxi,VASW,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mo,,,,,Non-Breeding,,,
+Verdin,Auriparus flaviceps,VERD,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,tss,,,,,Non-Breeding,,,
+Vermilion Flycatcher,Pyrocephalus rubinus,VEFL,Sh,D,1,60,two-season,2,Aridlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Vesper Sparrow,Pooecetes gramineus,VESP,Gr,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Violet-green Swallow,Tachycineta thalassina,VGSW,Wd,F-W,335,1,two-season,2,Western.Forests,background_dec,tss,,,,,Non-Breeding,,,
+Virginia Rail,Rallus limicola,VIRA,Wet,M,1,60,two-season,6,Marshlands,background_jan_feb,mk,,4,,,Non-Breeding,,,
+Virginia's Warbler,Oreothlypis virginiae,VIWA,Sh,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Wandering Tattler,Tringa incana,WATA,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,min_pred,,,,"1,21,31,34,35,36,37,46,48,49,51,52,53,54,55,56,57,58,59,60,66,65,64",Non-Breeding,,,
+Warbling Vireo,Vireo gilvus,WAVI,Wd,"F-E,F-W",1,60,two-season,2,Generalists,background_jan_feb,eq,"6,32,11,55,56,57",,,,Non-Breeding,,,
+Western Bluebird,Sialia mexicana,WEBL,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Western Grebe,Aechmophorus occidentalis,WEGR,Wet,M,1,60,two-season,8,Marshlands,background_jan_feb,custom,"0, 9, 10, 15, 16, 18",,,,Non-Breeding,,,
+Western Gull,Larus occidentalis,WEGU,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,tss,"9,10",,"52,66,56","33,43,44",Non-Breeding,,,
+Western Kingbird,Tyrannus verticalis,WEKI,Wd,"G,D",335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Western Meadowlark,Sturnella neglecta,WEME,Gr,G,335,32,two-season,2,Grasslands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Western Sandpiper,Calidris mauri,WESA,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,mk,,,"100,6,7,8,3,11",,Non-Breeding,,,
+Western Screech-Owl,Megascops kennicottii,WESO,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,tss,,,,,Non-Breeding,,,
+Western Tanager,Piranga ludoviciana,WETA,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Whimbrel,Numenius phaeopus,WHIM,Wet,"A,F-B",1,60,two-season,2,Waterbirds,background_jan_feb,tss,,,,,Non-Breeding,,,
+Whiskered Screech-Owl,Megascops trichopsis,WHSO,Wd,F-W,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,,Non-Breeding,,,
+White Ibis,Eudocimus albus,WHIB,Wet,GEN,1,60,two-season,2,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+White-breasted Nuthatch,Sitta carolinensis,WBNU,Wd,"F-E,F-W",1,366,resident,2,Eastern.Forests,background_jan_dec,custom,,,"1,2",,Non-Breeding,,,
+White-crowned Pigeon,Patagioenas leucocephala,WCPI,Wd,C,1,366,resident,2,Coastal,background_jan_dec,om_10,,,,"45,48,49,52,55,66",Non-Breeding,,,
+White-crowned Sparrow,Zonotrichia leucophrys,WCSP,Sh,GEN,1,60,two-season,2,Generalists,background_jan_feb,om_10,"2,4,10,6,8,11,12,14,31",,,,Non-Breeding,,,
+White-eyed Vireo,Vireo griseus,WEVI,Sh,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+White-faced Ibis,Plegadis chihi,WFIB,Wet,GEN,1,60,two-season,7,Marshlands,background_jan_feb,eq,,,,31,Non-Breeding,,,
+White-headed Woodpecker,Picoides albolarvatus,WHWO,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,mk,,,,,Non-Breeding,,,
+White-tailed Hawk,Buteo albicaudatus,WTHA,Gr,F-S,1,366,resident,2,Grasslands,background_jan_dec,mo,,,,"31,32,41,42",Non-Breeding,,,
+White-tailed Kite,Elanus leucurus,WTKI,Var,D,1,366,resident,8,Aridlands,background_jan_dec,tss,,,,,Non-Breeding,,,
+White-throated Sparrow,Zonotrichia albicollis,WTSP,Wd,F-B,1,60,two-season,2,Boreal.Forests,background_jan_feb,custom,"0,5,6,7,8,9,10,12,13,23,100","0,100",,"39,40,42,43,45,46,47,48,49,50,51,52,53,54,58,60",Non-Breeding,,,
+White-throated Swift,Aeronautes saxatalis,WTSW,Var,D,1,60,two-season,3,Aridlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+White-tipped Dove,Leptotila verreauxi,WTDO,Wd,F-S,1,366,resident,2,Subtropical.Forests,background_jan_dec,om_10,,,,"31,40,41,42",Non-Breeding,,,
+White-winged Crossbill,Loxia leucoptera,WWCR,Wd,F-B,1,366,two-season,2,Boreal.Forests,background_jan_dec,custom,,,,"15,32,33,34,35,47",Non-Breeding,,,
+White-winged Dove,Zenaida asiatica,WWDO,Var,D,1,366,resident,2,Aridlands,background_jan_dec,tss,"9, 16, 18, 19, 21, 22, 24, 25, 26, 28, 29, 30, 32",,,,Non-Breeding,,,
+White-winged Scoter,Melanitta fusca,WWSC,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,tss,"9,16,11,25,24,28,29",,,,Non-Breeding,,,
+Whooping Crane,Grus americana,WHCR,Wet,F-B,1,60,two-season,2,Waterbirds,background_jan_feb,tss,,,,"55,56,57,66,65,49,52,58,64",Non-Breeding,,,
+Wild Turkey,Meleagris gallopavo,WITU,Wd,"F-E,F-W,F-S",1,366,resident,2,Generalists,background_jan_dec,om_10,,,,,Non-Breeding,,,
+Willet,Tringa semipalmata,WILL,Wet,"G,C",1,60,wintering,2,Coastal,background_jan_feb,custom,11,,,"1,2",Non-Breeding,,,
+Williamson's Sapsucker,Sphyrapicus thyroideus,WISA,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mk,,,,,Non-Breeding,,,
+Willow Flycatcher,Empidonax traillii,WIFL,Sh,"F-E,F-W",1,60,two-season,2,Western.Forests,background_jan_feb,mo,,,,,Non-Breeding,,,
+Willow Ptarmigan,Lagopus lagopus,WIPT,Sh,A,1,366,resident,2,Arctic,background_jan_dec,tss,,,,,Non-Breeding,,,
+Wilson's Plover,Charadrius wilsonia,WIPL,Wet,C,1,60,two-season,2,Coastal,background_jan_feb,min_pred,,,,,Non-Breeding,,,
+Wilson's Snipe,Gallinago delicata,WISN,Wet,GEN,1,60,two-season,2,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Wilson's Warbler,Cardellina pusilla,WIWA,Sh,"F-W,F-B",1,60,two-season,2,Western.Forests,background_jan_feb,mk,,,,,Non-Breeding,,,
+Winter Wren,Troglodytes hiemalis,WIWR,Wd,"F-E,F-W,F-B",1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Wood Duck,Aix sponsa,WODU,Wet,F-E,1,60,two-season,2,Waterbirds,background_jan_feb,om_10,,,,,Non-Breeding,,,
+Wood Stork,Mycteria americana,WOST,Wet,"F-E,F-S",1,60,two-season,2,Marshlands,background_jan_feb,tss,,,,,Non-Breeding,,,
+Wood Thrush,Hylocichla mustelina,WOTH,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Woodhouse's Scrub-Jay,Aphelocoma woodhouseii,WOSJ,Sh,F-W,1,366,resident,2,Western.Forests,background_jan_dec,mk,,,,,Non-Breeding,,,
+Worm-eating Warbler,Helmitheros vermivorum,WEWA,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,,,,,Non-Breeding,,,
+Wrentit,Chamaea fasciata,WREN,Sh,D,1,366,resident,2,Aridlands,background_jan_dec,mo,,4,,"34, 35, 43, 45, 47, 48, 50, 51, 53, 54, 60",Non-Breeding,,,
+Yellow Warbler,Setophaga petechia,YEWA,Sh,"F-E,F-W,F-B",1,60,two-season,4,Boreal.Forests,background_jan_feb,mk,"0,5,6,7,8,11,12,13,27,30,32,32","1,100",,,Non-Breeding,,,
+Yellow-bellied Flycatcher,Empidonax flaviventris,YBFL,Wd,F-B,1,60,two-season,2,Boreal.Forests,background_jan_feb,eq,"0,7,8,12,13,23,100","0,100",,,Non-Breeding,,,
+Yellow-bellied Sapsucker,Sphyrapicus varius,YBSA,Wd,"F-E,F-B,F-W",1,60,two-season,2,Eastern.Forests,background_jan_feb,custom,,,,"33,34,43,44",Non-Breeding,,,
+Yellow-billed Loon,Gavia adamsii,YBLO,Wet,A,1,60,two-season,2,Waterbirds,background_jan_feb,eq,"18,16,24,32,33",,,,Non-Breeding,,,
+Yellow-billed Magpie,Pica nuttalli,YBMA,Wd,F-W,1,366,resident,2,Western.Forests,background_jan_dec,mo,,,,"16,18,19,33,34,35,39,43,46,47,48",Non-Breeding,,,
+Yellow-breasted Chat,Icteria virens,YBCH,Sh,"F-E,F-W",1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,"0,5,6,9,11,12,13,14,16,18,23,32",,,,Non-Breeding,,,
+Yellow-crowned Night-Heron,Nyctanassa violacea,YCNH,Wet,GEN,1,60,two-season,2,Marshlands,background_jan_feb,eq,,,,,Non-Breeding,,,
+Yellow-eyed Junco,Junco phaeonotus,YEJU,Wd,F-W,1,366,resident,2,Subtropical.Forests,background_jan_dec,mk,,,,,Non-Breeding,,,
+Yellow-footed Gull,Larus livens,YFGU,Wet,C,1,366,resident,2,Coastal,background_jan_dec,custom,,,,"34,35,36,46,47,48,50,51,52,53,54",Non-Breeding,,,
+Yellow-headed Blackbird,Xanthocephalus xanthocephalus,YHBL,Wet,M,1,60,two-season,9,Marshlands,background_jan_feb,tss,"9, 13, 16, 18, 30",,,,Non-Breeding,,,
+Yellow-rumped Warbler,Setophaga coronata,YRWA,Wd,"F-W,F-B,F-E",1,60,two-season,2,Boreal.Forests,background_jan_feb,custom,"0,7,8,12,13,100","0,100",,,Non-Breeding,,,
+Yellow-throated Vireo,Vireo flavifrons,YTVI,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,"29,31,45",,,,Non-Breeding,,,
+Yellow-throated Warbler,Setophaga dominica,YTWA,Wd,F-E,1,60,two-season,2,Eastern.Forests,background_jan_feb,tss,"21,25,26,28,29,30",,,34,Non-Breeding,,,
+Zone-tailed Hawk,Buteo albonotatus,ZTHA,Wd,F-W,1,60,two-season,2,Western.Forests,background_jan_feb,mo,,,,,Non-Breeding,,,

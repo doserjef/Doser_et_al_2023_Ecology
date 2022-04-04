@@ -14,10 +14,30 @@ library(sf)
 
 # Get chain number from command line run ----------------------------------
 chain <- as.numeric(commandArgs(trailingOnly = TRUE))
+# Alternatively, if not running the script from the command line:
+# chain <- 1
+# Or, can use the n.chains function in spOccupancy (for sequential runs of
+# chains).
 if(length(chain) == 0) base::stop('Need to tell spOccupancy the chain number')
 
 # Read in the data --------------------------------------------------------
 load("data/data-bundle.R")
+# Reorder species to help with mixing
+# Putting these five species first after exploratory analysis
+# REVI, GRSP, PIWO, EAME, BTNW
+start.sp <- c('REVI', 'GRSP', 'PIWO', 'EAME', 'BTNW')
+# Other species code
+indices <- rep(NA, 5)
+for (i in 1:5) {
+  indices[i] <- which(sp.codes == start.sp[i])
+}
+indices.other <- 1:nrow(data.list$y)
+indices.other <- indices.other[-indices]
+# Ordered y
+y.ordered <- data.list$y[c(indices, indices.other), , ]
+# Update the new data.
+data.list$y <- y.ordered
+sp.codes <- sp.codes[c(indices, indices.other)]
 
 # Subset the data for cross-validation ------------------------------------
 n.hold.out <- round(nrow(data.list$occ.covs) * 0.25)
@@ -61,11 +81,12 @@ max.dist <- max(dist.bbs)
 prior.list <- list(beta.comm.normal = list(mean = 0, var = 2.72),
 		   tau.sq.beta.ig = list(a = 0.1, b = 0.1),
 		   phi.unif = list(a = 3 / max.dist, b = 3 / min.dist))
-# Use the default initial values, which will grab random values. 
+# Load initial values 
+load("data/inits-sfJSDM.rda")
 # Run the model -----------------------------------------------------------
 n.batch <- 2000
 batch.length <- 25
-n.neighbors <- 5
+n.neighbors <- 15
 n.factors <- 5
 cov.model <- "exponential"
 n.samples <- n.batch * batch.length
@@ -74,11 +95,11 @@ n.thin <- 30
 n.chains <- 1
 out <- sfJSDM(formula = ~ scale(elev) + I(scale(elev)^2) + scale(forest) +
 		          scale(day) + I(scale(day)^2) + scale(tod) + (1 | obs),
-	      data = jsdm.data.list, priors = prior.list, 
+	      data = jsdm.data.list, priors = prior.list, inits = inits.sfJSDM,
 	      n.neighbors = n.neighbors, cov.model = cov.model, NNGP = TRUE,
 	      n.factors = n.factors, n.batch = n.batch, batch.length = batch.length, 
 	      n.burn = n.burn, accept.rate = 0.43, n.thin = n.thin, 
-	      n.chains = n.chains, n.report = 40, n.omp.threads = 1)
+	      n.chains = n.chains, n.report = 40, n.omp.threads = 3)
 
 # Save results ------------------------------------------------------------
 save(out, file = paste("results/bbs-cv-sfJSDM-", chain, "-chain-", 

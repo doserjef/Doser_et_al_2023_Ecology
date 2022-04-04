@@ -11,7 +11,7 @@ library(FedData)
 library(sf)
 library(stars)
 
-# Read in BBS BTNW data ---------------------------------------------------
+# Read in BBS data --------------------------------------------------------
 load("data/data-bundle.R")
 # Predict in 1km cells across area of interest ----------------------------
 # Get states of interest as an sf object
@@ -26,7 +26,7 @@ if(length(curr.state) == 0) base::stop('Need to tell me which state to grab data
 state.curr <- usa[curr.state, ]
 
 # Grid the area for predictions. 
-# This is currently 11 x 11 km. 
+# This is 12 x 12 km. 
 grid.pred <- st_as_stars(st_bbox(usa), dx = 12000, dy = 12000)
 # Convert to data frame
 coords.pred <- as.data.frame(grid.pred, center = TRUE)
@@ -71,6 +71,7 @@ for (i in 1:length(vals)) {
   }, error = function(e){})
 }
 
+# Save in a data frame for running predict functions in spOccupancy
 coords.df <- st_coordinates(coords.pred.sf)
 pred.df <- data.frame(coords.df, 
 		      elev = elev.pred, 

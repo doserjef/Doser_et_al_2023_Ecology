@@ -13,6 +13,10 @@ library(sf)
 
 # Get chain number from command line run ----------------------------------
 chain <- as.numeric(commandArgs(trailingOnly = TRUE))
+# Alternatively, if not running the script from the command line:
+# chain <- 1
+# Or, can use the n.chains function in spOccupancy (for sequential runs of
+# chains).
 if(length(chain) == 0) base::stop('Need to tell spOccupancy the chain number')
 
 # Read in the data --------------------------------------------------------
@@ -32,6 +36,7 @@ indices.other <- indices.other[-indices]
 y.ordered <- data.list$y[c(indices, indices.other), , ]
 # Update the new data. 
 data.list$y <- y.ordered
+# Updated species codes
 sp.codes <- sp.codes[c(indices, indices.other)]
 
 # Get coordinates in a projection instead of lat-long ---------------------
@@ -47,7 +52,7 @@ coords.albers <- st_coordinates(coords.sf.albers)
 data.list$coords <- coords.albers / 1000
 
 # Prep the model ----------------------------------------------------------
-# Reformat data for p-ignorant model --
+# Reformat data for detection-ignorant model --
 jsdm.data.list <- list()
 jsdm.data.list$covs <- data.frame(elev = data.list$occ.covs$elev, 
 			          forest = data.list$occ.covs$forest, 
@@ -65,39 +70,24 @@ max.dist <- max(dist.bbs)
 prior.list <- list(beta.comm.normal = list(mean = 0, var = 2.72),
 		   tau.sq.beta.ig = list(a = 0.1, b = 0.1),
 		   phi.unif = list(a = 3 / max.dist, b = 3 / min.dist))
-# Use default initial values for everything except phi and lambda. The spatial range
-# parameters and factor loadings are quite sensitive to initial values, and so I fix them to 
-# the following values based on a preliminary fit of the model. I then 
-# assess convergence of all other parameters in the model using the Gelman-Rubin 
-# diagnostic, and assess convergence/adequate mixing of the spatial range
-# parameters and spatial factors using traceplots, Gewke Diagnostic, and ESS. 
-# Load lambda initial values
-n.factors <- 5
-N <- nrow(data.list$y)
+# Load initial values to help with convergence and mixing. 
 load("data/inits-sfJSDM.rda")
-inits.sfJSDM$z <- NULL
-inits.sfJSDM$lambda <- matrix(inits.sfJSDM$lambda, N, n.factors)
-save(inits.sfJSDM, file = "data/inits-sfJSDM.rda")
 # Run the model -----------------------------------------------------------
 n.batch <- 6000
 batch.length <- 25
-n.neighbors <- 5
+n.neighbors <- 15
 n.factors <- 5
 cov.model <- "exponential"
 n.samples <- n.batch * batch.length
 n.burn <- 100000
 n.thin <- 50
 n.chains <- 1
-# TODO: testing
-n.batch <- 80
-n.burn <- 1000
-n.thin <- 1
 out <- sfJSDM(formula = ~ scale(elev) + I(scale(elev)^2) + scale(forest) +
 		          scale(day) + I(scale(day)^2) + scale(tod) + (1 | obs),
 	      data = jsdm.data.list, priors = prior.list, inits = inits.sfJSDM,
 	      n.neighbors = n.neighbors, cov.model = cov.model, NNGP = TRUE,
 	      n.factors = n.factors, n.batch = n.batch, batch.length = batch.length, 
 	      n.burn = n.burn, accept.rate = 0.43, n.thin = n.thin, 
-	      n.chains = n.chains, n.report = 40, n.omp.threads = 3)
+	      n.chains = n.chains, n.report = 8, n.omp.threads = 3)
 save(out, file = paste("results/bbs-sfJSDM-", chain, "-chain-", 
 		       Sys.Date(), ".R", sep = ''))

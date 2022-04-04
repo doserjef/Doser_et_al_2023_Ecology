@@ -12,10 +12,30 @@ library(coda)
 
 # Get chain number from command line run ----------------------------------
 chain <- as.numeric(commandArgs(trailingOnly = TRUE))
+# Alternatively, if not running the script from the command line:
+# chain <- 1
+# Or, can use the n.chains function in spOccupancy (for sequential runs of
+# chains).
 if(length(chain) == 0) base::stop('Need to tell spOccupancy the chain number')
 
 # Read in the data --------------------------------------------------------
 load("data/data-bundle.R")
+# Reorder species to help with mixing
+# Putting these five species first after exploratory analysis
+# REVI, GRSP, PIWO, EAME, BTNW
+start.sp <- c('REVI', 'GRSP', 'PIWO', 'EAME', 'BTNW')
+# Other species code
+indices <- rep(NA, 5)
+for (i in 1:5) {
+  indices[i] <- which(sp.codes == start.sp[i])
+}
+indices.other <- 1:nrow(data.list$y)
+indices.other <- indices.other[-indices]
+# Ordered y
+y.ordered <- data.list$y[c(indices, indices.other), , ]
+# Update the new data.
+data.list$y <- y.ordered
+sp.codes <- sp.codes[c(indices, indices.other)]
 
 # Subset the data for cross-validation ------------------------------------
 n.hold.out <- round(nrow(data.list$occ.covs) * 0.25)
@@ -34,6 +54,8 @@ prior.list <- list(beta.comm.normal = list(mean = 0, var = 2.72),
 		   alpha.comm.normal = list(mean = 0, var = 2.72),
 		   tau.sq.beta.ig = list(a = 0.1, b = 0.1),
 		   tau.sq.alpha.ig = list(a = 0.1, b = 0.1))
+# Initial values ----------------------
+load("data/inits-msPGOcc.rda")
 # Run the model -----------------------------------------------------------
 n.samples <- 50000
 n.burn <- 20000
@@ -41,7 +63,7 @@ n.thin <- 30
 n.chains <- 1
 out <- msPGOcc(occ.formula = ~ scale(elev) + I(scale(elev)^2) + scale(forest), 
 	       det.formula = ~ scale(day) + I(scale(day)^2) + scale(tod) + (1 | obs), 
-	       data = data.list, priors = prior.list, 
+	       data = data.list, priors = prior.list, inits = inits.msPGOcc,
 	       n.samples = n.samples, n.burn = n.burn, 
 	       n.thin = n.thin, n.chains = n.chains, n.report = 100)
 # Save results ------------------------------------------------------------

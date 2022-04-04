@@ -12,6 +12,10 @@ library(coda)
 
 # Get chain number from command line run ----------------------------------
 chain <- as.numeric(commandArgs(trailingOnly = TRUE))
+# Alternatively, if not running the script from the command line: 
+# chain <- 1
+# Or, can use the n.chains function in spOccupancy (for sequential runs of 
+# chains).
 if(length(chain) == 0) base::stop('Need to tell spOccupancy the chain number')
 
 # Read in the data --------------------------------------------------------
@@ -20,21 +24,22 @@ load("data/data-bundle.R")
 # Putting these five species first after exploratory analysis
 # REVI, GRSP, PIWO, EAME, BTNW
 start.sp <- c('REVI', 'GRSP', 'PIWO', 'EAME', 'BTNW')
-# Other species code
+# Other species codes
 indices <- rep(NA, 5)
 for (i in 1:5) {
   indices[i] <- which(sp.codes == start.sp[i])
 }
 indices.other <- 1:nrow(data.list$y)
 indices.other <- indices.other[-indices]
-# Ordered y
+# Create the ordered y data frame
 y.ordered <- data.list$y[c(indices, indices.other), , ]
 # Update the new data. 
 data.list$y <- y.ordered
+# Updated species codes
 sp.codes <- sp.codes[c(indices, indices.other)]
 
 # Prep the model ----------------------------------------------------------
-# Reformat data for p-ignorant model --
+# Reformat data for detection-ignorant model --
 jsdm.data.list <- list()
 jsdm.data.list$covs <- data.frame(elev = data.list$occ.covs$elev, 
 			          forest = data.list$occ.covs$forest, 
@@ -47,31 +52,17 @@ jsdm.data.list$coords <- data.list$coords
 # Priors ------------------------------
 prior.list <- list(beta.comm.normal = list(mean = 0, var = 2.72),
 		   tau.sq.beta.ig = list(a = 0.1, b = 0.1))
-# Use default initial values for everything except lambda. The factor loadings are quite sensitive 
-# to initial values, and so I fix them to the following values based on a preliminary fit of the model. I then
-# assess convergence of all other parameters in the model using the Gelman-Rubin
-# diagnostic, and assess convergence/adequate mixing of the latent factors 
-# using traceplots, Gewke Diagnostic, and ESS.
-# Load lambda initial values
-n.factors <- 5
-N <- nrow(data.list$y)
-# Load initial values
+# Load initial values to help with convergence and mixing.
 load("data/inits-lfJSDM.rda")
-# inits.lfJSDM$z <- NULL
-# inits.lfJSDM$lambda <- matrix(inits.lfJSDM$lambda, N, n.factors)
-# save(inits.lfJSDM, file = "data/inits-lfJSDM.rda")
 # Run the model -----------------------------------------------------------
-# n.samples <- 150000
-# n.burn <- 100000
-# n.thin <- 50
-# n.chains <- 1
-n.samples <- 2000
-n.burn <- 1000
-n.thin <- 1
+n.factors <- 5
+n.samples <- 150000
+n.burn <- 100000
+n.thin <- 50
 n.chains <- 1
 out <- lfJSDM(formula = ~ scale(elev) + I(scale(elev)^2) + scale(forest) +
 		          scale(day) + I(scale(day)^2) + scale(tod) + (1 | obs), 
-	      data = jsdm.data.list, priors = prior.list, inits = inits.lfJSDM, 
+	      data = jsdm.data.list, priors = prior.list, inits = inits.lfJSDM,
 	      n.factors = n.factors, n.samples = n.samples, n.burn = n.burn, 
 	      n.thin = n.thin, n.chains = n.chains, n.report = 100)
 # Save results ------------------------------------------------------------

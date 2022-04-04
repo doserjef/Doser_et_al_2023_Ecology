@@ -2,16 +2,33 @@
 #                    communities (Eastern Forest Birds and Grasslands)
 #                    across the continental US. Predictions are performed
 #                    using a non-spatial multispecies occupancy model.
+# Author: Jeffrey W. Doser
 rm(list = ls())
 library(spOccupancy)
 library(coda)
 library(tidyverse)
 
 # Read in spatial model
-load("results/bbs-msPGOcc-1-chain-2022-02-16.R")
+load("results/bbs-msPGOcc-2-chain-2022-03-29.R")
 
 # Read in data used for model fitting
 load("data/data-bundle.R")
+# Get species in correct order used for model fitting.
+# Putting these five species first after exploratory analysis
+# REVI, GRSP, PIWO, EAME, BTNW
+start.sp <- c('REVI', 'GRSP', 'PIWO', 'EAME', 'BTNW')
+# Other species code
+indices <- rep(NA, 5)
+for (i in 1:5) {
+  indices[i] <- which(sp.codes == start.sp[i])
+}
+indices.other <- 1:nrow(data.list$y)
+indices.other <- indices.other[-indices]
+# Ordered y
+y.ordered <- data.list$y[c(indices, indices.other), , ]
+# Update the new data.
+data.list$y <- y.ordered
+sp.codes <- sp.codes[c(indices, indices.other)]
 
 # Read in prediction values
 load('data/full-bbs-pred-dat.rda')
