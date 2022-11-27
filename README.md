@@ -1,4 +1,4 @@
-# Joint species distribution models with imperfect detection for high-dimensional spatial data
+# [Joint species distribution models with imperfect detection for high-dimensional spatial data](https://arxiv.org/abs/2204.02707)
 
 ### In Review
 
@@ -6,7 +6,7 @@
 
 ### spOccupancy Package [Website](https://www.jeffdoser.com/files/spoccupancy-web/) and [Repository](https://github.com/doserjef/spOccupancy/)
 
-### Please contact the first author for questions about the code or data used in the empirical case studies: Jeffrey W. Doser (doserjef@msu.edu)
+### Please contact the first author for questions about the code or data used in the manuscript: Jeffrey W. Doser (doserjef@msu.edu)
 
 ---------------------------------
 
