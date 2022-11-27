@@ -2,17 +2,18 @@
 #                   communities (Eastern Forest Birds and Grasslands)
 #                   across the continental US. Predictions are performed
 #                   using a spatially-explicit joint species distribution model.
+# Author: Jeffrey W. Doser
 rm(list = ls())
 library(spOccupancy)
 library(coda)
 library(tidyverse)
 
 # Read in model output object ---------------------------------------------
-load("results/bbs-sfJSDM-2-chain-2022-03-28.R")
+load("results/bbs-sfJSDM-1-chain-2022-10-27.R")
 
 # Data prep ---------------------------------------------------------------
 # Read in data used for model fitting
-load("data/data-bundle.R")
+load("data/data-bundle.rda")
 # Putting these five species first after exploratory analysis
 # REVI, GRSP, PIWO, EAME, BTNW
 start.sp <- c('REVI', 'GRSP', 'PIWO', 'EAME', 'BTNW')
@@ -29,19 +30,18 @@ y.ordered <- data.list$y[c(indices, indices.other), , ]
 data.list$y <- y.ordered
 sp.codes <- sp.codes[c(indices, indices.other)]
 
-# Load prediction covariates ----------
-load("data/full-bbs-pred-dat.rda")
-# Albers equal area in KM
-coords.0 <- pred.dat[, c('X', 'Y')] / 1000
-# Standardize by values used to fit the model
-elev.pred <- (pred.dat$elev - mean(data.list$occ.covs$elev)) / sd(data.list$occ.covs$elev)
-forest.pred <- (pred.dat$forest - mean(data.list$occ.covs$forest)) / 
-	        sd(data.list$occ.covs$forest)
-# Note that to predict for the JSDMs that also include detection related variables
-# in the occurrence portion of the model, I set all of the detection-related 
-# variables to 0 (the mean). 
-X.0 <- cbind(1, elev.pred, elev.pred^2, forest.pred, 0, 0, 0, 0)
-names(X.0) <- c('int', 'elev', 'elev.2', 'pf', 'day', 'day.2', 'tod', 'obs')
+# Read in prediction values -----------------------------------------------
+load("data/pred-data-bundle.rda")
+
+# Get coordinates in KM not m
+coords.0 <- pred.coords / 1000
+# X.0 contains the standardized values used to fit the model.
+# Add columns of zeros to X.0 for the "detection" covariates to predict 
+# at the mean values
+
+X.0 <- cbind(X.0, 0, 0, 0)
+#colnames(X.0) <- c(tmp.names, 'day', 'day.2', 'tod')
+colnames(X.0) <- c(colnames(out$X))
 
 # Get info on bird communities --------------------------------------------
 # Read in community classification data from Bateman et al. (2020)

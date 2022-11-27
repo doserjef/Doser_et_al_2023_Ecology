@@ -9,11 +9,11 @@ library(coda)
 library(tidyverse)
 
 # Read in model output object ---------------------------------------------
-load("results/bbs-sfMsPGOcc-2-chain-2022-03-28.R")
+load("results/bbs-sfMsPGOcc-1-chain-2022-10-29.R")
 
 # Data Prep ---------------------------------------------------------------
 # Read in data used for model fitting
-load("data/data-bundle.R")
+load("data/data-bundle.rda")
 # Get species in correct order used for model fitting.  
 # Putting these five species first after exploratory analysis
 # REVI, GRSP, PIWO, EAME, BTNW
@@ -31,31 +31,12 @@ y.ordered <- data.list$y[c(indices, indices.other), , ]
 data.list$y <- y.ordered
 sp.codes <- sp.codes[c(indices, indices.other)]
 
-# Read in prediction values
-# These come from one state at a time, so this code reads in each states 
-# prediction values, then binds them all together
-# pred.names <- list.files(path = "data/", pattern = '^bbs', full.names = TRUE)
-# pred.list <- list()
-# for (i in 1:length(pred.names)) {
-#    load(pred.names[[i]])
-#    pred.list[[i]] <- pred.df
-# }
-# pred.dat <- bind_rows(pred.list)
-# # Remove the few missing values
-# pred.dat <- pred.dat[!is.na(pred.dat$elev), ]
-# Save the full data set
-# save(pred.dat, file = 'data/full-bbs-pred-dat.rda')
+# Read in prediction values -----------------------------------------------
+load("data/pred-data-bundle.rda")
 
-# Load the full data set for all prediction locations
-load("data/full-bbs-pred-dat.rda")
-# Albers equal area in KM
-coords.0 <- pred.dat[, c('X', 'Y')] / 1000
-# Standardize by values used to fit the model
-elev.pred <- (pred.dat$elev - mean(data.list$occ.covs$elev)) / sd(data.list$occ.covs$elev)
-forest.pred <- (pred.dat$forest - mean(data.list$occ.covs$forest)) / 
-	        sd(data.list$occ.covs$forest)
-X.0 <- cbind(1, elev.pred, elev.pred^2, forest.pred)
-names(X.0) <- c('int', 'elev', 'elev.2', 'pf')
+# Get coordinates in KM not m
+coords.0 <- pred.coords / 1000
+# X.0 contains the standardized values used to fit the model. 
 
 # Get info on bird communities --------------------------------------------
 # Read in community classification data from Bateman et al. (2020)

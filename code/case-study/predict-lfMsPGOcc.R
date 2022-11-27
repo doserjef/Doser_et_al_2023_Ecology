@@ -2,13 +2,14 @@
 #                      communities (Eastern Forest Birds and Grasslands)
 #                      across the continental US. Predictions are performed
 #                      using a latent factor multispecies occupancy model.
+# Author: Jeffrey W. Doser
 rm(list = ls())
 library(spOccupancy)
 library(coda)
 library(tidyverse)
 
 # Read in model output object ---------------------------------------------
-load("results/bbs-lfMsPGOcc-2-chain-2022-03-28.R")
+load("results/bbs-lfMsPGOcc-1-chain-2022-10-29.R")
 
 # Data Prep ---------------------------------------------------------------
 # Read in data used for model fitting
@@ -30,17 +31,12 @@ y.ordered <- data.list$y[c(indices, indices.other), , ]
 data.list$y <- y.ordered
 sp.codes <- sp.codes[c(indices, indices.other)]
 
-# Load prediction covariate -----------
-load('data/full-bbs-pred-dat.rda')
-# Albers equal area in KM
-coords.0 <- pred.dat[, c('X', 'Y')] / 1000
-# Standardize by values used to fit the model
-elev.pred <- (pred.dat$elev - mean(data.list$occ.covs$elev)) / 
-	      sd(data.list$occ.covs$elev)
-forest.pred <- (pred.dat$forest - mean(data.list$occ.covs$forest)) / 
-	        sd(data.list$occ.covs$forest)
-X.0 <- cbind(1, elev.pred, elev.pred^2, forest.pred)
-names(X.0) <- c('int', 'elev', 'elev.2', 'pf')
+# Read in prediction values -----------------------------------------------
+load("data/pred-data-bundle.rda")
+
+# Get coordinates in KM not m
+coords.0 <- pred.coords / 1000
+# X.0 contains the standardized values used to fit the model. 
 
 # Get info on bird communities --------------------------------------------
 # Read in community classification data from Bateman et al. (2020)
@@ -59,6 +55,8 @@ grass.indices <- which(sp.codes %in% grass.birds$Code)
 n.grass <- length(grass.indices)
 
 # Predict piece by piece across the continental US. -----------------------
+# Note that when doing prediction in spOccupancy, it's often much faster to do 
+# the prediction piece by piece rather than all at once. 
 J.str <- nrow(X.0)
 # Split up the data set. 
 vals <- split(1:J.str, ceiling(seq_along(1:J.str) / 600))

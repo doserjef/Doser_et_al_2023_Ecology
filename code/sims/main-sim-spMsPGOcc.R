@@ -25,14 +25,14 @@ n.rep <- rep(3, J)
 # Number of species
 N <- 10
 # Community-level covariate effects
+p.occ <- 16
 # Occurrence
-beta.mean <- c(0.2, 1.0)
-p.occ <- length(beta.mean)
-tau.sq.beta <- c(1.5, .5)
+beta.mean <- c(0.2, runif(p.occ - 1, -1, 1))
+tau.sq.beta <- c(1.5, runif(p.occ - 1, 0, 2))
 # Detection
-alpha.mean <- c(0, 0.5)
-tau.sq.alpha <- c(0.2, 1)
-p.det <- length(alpha.mean)
+p.det <- 6
+alpha.mean <- c(0, runif(p.det - 1, -1, 1))
+tau.sq.alpha <- c(0.2, runif(p.det -1, 0, 2))
 # Random effects (none for simulations)
 psi.RE <- list()
 p.RE <- list()
@@ -89,19 +89,29 @@ for (j in 1:n.sims) {
   y.pred <- dat$y[, pred.indx, ]
   coords <- dat$coords[-pred.indx, ]
   coords.full <- dat$coords
-  colnames(X) <- c('int', 'occ.cov.1')
+  colnames(X) <- c('int', paste('occ.cov.', 1:(p.occ - 1), sep = ''))
   # Save the data true parameter values
   psi.true[j, , ]  <- dat$psi
   beta.true[j, , ] <- beta
   data.list <- list(y = y, 
   		    occ.covs = X, 
-  		    det.covs = list(det.cov.1 = X.p[, , 2]), 
+  		    det.covs = list(det.cov.1 = X.p[, , 2], 
+                                    det.cov.2 = X.p[, , 3], 
+				    det.cov.3 = X.p[, , 4], 
+				    det.cov.4 = X.p[, , 5], 
+				    det.cov.5 = X.p[, , 6]), 
                     coords = coords) 
-
+  occ.formula <- ~ occ.cov.1 + occ.cov.2 + occ.cov.3 + 
+                   occ.cov.4 + occ.cov.5 + occ.cov.6 + 
+                   occ.cov.7 + occ.cov.8 + occ.cov.9 + 
+                   occ.cov.10 + occ.cov.11 + occ.cov.12 +
+                   occ.cov.13 + occ.cov.14 + occ.cov.15 
+  det.formula <- ~ det.cov.1 + det.cov.2 + det.cov.3 + 
+                   det.cov.4 + det.cov.5
   # msPGOcc --------------------------- 
   print("Running msPGOcc")
-  out <- msPGOcc(occ.formula = ~ occ.cov.1, 
-  	         det.formula = ~ det.cov.1, 
+  out <- msPGOcc(occ.formula = occ.formula, 
+  	         det.formula = det.formula, 
   	         data = data.list, 
   	         n.samples = n.samples,
   	         n.burn = n.burn,
@@ -118,8 +128,8 @@ for (j in 1:n.sims) {
   run.time.samples[j, 1] <- out$run.time[3]
   # spMsPGOcc -------------------------
   print("Running spMsPGOcc")
-  out <- spMsPGOcc(occ.formula = ~ occ.cov.1, 
-        	   det.formula = ~ det.cov.1, 
+  out <- spMsPGOcc(occ.formula = occ.formula, 
+        	   det.formula = det.formula, 
         	   data = data.list,
         	   batch.length = batch.length, 
         	   n.batch = n.batch, 
@@ -140,8 +150,8 @@ for (j in 1:n.sims) {
   run.time.samples[j, 2] <- out$run.time[3]
   # lfMsPGOcc --------------------------- 
   print("Running lfMsPGOcc")
-  out <- lfMsPGOcc(occ.formula = ~ occ.cov.1, 
-  	         det.formula = ~ det.cov.1, 
+  out <- lfMsPGOcc(occ.formula = occ.formula, 
+  	         det.formula = det.formula, 
   	         data = data.list, 
   	         n.samples = n.samples,
         	 n.factors = 3,
@@ -159,8 +169,8 @@ for (j in 1:n.sims) {
   run.time.samples[j, 3] <- out$run.time[3]
   # sfMsPGOcc -------------------------
   print("Running sfMsPGOcc")
-  out <- sfMsPGOcc(occ.formula = ~ occ.cov.1, 
-        	   det.formula = ~ det.cov.1, 
+  out <- sfMsPGOcc(occ.formula = occ.formula, 
+        	   det.formula = det.formula, 
         	   data = data.list,
         	   batch.length = batch.length, 
         	   n.batch = n.batch, 
@@ -186,7 +196,7 @@ for (j in 1:n.sims) {
   data.list <- list(y = y.jsdm, 
         	    covs = X,
         	    coords = coords)
-  out <- lfJSDM(formula = ~ occ.cov.1, 
+  out <- lfJSDM(formula = occ.formula, 
         	data = data.list, 
         	n.samples = n.samples, 
         	n.factors = 3, 
@@ -203,7 +213,7 @@ for (j in 1:n.sims) {
   psi.high.samples[j, 5, , ] <- apply(out.pred$psi.0.samples, c(2, 3), quantile, 0.975)
   run.time.samples[j, 5] <- out$run.time[3]
   # sfJSDM ----------------------------
-  out <- sfJSDM(formula = ~ occ.cov.1, 
+  out <- sfJSDM(formula = occ.formula, 
         	data = data.list,
         	batch.length = batch.length, 
         	n.batch = n.batch, 

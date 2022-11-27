@@ -16,10 +16,10 @@ library(ggpubr)
 library(stars)
 
 # Read in files -----------------------------------------------------------
-load("results/bbs-sfMsPGOcc-2-chain-2022-03-29.R")
+load("results/bbs-sfMsPGOcc-1-chain-2022-10-29.R")
 
 # Read in raw data --------------------------------------------------------
-load("data/data-bundle.R")
+load("data/data-bundle.rda")
 # Get data in the order used to fit the model. 
 # Putting these five species first after exploratory analysis
 # REVI, GRSP, PIWO, EAME, BTNW
@@ -53,7 +53,7 @@ data.list$coords <- coords.albers
 # the loop and going across all species, or just doing it manually
 #for (i in 1:length(sp.codes)) {
   #name.sp <- sp.codes[i]
-  name.sp <- "BLJA"
+  name.sp <- "PIWO"
   curr.sp <- which(sp.codes == name.sp)
   curr.psi.mean <- apply(out$psi.samples[, curr.sp, ], 2, mean)
   curr.df <- coords.sf.albers
@@ -71,10 +71,23 @@ data.list$coords <- coords.albers
 # Load in summary statistics of prediction results
 load("results/bbs-pred-sfMsPGOcc-summary.R")
 # Load in prediction data. 
-load("data/full-bbs-pred-dat.rda")
+load("data/pred-data-bundle.rda")
 usa <- st_as_sf(maps::map("state", fill = TRUE, plot = FALSE))
 usa <- usa %>%
   st_transform(crs = "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=37.5 +lon_0=-96 +x_0=0 +y_0=0 +datum=NAD83 +units=km +no_defs")
+
+# Take a look at some of the covariates for fun
+pred.covs <- cbind(pred.covs, coords.0)
+cov.stars <- st_as_stars(pred.covs, dims = c('X', 'Y'))
+# Can change the covariate here as desired
+ggplot() +
+  geom_stars(data = cov.stars, aes(x = X, y = Y, fill = bio8),interpolate = TRUE) +
+  geom_sf(data = usa, alpha = 0) +
+  scale_fill_gradientn(colors = magma(10), na.value = NA) +
+  theme_bw(base_size = 25) +
+  labs(x = "Longitude", y = "Latitude", fill = "") +
+  theme(legend.position = c(0.92, 0.3), 
+        legend.background = element_rect(fill = NA))
 
 # Create data frame for plotting
 plot.stars.df <- data.frame(x = coords.0[, 1], y = coords.0[, 2],
@@ -82,8 +95,7 @@ plot.stars.df <- data.frame(x = coords.0[, 1], y = coords.0[, 2],
 			    ef.rich.sd = rich.forest.sd, 
 			    grass.rich.mean = rich.grass.mean, 
                             grass.rich.sd = rich.grass.sd,
-                            elev = pred.dat$elev, 
-                            forest = pred.dat$forest, 
+			    pred.covs = pred.covs,
                             w.1.mean = w.mean[1, ], 
                             w.2.mean = w.mean[2, ], 
                             w.3.mean = w.mean[3, ], 
@@ -146,14 +158,6 @@ grass.rich.pred.plot <- ggplot() +
   theme(legend.position = c(0.92, 0.3), 
         legend.background = element_rect(fill = NA))
 
-# Create Figure 1
-ggarrange(ef.rich.pred.plot, ef.rich.sd.plot, 
-	  grass.rich.pred.plot, grass.rich.sd.plot, 
-	  nrow = 2, ncol = 2, labels = c("(A) Eastern Forest Mean Richness", 
-					 "(B) Eastern Forest SD Richness", 
-					 "(C) Grassland Mean Richness", 
-					 "(D) Grassland SD Richness"),
-	  font.label = list(size = 25), hjust = -0.15)
 
  # Grassland bird sd richness
 grass.rich.sd.plot <- ggplot() +
@@ -165,8 +169,18 @@ grass.rich.sd.plot <- ggplot() +
   theme(legend.position = c(0.92, 0.3), 
         legend.background = element_rect(fill = NA))
 
+# Create Figure 1
+ggarrange(ef.rich.pred.plot, ef.rich.sd.plot, 
+	  grass.rich.pred.plot, grass.rich.sd.plot, 
+	  nrow = 2, ncol = 2, labels = c("(A) Eastern Forest Mean Richness", 
+					 "(B) Eastern Forest SD Richness", 
+					 "(C) Grassland Mean Richness", 
+					 "(D) Grassland SD Richness"),
+	  font.label = list(size = 25), hjust = -0.15)
+
 # Save to hard drive if you like.
 ggsave(device = 'pdf', filename = 'figures/Fig1.pdf', height = 14, width = 20)
+ggsave(device = 'png', filename = 'figures/Fig1.png', height = 14, width = 20)
 
 # Mean difference between sfMsPGOcc and lfMsPGocc estimates
 # Eastern forests
@@ -222,6 +236,8 @@ ggarrange(ef.rich.diff.plot, grass.rich.diff.plot,
 					 "(D) Grassland sfMsPGOcc - sfJSDM"), 
 	  font.label = list(size = 25), hjust = -0.15)
 ggsave(device = 'pdf', filename = 'figures/Fig2.pdf', height = 14, width = 20)
+ggsave(device = 'png', filename = 'figures/Fig2.png', height = 14, width = 20)
+
 
 # Spatial Factors ---------------------------------------------------------
 # First spatial process ---------------
@@ -372,25 +388,25 @@ ggsave(device = 'pdf', filename = 'figures/lambda-5-fig.pdf', height = 5, width 
 
 # Compare WAIC across models ----------------------------------------------
 # lfJSDM ---------------------------
-load("results/bbs-lfJSDM-2-chain-2022-03-27.R")
-out.2.lfJSDM <- out
-waicOcc(out.2.lfJSDM)
+load("results/bbs-lfJSDM-1-chain-2022-10-26.R")
+out.1.lfJSDM <- out
+waicOcc(out.1.lfJSDM)
 # sfJSDM ---------------------------
-load("results/bbs-sfJSDM-2-chain-2022-03-28.R")
-out.2.sfJSDM <- out
-waicOcc(out.2.sfJSDM)
+load("results/bbs-sfJSDM-1-chain-2022-10-27.R")
+out.1.sfJSDM <- out
+waicOcc(out.1.sfJSDM)
 # msPGOcc ---------------------------
-load("results/bbs-msPGOcc-2-chain-2022-03-29.R")
-out.2.msPGOcc <- out
-waicOcc(out.2.msPGOcc)
+load("results/bbs-msPGOcc-1-chain-2022-10-29.R")
+out.1.msPGOcc <- out
+waicOcc(out.1.msPGOcc)
 # lfMsPGOcc ---------------------------
-load("results/bbs-lfMsPGOcc-2-chain-2022-03-28.R")
-out.2.lfMsPGOcc <- out
-waicOcc(out.2.lfMsPGOcc)
+load("results/bbs-lfMsPGOcc-1-chain-2022-10-29.R")
+out.1.lfMsPGOcc <- out
+waicOcc(out.1.lfMsPGOcc)
 # sfMsPGOcc ---------------------------
-load("results/bbs-sfMsPGOcc-2-chain-2022-03-29.R")
-out.2.sfMsPGOcc <- out
-waicOcc(out.2.sfMsPGOcc)
+load("results/bbs-sfMsPGOcc-1-chain-2022-10-29.R")
+out.1.sfMsPGOcc <- out
+waicOcc(out.1.sfMsPGOcc)
 
 # Out-of-sample model-validation results ----------------------------------
 # This loads an object deviance.df that consists of all the out-of-sample

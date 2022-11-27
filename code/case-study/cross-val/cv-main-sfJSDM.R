@@ -21,7 +21,7 @@ chain <- as.numeric(commandArgs(trailingOnly = TRUE))
 if(length(chain) == 0) base::stop('Need to tell spOccupancy the chain number')
 
 # Read in the data --------------------------------------------------------
-load("data/data-bundle.R")
+load("data/data-bundle.rda")
 # Reorder species to help with mixing
 # Putting these five species first after exploratory analysis
 # REVI, GRSP, PIWO, EAME, BTNW
@@ -65,8 +65,7 @@ data.list$coords <- coords.albers / 1000
 # Prep the model ----------------------------------------------------------
 # Reformat data for p-ignorant model --
 jsdm.data.list <- list()
-jsdm.data.list$covs <- data.frame(elev = data.list$occ.covs$elev, 
-			          forest = data.list$occ.covs$forest, 
+jsdm.data.list$covs <- data.frame(data.list$occ.covs,
 			          day = data.list$det.covs[[1]], 
 			          tod = data.list$det.covs[[2]], 
 			          obs = data.list$det.covs[[3]]) 
@@ -82,20 +81,27 @@ prior.list <- list(beta.comm.normal = list(mean = 0, var = 2.72),
 		   tau.sq.beta.ig = list(a = 0.1, b = 0.1),
 		   phi.unif = list(a = 3 / max.dist, b = 3 / min.dist))
 # Load initial values 
-load("data/inits-sfJSDM.rda")
+# load("data/inits-sfJSDM.rda")
+n.factors <- 5
+lambda.inits <- matrix(0, nrow = nrow(data.list$y), ncol = n.factors)
+diag(lambda.inits) <- 1
+inits.list <- list(beta = 0, tau.sq.beta = 1, beta.comm = 0,
+		   sigma.sq.psi = 4, lambda = lambda.inits, phi = 3 / mean.dist)
 # Run the model -----------------------------------------------------------
 n.batch <- 2000
 batch.length <- 25
 n.neighbors <- 15
-n.factors <- 5
 cov.model <- "exponential"
 n.samples <- n.batch * batch.length
 n.burn <- 20000
 n.thin <- 30
 n.chains <- 1
-out <- sfJSDM(formula = ~ scale(elev) + I(scale(elev)^2) + scale(forest) +
-		          scale(day) + I(scale(day)^2) + scale(tod) + (1 | obs),
-	      data = jsdm.data.list, priors = prior.list, inits = inits.sfJSDM,
+out <- sfJSDM(formula = ~ scale(bio1) + scale(bio2) + scale(bio8) + scale(bio12) +
+	                  scale(bio18) + scale(water) + scale(barren) + scale(forest) +
+			  scale(grass) + scale(shrub) + scale(hay) + scale(wet) +
+			  scale(devel) + scale(day) + I(scale(day)^2) + 
+			  scale(tod) + (1 | obs),
+	      data = jsdm.data.list, priors = prior.list, inits = inits.list,
 	      n.neighbors = n.neighbors, cov.model = cov.model, NNGP = TRUE,
 	      n.factors = n.factors, n.batch = n.batch, batch.length = batch.length, 
 	      n.burn = n.burn, accept.rate = 0.43, n.thin = n.thin, 

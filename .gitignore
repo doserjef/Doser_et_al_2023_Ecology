@@ -1,6 +1,7 @@
 documents/
 figures/
-results/bbs-sfMsPGOcc-2-chain-2022-03-29.R
+results/bbs-sfMsPGOcc-1-chain-2022-10-29.R
 code/archived/
 code/case-study/summary-raw.R
 code/case-study/predict-msPGOcc.R
+data/prism-climate/

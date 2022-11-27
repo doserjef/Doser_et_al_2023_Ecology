@@ -47,14 +47,3 @@ w.mean <- apply(w.samples, c(2, 3), mean)
 w.sd <- apply(w.samples, c(2, 3), sd)
 save(coords.0, rich.forest.mean, rich.forest.sd, rich.grass.mean, 
      rich.grass.sd, w.mean, w.sd, file = 'results/bbs-pred-sfJSDM-summary.R')
-
-# msPGOcc ---------------------------
-load("results/bbs-pred-msPGOcc-rich-results.R")
-# Eastern forest bird community richness
-rich.forest.mean <- apply(rich.forest.samples, 2, mean)
-rich.forest.sd <- apply(rich.forest.samples, 2, sd)
-# Grassland bird community richness
-rich.grass.mean <- apply(rich.grass.samples, 2, mean)
-rich.grass.sd <- apply(rich.grass.samples, 2, sd)
-save(coords.0, rich.forest.mean, rich.forest.sd, rich.grass.mean, 
-     rich.grass.sd, file = 'results/bbs-pred-msPGOcc-summary.R')

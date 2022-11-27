@@ -15,7 +15,7 @@ library(sf)
 # Read in the results -----------------------------------------------------
 # Result files are sorted by the model that generated the simulated the data. 
 # msPGOcc ------------------------------
-load("results/sim-msPGOcc-2022-03-30.R")
+load("results/sim-msPGOcc-2022-10-21.R")
 beta.high.msPGOcc <- beta.high.samples
 beta.low.msPGOcc <- beta.low.samples
 beta.mean.msPGOcc <- beta.mean.samples
@@ -26,7 +26,7 @@ psi.high.msPGOcc <- psi.high.samples
 psi.true.msPGOcc <- psi.true
 run.time.msPGOcc <- run.time.samples
 # spMsPGOcc ------------------------------
-load("results/sim-spMsPGOcc-2022-03-30.R")
+load("results/sim-spMsPGOcc-2022-10-21.R")
 beta.high.spMsPGOcc <- beta.high.samples
 beta.low.spMsPGOcc <- beta.low.samples
 beta.mean.spMsPGOcc <- beta.mean.samples
@@ -37,7 +37,7 @@ psi.high.spMsPGOcc <- psi.high.samples
 psi.true.spMsPGOcc <- psi.true
 run.time.spMsPGOcc <- run.time.samples
 # lfMsPGOcc ------------------------------
-load("results/sim-lfMsPGOcc-2022-03-30.R")
+load("results/sim-lfMsPGOcc-2022-10-21.R")
 beta.high.lfMsPGOcc <- beta.high.samples
 beta.low.lfMsPGOcc <- beta.low.samples
 beta.mean.lfMsPGOcc <- beta.mean.samples
@@ -48,7 +48,7 @@ psi.high.lfMsPGOcc <- psi.high.samples
 psi.true.lfMsPGOcc <- psi.true
 run.time.lfMsPGOcc <- run.time.samples
 # sfMsPGOcc ------------------------------
-load("results/sim-sfMsPGOcc-2022-03-30.R")
+load("results/sim-sfMsPGOcc-2022-10-21.R")
 beta.high.sfMsPGOcc <- beta.high.samples
 beta.low.sfMsPGOcc <- beta.low.samples
 beta.mean.sfMsPGOcc <- beta.mean.samples
@@ -59,7 +59,7 @@ psi.high.sfMsPGOcc <- psi.high.samples
 psi.true.sfMsPGOcc <- psi.true
 run.time.sfMsPGOcc <- run.time.samples
 # lfJSDM ------------------------------
-load("results/sim-lfJSDM-2022-03-30.R")
+load("results/sim-lfJSDM-2022-10-20.R")
 beta.high.lfJSDM <- beta.high.samples
 beta.low.lfJSDM <- beta.low.samples
 beta.mean.lfJSDM <- beta.mean.samples
@@ -70,7 +70,7 @@ psi.high.lfJSDM <- psi.high.samples
 psi.true.lfJSDM <- psi.true
 run.time.lfJSDM <- run.time.samples
 # sfJSDM ------------------------------
-load("results/sim-sfJSDM-2022-03-30.R")
+load("results/sim-sfJSDM-2022-10-20.R")
 beta.high.sfJSDM <- beta.high.samples
 beta.low.sfJSDM <- beta.low.samples
 beta.mean.sfJSDM <- beta.mean.samples
@@ -149,7 +149,7 @@ psi.bias.lfJSDM <- apply(psi.bias.lfJSDM, c(2, 4), sqrt.mean)
 psi.bias.sfJSDM <- apply(psi.bias.sfJSDM, c(2, 4), sqrt.mean)
 
 # Average RMSEs for all locations -----
-# Table S3 in Appendix S1. 
+# Table S2 in Appendix S1. 
 apply(psi.bias.lfJSDM, 1, mean)[c(5, 6, 1, 2, 3, 4)]
 apply(psi.bias.sfJSDM, 1, mean)[c(5, 6, 1, 2, 3, 4)]
 apply(psi.bias.msPGOcc, 1, mean)[c(5, 6, 1, 2, 3, 4)]
@@ -303,106 +303,106 @@ for (i in 1:n.models) {
 }
 
 # Average all biases across data simulations and species
-# Note for future this is hardcoded.
+# NOTE: hardcoded.
 # Covariate
 # Means
-beta.1.bias.msPGOcc <- apply(beta.bias.msPGOcc[, , 11:20], c(2, 3), sqrt.mean)
-beta.1.bias.spMsPGOcc <- apply(beta.bias.spMsPGOcc[, , 11:20], c(2, 3), sqrt.mean)
-beta.1.bias.lfMsPGOcc <- apply(beta.bias.lfMsPGOcc[, , 11:20], c(2, 3), sqrt.mean)
-beta.1.bias.sfMsPGOcc <- apply(beta.bias.sfMsPGOcc[, , 11:20], c(2, 3), sqrt.mean)
-beta.1.bias.lfJSDM <- apply(beta.bias.lfJSDM[, , 11:20], c(2, 3), sqrt.mean)
-beta.1.bias.sfJSDM <- apply(beta.bias.sfJSDM[, , 11:20], c(2, 3), sqrt.mean)
+beta.cov.bias.msPGOcc <- apply(beta.bias.msPGOcc[, , -c(1:10)], c(2, 3), sqrt.mean)
+beta.cov.bias.spMsPGOcc <- apply(beta.bias.spMsPGOcc[, , -c(1:10)], c(2, 3), sqrt.mean)
+beta.cov.bias.lfMsPGOcc <- apply(beta.bias.lfMsPGOcc[, , -c(1:10)], c(2, 3), sqrt.mean)
+beta.cov.bias.sfMsPGOcc <- apply(beta.bias.sfMsPGOcc[, , -c(1:10)], c(2, 3), sqrt.mean)
+beta.cov.bias.lfJSDM <- apply(beta.bias.lfJSDM[, , -c(1:10)], c(2, 3), sqrt.mean)
+beta.cov.bias.sfJSDM <- apply(beta.bias.sfJSDM[, , -c(1:10)], c(2, 3), sqrt.mean)
 # Average RMSEs across all species for covariate
 # Table S3 in Appendix S1. 
-apply(beta.1.bias.lfJSDM, 1, mean)[c(5, 6, 1, 2, 3, 4)]
-apply(beta.1.bias.sfJSDM, 1, mean)[c(5, 6, 1, 2, 3, 4)]
-apply(beta.1.bias.msPGOcc, 1, mean)[c(5, 6, 1, 2, 3, 4)]
-apply(beta.1.bias.spMsPGOcc, 1, mean)[c(5, 6, 1, 2, 3, 4)]
-apply(beta.1.bias.lfMsPGOcc, 1, mean)[c(5, 6, 1, 2, 3, 4)]
-apply(beta.1.bias.sfMsPGOcc, 1, mean)[c(5, 6, 1, 2, 3, 4)]
+apply(beta.cov.bias.lfJSDM, 1, mean)[c(5, 6, 1, 2, 3, 4)]
+apply(beta.cov.bias.sfJSDM, 1, mean)[c(5, 6, 1, 2, 3, 4)]
+apply(beta.cov.bias.msPGOcc, 1, mean)[c(5, 6, 1, 2, 3, 4)]
+apply(beta.cov.bias.spMsPGOcc, 1, mean)[c(5, 6, 1, 2, 3, 4)]
+apply(beta.cov.bias.lfMsPGOcc, 1, mean)[c(5, 6, 1, 2, 3, 4)]
+apply(beta.cov.bias.sfMsPGOcc, 1, mean)[c(5, 6, 1, 2, 3, 4)]
 
 # Calculate Coverage Rates ------------------------------------------------
 # Covariate Effect --------------------
 # msPGOcc
-beta.1.covered.msPGOcc <- array(NA, dim = c(n.sims, n.models, p.occ / 2))
+beta.1.covered.msPGOcc <- array(NA, dim = c(n.sims, n.models, p.occ - N))
 for (i in 1:n.sims) {
   for (j in 1:n.models) {
-    beta.1.covered.msPGOcc[i, j, ] <- ifelse((beta.true.small.msPGOcc[i,1:10] > 
-					   beta.low.msPGOcc[i, j, 1:10]) & 
-				          (beta.true.small.msPGOcc[i, 1:10] < 
-				           beta.high.msPGOcc[i, j, 1:10]), 
+    beta.1.covered.msPGOcc[i, j, ] <- ifelse((beta.true.small.msPGOcc[i,-c(1:10)] > 
+					   beta.low.msPGOcc[i, j, -c(1:10)]) & 
+				          (beta.true.small.msPGOcc[i, -c(1:10)] < 
+				           beta.high.msPGOcc[i, j, -c(1:10)]), 
 			                   1, 0)
   } # j
 } # i
 # spMsPGOcc
-beta.1.covered.spMsPGOcc <- array(NA, dim = c(n.sims, n.models, p.occ / 2))
+beta.1.covered.spMsPGOcc <- array(NA, dim = c(n.sims, n.models, p.occ - N))
 for (i in 1:n.sims) {
   for (j in 1:n.models) {
-    beta.1.covered.spMsPGOcc[i, j, ] <- ifelse((beta.true.small.spMsPGOcc[i,1:10] > 
-					   beta.low.spMsPGOcc[i, j, 1:10]) & 
-				          (beta.true.small.spMsPGOcc[i, 1:10] < 
-				           beta.high.spMsPGOcc[i, j, 1:10]), 
+    beta.1.covered.spMsPGOcc[i, j, ] <- ifelse((beta.true.small.spMsPGOcc[i,-c(1:10)] > 
+					   beta.low.spMsPGOcc[i, j, -c(1:10)]) & 
+				          (beta.true.small.spMsPGOcc[i, -c(1:10)] < 
+				           beta.high.spMsPGOcc[i, j, -c(1:10)]), 
 			                   1, 0)
   } # j
 } # i
 # lfMsPGOcc
-beta.1.covered.lfMsPGOcc <- array(NA, dim = c(n.sims, n.models, p.occ / 2))
+beta.1.covered.lfMsPGOcc <- array(NA, dim = c(n.sims, n.models, p.occ - N))
 for (i in 1:n.sims) {
   for (j in 1:n.models) {
-    beta.1.covered.lfMsPGOcc[i, j, ] <- ifelse((beta.true.small.lfMsPGOcc[i,1:10] > 
-					   beta.low.lfMsPGOcc[i, j, 1:10]) & 
-				          (beta.true.small.lfMsPGOcc[i, 1:10] < 
-				           beta.high.lfMsPGOcc[i, j, 1:10]), 
+    beta.1.covered.lfMsPGOcc[i, j, ] <- ifelse((beta.true.small.lfMsPGOcc[i,-c(1:10)] > 
+					   beta.low.lfMsPGOcc[i, j, -c(1:10)]) & 
+				          (beta.true.small.lfMsPGOcc[i, -c(1:10)] < 
+				           beta.high.lfMsPGOcc[i, j, -c(1:10)]), 
 			                   1, 0)
   } # j
 } # i
 # sfMsPGOcc
-beta.1.covered.sfMsPGOcc <- array(NA, dim = c(n.sims, n.models, p.occ / 2))
+beta.1.covered.sfMsPGOcc <- array(NA, dim = c(n.sims, n.models, p.occ - N))
 for (i in 1:n.sims) {
   for (j in 1:n.models) {
-    beta.1.covered.sfMsPGOcc[i, j, ] <- ifelse((beta.true.small.sfMsPGOcc[i,1:10] > 
-					   beta.low.sfMsPGOcc[i, j, 1:10]) & 
-				          (beta.true.small.sfMsPGOcc[i, 1:10] < 
-				           beta.high.sfMsPGOcc[i, j, 1:10]), 
+    beta.1.covered.sfMsPGOcc[i, j, ] <- ifelse((beta.true.small.sfMsPGOcc[i,-c(1:10)] > 
+					   beta.low.sfMsPGOcc[i, j, -c(1:10)]) & 
+				          (beta.true.small.sfMsPGOcc[i, -c(1:10)] < 
+				           beta.high.sfMsPGOcc[i, j, -c(1:10)]), 
 			                   1, 0)
   } # j
 } # i
 # lfJSDM
-beta.1.covered.lfJSDM <- array(NA, dim = c(n.sims, n.models, p.occ / 2))
+beta.1.covered.lfJSDM <- array(NA, dim = c(n.sims, n.models, p.occ - N))
 for (i in 1:n.sims) {
   for (j in 1:n.models) {
-    beta.1.covered.lfJSDM[i, j, ] <- ifelse((beta.true.small.lfJSDM[i,1:10] > 
-					   beta.low.lfJSDM[i, j, 1:10]) & 
-				          (beta.true.small.lfJSDM[i, 1:10] < 
-				           beta.high.lfJSDM[i, j, 1:10]), 
+    beta.1.covered.lfJSDM[i, j, ] <- ifelse((beta.true.small.lfJSDM[i,-c(1:10)] > 
+					   beta.low.lfJSDM[i, j, -c(1:10)]) & 
+				          (beta.true.small.lfJSDM[i, -c(1:10)] < 
+				           beta.high.lfJSDM[i, j, -c(1:10)]), 
 			                   1, 0)
   } # j
 } # i
 # sfJSDM
-beta.1.covered.sfJSDM <- array(NA, dim = c(n.sims, n.models, p.occ / 2))
+beta.1.covered.sfJSDM <- array(NA, dim = c(n.sims, n.models, p.occ - N))
 for (i in 1:n.sims) {
   for (j in 1:n.models) {
-    beta.1.covered.sfJSDM[i, j, ] <- ifelse((beta.true.small.sfJSDM[i,1:10] > 
-					   beta.low.sfJSDM[i, j, 1:10]) & 
-				          (beta.true.small.sfJSDM[i, 1:10] < 
-				           beta.high.sfJSDM[i, j, 1:10]), 
+    beta.1.covered.sfJSDM[i, j, ] <- ifelse((beta.true.small.sfJSDM[i,-c(1:10)] > 
+					   beta.low.sfJSDM[i, j, -c(1:10)]) & 
+				          (beta.true.small.sfJSDM[i, -c(1:10)] < 
+				           beta.high.sfJSDM[i, j, -c(1:10)]), 
 			                   1, 0)
   } # j
 } # i
 
 # Coverage rates for occurrence covariate effect
 beta.cov.msPGOcc <- apply(apply(beta.1.covered.msPGOcc, c(1, 2), 
-				function(a) sum(a) / (p.occ / 2)), 2, mean) * 100
+				function(a) sum(a) / (p.occ - N)), 2, mean) * 100
 beta.cov.spMsPGOcc <- apply(apply(beta.1.covered.spMsPGOcc, c(1, 2), 
-				  function(a) sum(a) / (p.occ/2)), 2, mean) * 100
+				  function(a) sum(a) / (p.occ - N)), 2, mean) * 100
 beta.cov.lfMsPGOcc <- apply(apply(beta.1.covered.lfMsPGOcc, c(1, 2), 
-				  function(a) sum(a) / (p.occ/2)), 2, mean) * 100
+				  function(a) sum(a) / (p.occ - N)), 2, mean) * 100
 beta.cov.sfMsPGOcc <- apply(apply(beta.1.covered.sfMsPGOcc, c(1, 2), 
-				  function(a) sum(a) / (p.occ/2)), 2, mean) * 100
+				  function(a) sum(a) / (p.occ - N)), 2, mean) * 100
 beta.cov.lfJSDM <- apply(apply(beta.1.covered.lfJSDM, c(1, 2), 
-			       function(a) sum(a) / (p.occ/2)), 2, mean) * 100
+			       function(a) sum(a) / (p.occ - N)), 2, mean) * 100
 beta.cov.sfJSDM <- apply(apply(beta.1.covered.sfJSDM, c(1, 2), 
-			       function(a) sum(a) / (p.occ/2)), 2, mean) * 100
+			       function(a) sum(a) / (p.occ - N)), 2, mean) * 100
 
 # Second half of Table 1 (in the order shown in the manuscript)
 beta.cov.lfJSDM[c(5, 6, 1, 2, 3, 4)]

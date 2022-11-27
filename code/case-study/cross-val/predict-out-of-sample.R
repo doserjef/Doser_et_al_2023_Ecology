@@ -12,7 +12,7 @@ library(spOccupancy)
 library(sf)
 
 # Read in the data --------------------------------------------------------
-load("data/data-bundle.R")
+load("data/data-bundle.rda")
 # Reorder species according to how the model was fit
 start.sp <- c('REVI', 'GRSP', 'PIWO', 'EAME', 'BTNW')
 # Other species code
@@ -39,13 +39,13 @@ det.covs.pred <- data.frame(day = data.list$det.covs$day[pred.indx],
 			    obs = data.list$det.covs$obs[pred.indx])
 # Get predicted z-values from other models
 # msPGOcc predictions
-load('results/bbs-msPGOcc-2-chain-2022-03-29.R')
+load('results/bbs-msPGOcc-1-chain-2022-10-29.R')
 z.pred.samples.msPGOcc <- out$z.samples[, , pred.indx]
 # lfMsPGOcc predictions
-load('results/bbs-lfMsPGOcc-2-chain-2022-03-28.R')
+load('results/bbs-lfMsPGOcc-1-chain-2022-10-29.R')
 z.pred.samples.lfMsPGOcc <- out$z.samples[, , pred.indx]
 # sfMsPGOcc predictions
-load('results/bbs-sfMsPGOcc-2-chain-2022-03-29.R')
+load('results/bbs-sfMsPGOcc-1-chain-2022-10-29.R')
 z.pred.samples.sfMsPGOcc <- out$z.samples[, , pred.indx]
 
 # Convert coordinates to albers equal area
@@ -62,17 +62,30 @@ coords.pred <- coords.albers / 1000
 # Get covariates scaled to the right values based on the values used to fit the model.
 occ.covs.fit <- data.list$occ.covs[-pred.indx, ]
 det.covs.fit <- lapply(data.list$det.covs, function(a) a[-pred.indx])
-elev.pred <- (occ.covs.pred$elev - mean(occ.covs.fit$elev)) / sd(occ.covs.fit$elev)
+bio1.pred <- (occ.covs.pred$bio1 - mean(occ.covs.fit$bio1)) / sd(occ.covs.fit$bio1)
+bio2.pred <- (occ.covs.pred$bio2 - mean(occ.covs.fit$bio2)) / sd(occ.covs.fit$bio2)
+bio8.pred <- (occ.covs.pred$bio8 - mean(occ.covs.fit$bio8)) / sd(occ.covs.fit$bio8)
+bio12.pred <- (occ.covs.pred$bio12 - mean(occ.covs.fit$bio12)) / sd(occ.covs.fit$bio12)
+bio18.pred <- (occ.covs.pred$bio18 - mean(occ.covs.fit$bio18)) / sd(occ.covs.fit$bio18)
+water.pred <- (occ.covs.pred$water - mean(occ.covs.fit$water)) / sd(occ.covs.fit$water)
+barren.pred <- (occ.covs.pred$barren - mean(occ.covs.fit$barren)) / sd(occ.covs.fit$barren)
 forest.pred <- (occ.covs.pred$forest - mean(occ.covs.fit$forest)) / sd(occ.covs.fit$forest)
+grass.pred <- (occ.covs.pred$grass - mean(occ.covs.fit$grass)) / sd(occ.covs.fit$grass)
+shrub.pred <- (occ.covs.pred$shrub - mean(occ.covs.fit$shrub)) / sd(occ.covs.fit$shrub)
+hay.pred <- (occ.covs.pred$hay - mean(occ.covs.fit$hay)) / sd(occ.covs.fit$hay)
+wet.pred <- (occ.covs.pred$wet - mean(occ.covs.fit$wet)) / sd(occ.covs.fit$wet)
+devel.pred <- (occ.covs.pred$devel - mean(occ.covs.fit$devel)) / sd(occ.covs.fit$devel)
 # Occurrence prediction design matrix
-X.0 <- cbind(1, elev.pred, elev.pred^2, forest.pred)
+X.0 <- cbind(1, bio1.pred, bio2.pred, bio8.pred, bio12.pred, bio18.pred, 
+             water.pred, barren.pred, forest.pred, grass.pred, shrub.pred, hay.pred, 
+             wet.pred, devel.pred)
 day.pred <- (det.covs.pred$day - mean(det.covs.fit$day)) / sd(det.covs.fit$day)
 tod.pred <- (det.covs.pred$tod - mean(det.covs.fit$tod)) / sd(det.covs.fit$tod)
 # Detection prediction design matrix.
 X.p.0 <- cbind(1, day.pred, day.pred^2, tod.pred, det.covs.pred$obs)
 colnames(X.p.0) <- c('int', 'day', 'day2', 'tod', 'obs')
 # sfMsPGOcc ---------------------------------------------------------------
-load("results/bbs-cv-sfMsPGOcc-1-chain-2022-03-30.R")
+load("results/bbs-cv-sfMsPGOcc-1-chain-2022-11-01.R")
 # Predict occurrence ------------------
 out.pred <- predict(out, X.0, coords.pred, n.omp.threads = 10, 
 		    verbose = TRUE, n.report = 10, 
@@ -116,7 +129,7 @@ deviance.z.sf.sfMsPGOcc <- apply(like.sfMsPGOcc.samples, 1,
 				 function(a) -2 * sum(log(a), na.rm = TRUE))
 
 # lfMsPGOcc ---------------------------------------------------------------
-load("results/bbs-cv-lfMsPGOcc-1-chain-2022-03-30.R")
+load("results/bbs-cv-lfMsPGOcc-1-chain-2022-11-01.R")
 # Predict occurrence ------------------
 out.pred <- predict(out, X.0, coords.pred, type = 'occupancy')
 # Predict detection -------------------
@@ -156,9 +169,9 @@ deviance.z.sf.lfMsPGOcc <- apply(like.sfMsPGOcc.samples, 1,
 				 function(a) -2 * sum(log(a), na.rm = TRUE))
 
 # msPGOcc ---------------------------------------------------------------
-load("results/bbs-cv-msPGOcc-1-chain-2022-03-30.R")
+load("results/bbs-cv-msPGOcc-1-chain-2022-11-01.R")
 # Predict occurrence ------------------
-out.pred <- predict(out, X.0, coords.pred, type = 'occupancy')
+out.pred <- predict(out, X.0, coords.pred, type = 'occupancy', ignore.RE = FALSE)
 # Predict detection -------------------
 out.p.pred <- predict(out, X.p.0, type = 'detection')
 p.0.samples <- out.p.pred$p.0.samples
@@ -196,9 +209,11 @@ deviance.z.sf.msPGOcc <- apply(like.sfMsPGOcc.samples, 1,
 				 function(a) -2 * sum(log(a), na.rm = TRUE))
 
 # lfJSDM ---------------------------------------------------------------
-load("results/bbs-cv-lfJSDM-1-chain-2022-03-29.R")
+load("results/bbs-cv-lfJSDM-1-chain-2022-10-31.R")
 X.jsdm.0 <- cbind(X.0, X.p.0[, -1])
-colnames(X.jsdm.0) <- c('int', 'elev', 'elev.2', 'forest', 'day', 'day.2', 'tod', 'obs')
+colnames(X.jsdm.0) <- c('int', 'bio1', 'bio2', 'bio8', 'bio12', 'bio18', 
+			'water', 'barren', 'forest', 'grass', 'shrub', 'hay', 
+			'wet', 'devel', 'day', 'day.2', 'tod', 'obs')
 # Predict at the hold-out locations ---------------------------------------
 out.pred <- predict(out, X.jsdm.0, coords.pred, ignore.RE = FALSE)
 # Compute hold-out value deviance -----------------------------------------
@@ -232,9 +247,7 @@ deviance.z.sf.lfJSDM <- apply(like.sfMsPGOcc.samples, 1,
 				 function(a) -2 * sum(log(a), na.rm = TRUE))
 
 # sfJSDM ---------------------------------------------------------------
-load("results/bbs-cv-sfJSDM-1-chain-2022-03-30.R")
-X.jsdm.0 <- cbind(X.0, X.p.0[, -1])
-colnames(X.jsdm.0) <- c('int', 'elev', 'elev.2', 'forest', 'day', 'day.2', 'tod', 'obs')
+load("results/bbs-cv-sfJSDM-1-chain-2022-10-31.R")
 # Predict at the hold-out locations ---------------------------------------
 out.pred <- predict(out, X.jsdm.0, coords.pred)
 # Compute hold-out value deviance -----------------------------------------

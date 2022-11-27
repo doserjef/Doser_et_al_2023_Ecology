@@ -1,5 +1,7 @@
 # bbs-data-prep.R: this script takes the RAW BBS data and preps it for analysis
-#                  with the spatial factor multi-species occupancy model.  
+#                  with the spatial factor multi-species occupancy model. The 
+#                  script also extracts the covariates for use in the detection
+#                  portion of the occupancy model.
 # Author: Jeffrey W. Doser
 
 rm(list = ls())
@@ -90,41 +92,8 @@ for (i in 1:N) {
   y[i, , ] <- ifelse(y[i, , ] > 0, 1, 0)
 }
 
-# Occurrence covariates
-# Since curr.dat is ordered by species, then site, can just grab the first J values
 coords <- curr.dat[1:J, c('Latitude', 'Longitude')]
-# Need to break this up into pieces to make it work, otherwise it times out
-coords.sp <- data.frame(coords)
-coords.sp <- coords.sp %>% arrange(Longitude, Latitude)
-coordinates(coords.sp) <- ~Longitude + Latitude
-proj4string(coords.sp) <- '+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0'
-# Loop through all the sites
-vals <- split(1:J, ceiling(seq_along(1:J)/20))
-elev.cov <- rep(0, J)
-for.cov <- rep(0, J)
-# Get proportion of forest
-props <- function(a, na.rm = TRUE) {
-  my.sum <- sum(!is.na(a))	
-  prop.for <- sum(a %in% c(41, 42, 43), na.rm = na.rm) / my.sum
-  return(prop.for)
-}
-ned.dat <- list()
-nlcd.dat <- list()
-for (i in 1:length(vals)) {
-  print(paste("Currently on iteration ", i, " out of ", length(vals), sep = ''))
-  ned.dat[[i]] <- get_ned(template = coords.sp[vals[[i]], ], label = paste('btbw', i))
-  nlcd.dat[[i]] <- get_nlcd(template = coords.sp[vals[[i]], ], label = paste('btbw', i), year = 2016)
-  elev.cov[vals[[i]]] <- extract(ned.dat[[i]], coords.sp[vals[[i]], ])
-  for.cov[vals[[i]]] <- extract(nlcd.dat[[i]], coords.sp[vals[[i]], ], buffer = 1000, fun = props)
-}
-
-occ.covs <- data.frame(elev = elev.cov, 
-		       forest = for.cov)
-
-# Save results in a data bundle for spOccupancy
-data.list <- list(y = y, det.covs = det.covs, 
-		  occ.covs = occ.covs, coords = coords)
-save(data.list, sp.codes, file = "data/data-bundle.R")
+save(y, det.covs, coords, sp.codes, file = "data/bbs-data-formatted.R")
 
 
 

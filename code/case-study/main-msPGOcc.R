@@ -18,7 +18,7 @@ chain <- as.numeric(commandArgs(trailingOnly = TRUE))
 if(length(chain) == 0) base::stop('Need to tell spOccupancy the chain number')
 
 # Read in the data --------------------------------------------------------
-load("data/data-bundle.R")
+load("data/data-bundle.rda")
 # Reorder species to help with mixing
 # Putting these five species first after exploratory analysis
 # REVI, GRSP, PIWO, EAME, BTNW
@@ -44,17 +44,23 @@ prior.list <- list(beta.comm.normal = list(mean = 0, var = 2.72),
 		   tau.sq.beta.ig = list(a = 0.1, b = 0.1),
 		   tau.sq.alpha.ig = list(a = 0.1, b = 0.1))
 # Initial values ----------------------
-load("data/inits-msPGOcc.rda")
+# load("data/inits-msPGOcc.rda")
+inits.list <- list(beta = 0, alpha = 0, tau.sq.beta = 1, beta.comm = 0, 
+		   alpha.comm = 0, tau.sq.alpha = 1, alpha = 0, 
+		   sigma.sq.p = 4)
 # Run the model -----------------------------------------------------------
 n.samples <- 150000
 n.burn <- 100000
 n.thin <- 50
 n.chains <- 1
-out <- msPGOcc(occ.formula = ~ scale(elev) + I(scale(elev)^2) + scale(forest), 
+out <- msPGOcc(occ.formula = ~ scale(bio1) + scale(bio2) + scale(bio8) + scale(bio12) + 
+	                       scale(bio18) + scale(water) + scale(barren) + scale(forest) + 
+			       scale(grass) + scale(shrub) + scale(hay) + scale(wet) + 
+			       scale(devel), 
 	       det.formula = ~ scale(day) + I(scale(day)^2) + scale(tod) + (1 | obs), 
-	       data = data.list, priors = prior.list, inits = inits.msPGOcc,
+	       data = data.list, priors = prior.list, inits = inits.list,
 	       n.samples = n.samples, n.burn = n.burn, 
-	       n.thin = n.thin, n.chains = n.chains, n.report = 100)
+	       n.thin = n.thin, n.chains = n.chains, n.report = 1)
 # Save results ------------------------------------------------------------
 save(out, file = paste("results/bbs-msPGOcc-", chain, "-chain-", 
 		       Sys.Date(), ".R", sep = ''))
