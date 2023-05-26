@@ -39,14 +39,22 @@ det.covs.pred <- data.frame(day = data.list$det.covs$day[pred.indx],
 			    obs = data.list$det.covs$obs[pred.indx])
 # Get predicted z-values from other models
 # msPGOcc predictions
-load('results/bbs-msPGOcc-1-chain-2022-10-29.R')
-z.pred.samples.msPGOcc <- out$z.samples[, , pred.indx]
+# load('results/bbs-msPGOcc-1-chain-2022-10-29.R')
+# z.pred.samples.msPGOcc <- out$z.samples[, , pred.indx]
+# # lfMsPGOcc predictions
+# load('results/bbs-lfMsPGOcc-1-chain-2022-10-29.R')
+# z.pred.samples.lfMsPGOcc <- out$z.samples[, , pred.indx]
+# # sfMsPGOcc predictions
+# load('results/bbs-sfMsPGOcc-1-chain-2022-10-29.R')
+# z.pred.samples.sfMsPGOcc <- out$z.samples[, , pred.indx]
+load('results/bbs-hold-out-msPGOcc-1-chain-2023-04-28.R')
+z.pred.samples.msPGOcc <- out$z.samples
 # lfMsPGOcc predictions
-load('results/bbs-lfMsPGOcc-1-chain-2022-10-29.R')
-z.pred.samples.lfMsPGOcc <- out$z.samples[, , pred.indx]
+load('results/bbs-hold-out-lfMsPGOcc-1-chain-2023-04-28.R')
+z.pred.samples.lfMsPGOcc <- out$z.samples
 # sfMsPGOcc predictions
-load('results/bbs-sfMsPGOcc-1-chain-2022-10-29.R')
-z.pred.samples.sfMsPGOcc <- out$z.samples[, , pred.indx]
+load('results/bbs-hold-out-sfMsPGOcc-1-chain-2023-04-28.R')
+z.pred.samples.sfMsPGOcc <- out$z.samples
 
 # Convert coordinates to albers equal area
 coords.sf <- st_as_sf(data.frame(coords.pred),

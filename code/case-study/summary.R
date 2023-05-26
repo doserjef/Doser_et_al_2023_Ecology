@@ -137,7 +137,8 @@ ef.rich.pred.plot <- ggplot() +
   theme_bw(base_size = 25) +
   labs(x = "Longitude", y = "Latitude", fill = "") +
   theme(legend.position = c(0.92, 0.3), 
-        legend.background = element_rect(fill = NA))
+        legend.background = element_rect(fill = NA), 
+        text = element_text(family = 'LM Roman 10'))
 # Eastern forest bird sd richness
 ef.rich.sd.plot <- ggplot() +
   geom_stars(data = pred.stars, aes(x = x, y = y, fill = ef.rich.sd),interpolate = TRUE) +
@@ -146,7 +147,8 @@ ef.rich.sd.plot <- ggplot() +
   theme_bw(base_size = 25) +
   labs(x = "Longitude", y = "Latitude", fill = "") +
   theme(legend.position = c(0.92, 0.3), 
-        legend.background = element_rect(fill = NA))
+        legend.background = element_rect(fill = NA),
+        text = element_text(family = 'LM Roman 10'))
 
 # Grassland bird mean richness
 grass.rich.pred.plot <- ggplot() +
@@ -156,7 +158,8 @@ grass.rich.pred.plot <- ggplot() +
   theme_bw(base_size = 25) +
   labs(x = "Longitude", y = "Latitude", fill = "") +
   theme(legend.position = c(0.92, 0.3), 
-        legend.background = element_rect(fill = NA))
+        legend.background = element_rect(fill = NA),
+        text = element_text(family = 'LM Roman 10'))
 
 
  # Grassland bird sd richness
@@ -167,7 +170,8 @@ grass.rich.sd.plot <- ggplot() +
   theme_bw(base_size = 25) +
   labs(x = "Longitude", y = "Latitude", fill = "") +
   theme(legend.position = c(0.92, 0.3), 
-        legend.background = element_rect(fill = NA))
+        legend.background = element_rect(fill = NA),
+        text = element_text(family = 'LM Roman 10'))
 
 # Create Figure 1
 ggarrange(ef.rich.pred.plot, ef.rich.sd.plot, 
@@ -176,11 +180,12 @@ ggarrange(ef.rich.pred.plot, ef.rich.sd.plot,
 					 "(B) Eastern Forest SD Richness", 
 					 "(C) Grassland Mean Richness", 
 					 "(D) Grassland SD Richness"),
-	  font.label = list(size = 25), hjust = -0.15)
+	  font.label = list(size = 25, family = 'LM Roman 10'), hjust = -0.15)
 
 # Save to hard drive if you like.
-ggsave(device = 'pdf', filename = 'figures/Fig1.pdf', height = 14, width = 20)
-ggsave(device = 'png', filename = 'figures/Fig1.png', height = 14, width = 20)
+# ggsave(device = 'pdf', filename = 'figures/Fig1.pdf', height = 14, width = 20)
+ggsave(device = 'png', filename = 'figures/Fig1.png', height = 14, 
+       width = 20, bg = 'white')
 
 # Mean difference between sfMsPGOcc and lfMsPGocc estimates
 # Eastern forests
@@ -192,7 +197,8 @@ ef.rich.diff.plot <- ggplot() +
   theme_bw(base_size = 25) +
   labs(x = "Longitude", y = "Latitude", fill = "") +
   theme(legend.position = c(0.92, 0.3), 
-        legend.background = element_rect(fill = NA))
+        legend.background = element_rect(fill = NA), 
+        text = element_text(family = 'LM Roman 10'))
 # Grassland
 grass.rich.diff.plot <- ggplot() +
   geom_stars(data = pred.stars, aes(x = x, y = y, fill = grass.rich.diff),interpolate = TRUE) +
@@ -202,7 +208,8 @@ grass.rich.diff.plot <- ggplot() +
   theme_bw(base_size = 25) +
   labs(x = "Longitude", y = "Latitude", fill = "") +
   theme(legend.position = c(0.92, 0.3), 
-        legend.background = element_rect(fill = NA))
+        legend.background = element_rect(fill = NA),
+        text = element_text(family = 'LM Roman 10'))
 
 # Mean differences between sfMsPGOcc and sfJSDM
 # Eastern forests
@@ -215,7 +222,8 @@ ef.rich.diff.sfJSDM.plot <- ggplot() +
   theme_bw(base_size = 25) +
   labs(x = "Longitude", y = "Latitude", fill = "") +
   theme(legend.position = c(0.92, 0.3), 
-        legend.background = element_rect(fill = NA))
+        legend.background = element_rect(fill = NA),
+        text = element_text(family = 'LM Roman 10'))
 # Grassland
 grass.rich.diff.sfJSDM.plot <- ggplot() +
   geom_stars(data = pred.stars, aes(x = x, y = y, fill = grass.rich.diff.sfJSDM),
@@ -226,7 +234,8 @@ grass.rich.diff.sfJSDM.plot <- ggplot() +
   theme_bw(base_size = 25) +
   labs(x = "Longitude", y = "Latitude", fill = "") +
   theme(legend.position = c(0.92, 0.3), 
-        legend.background = element_rect(fill = NA))
+        legend.background = element_rect(fill = NA),
+        text = element_text(family = 'LM Roman 10'))
 # Figure 2
 ggarrange(ef.rich.diff.plot, grass.rich.diff.plot,
 	  ef.rich.diff.sfJSDM.plot, grass.rich.diff.sfJSDM.plot, 
@@ -234,9 +243,10 @@ ggarrange(ef.rich.diff.plot, grass.rich.diff.plot,
 					 "(B) Grassland sfMsPGOcc - lfMsPGOcc", 
 					 "(C) Eastern Forest sfMsPGOcc - sfJSDM", 
 					 "(D) Grassland sfMsPGOcc - sfJSDM"), 
-	  font.label = list(size = 25), hjust = -0.15)
-ggsave(device = 'pdf', filename = 'figures/Fig2.pdf', height = 14, width = 20)
-ggsave(device = 'png', filename = 'figures/Fig2.png', height = 14, width = 20)
+	  font.label = list(size = 25, family = 'LM Roman 10'), hjust = -0.15)
+# ggsave(device = 'pdf', filename = 'figures/Fig2.pdf', height = 14, width = 20)
+ggsave(device = 'png', filename = 'figures/Fig2.png', height = 14, width = 20, 
+       bg = 'white')
 
 
 # Spatial Factors ---------------------------------------------------------
@@ -248,10 +258,11 @@ w.1.plot <- ggplot() +
   labs(x = "Longitude", y = "Latitude", fill = "Mean") +
   theme_bw(base_size = 25) + 
   theme(legend.position = c(0.92, 0.205),
+        text = element_text(family = 'LM Roman 10'),
 	legend.background = element_rect(fill = 'white', color = 'gray', size = 0.3))
 w.1.plot
 # Part of Figure 3
-ggsave(device = 'pdf', filename = 'figures/w-1-fig.pdf', height = 7, width = 10)
+ggsave(device = 'png', filename = 'figures/w-1-fig.png', height = 7, width = 10, bg = 'white')
 # Second spatial process --------------
 w.2.plot <- ggplot() +
   geom_stars(data = pred.stars, aes(x = x, y = y, fill = w.2.mean),interpolate = TRUE) +
@@ -260,10 +271,11 @@ w.2.plot <- ggplot() +
   labs(x = "Longitude", y = "Latitude", fill = "Mean") +
   theme_bw(base_size = 25) + 
   theme(legend.position = c(0.92, 0.205),
+        text = element_text(family = 'LM Roman 10'),
 	legend.background = element_rect(fill = 'white', color = 'gray', size = 0.3))
 w.2.plot
 # Part of Figure 3 
-ggsave(device = 'pdf', filename = 'figures/w-2-fig.pdf', height = 7, width = 10)
+ggsave(device = 'png', filename = 'figures/w-2-fig.png', height = 7, width = 10, bg = 'white')
 # Third spatial process ---------------
 w.3.plot <- ggplot() +
   geom_stars(data = pred.stars, aes(x = x, y = y, fill = w.3.mean),interpolate = TRUE) +
@@ -272,10 +284,11 @@ w.3.plot <- ggplot() +
   labs(x = "Longitude", y = "Latitude", fill = "Mean") +
   theme_bw(base_size = 25) + 
   theme(legend.position = c(0.92, 0.205),
+        text = element_text(family = 'LM Roman 10'),
 	legend.background = element_rect(fill = 'white', color = 'gray', size = 0.3))
 w.3.plot
 # Part of Figure S1
-ggsave(device = 'pdf', filename = 'figures/w-3-fig.pdf', height = 7, width = 10)
+ggsave(device = 'png', filename = 'figures/w-3-fig.png', height = 7, width = 10, bg = 'white')
 # Fourth spatial process --------------
 w.4.plot <- ggplot() +
   geom_stars(data = pred.stars, aes(x = x, y = y, fill = w.4.mean),interpolate = TRUE) +
@@ -284,10 +297,11 @@ w.4.plot <- ggplot() +
   labs(x = "Longitude", y = "Latitude", fill = "Mean") +
   theme_bw(base_size = 25) + 
   theme(legend.position = c(0.92, 0.205),
+        text = element_text(family = 'LM Roman 10'),
 	legend.background = element_rect(fill = 'white', color = 'gray', size = 0.3))
 w.4.plot
 # Part of Figure S2
-ggsave(device = 'pdf', filename = 'figures/w-4-fig.pdf', height = 7, width = 10)
+ggsave(device = 'png', filename = 'figures/w-4-fig.png', height = 7, width = 10, bg = 'white')
 # Fifth spatial process ---------------
 w.5.plot <- ggplot() +
   geom_stars(data = pred.stars, aes(x = x, y = y, fill = w.5.mean),interpolate = TRUE) +
@@ -296,10 +310,11 @@ w.5.plot <- ggplot() +
   labs(x = "Longitude", y = "Latitude", fill = "Mean") +
   theme_bw(base_size = 25) + 
   theme(legend.position = c(0.92, 0.205),
+        text = element_text(family = 'LM Roman 10'),
 	legend.background = element_rect(fill = 'white', color = 'gray', size = 0.3))
 w.5.plot
 # Part of Figure S3
-ggsave(device = 'pdf', filename = 'figures/w-5-fig.pdf', height = 7, width = 10)
+ggsave(device = 'png', filename = 'figures/w-5-fig.png', height = 7, width = 10, bg = 'white')
 
 # Factor loading densities ------------------------------------------------
 # Species guild information from Bateman et al. (2020)
@@ -341,50 +356,55 @@ lambda.1 <- ggplot(lambda.plot.df, aes(x = Factor1, fill = Community)) +
   scale_fill_viridis_d() + 
   theme_bw(base_size = 18) + 
   labs(x = "Factor 1", y = "Density") +
-  theme(legend.position = 'top')
+  theme(legend.position = 'top', 
+        text = element_text(family = 'LM Roman 10'))
 # Part of Figure 3
 lambda.1
-ggsave(device = 'pdf', filename = 'figures/lambda-1-fig.pdf', height = 5, width = 6)
+ggsave(device = 'png', filename = 'figures/lambda-1-fig.png', height = 5, width = 6, bg = 'white')
 # Factor 2
 lambda.2 <- ggplot(lambda.plot.df, aes(x = Factor2, fill = Community)) + 
   geom_density(alpha = 0.5) + 
   scale_fill_viridis_d() + 
   theme_bw(base_size = 18) + 
   labs(x = "Factor 2", y = "Density")+ 
-  theme(legend.position = 'top')
+  theme(legend.position = 'top', 
+        text = element_text(family = 'LM Roman 10'))
 # Part of Figure 3
 lambda.2
-ggsave(device = 'pdf', filename = 'figures/lambda-2-fig.pdf', height = 5, width = 6)
+ggsave(device = 'png', filename = 'figures/lambda-2-fig.png', height = 5, width = 6, bg = 'white')
 # Factor 3
 lambda.3 <- ggplot(lambda.plot.df, aes(x = Factor3, fill = Community)) + 
   geom_density(alpha = 0.5) + 
   scale_fill_viridis_d() + 
   theme_bw(base_size = 18) + 
   labs(x = "Factor 3", y = "Density") + 
-  theme(legend.position = 'top')
+  theme(legend.position = 'top', 
+        text = element_text(family = 'LM Roman 10'))
 # Part of Figure S1
 lambda.3
-ggsave(device = 'pdf', filename = 'figures/lambda-3-fig.pdf', height = 5, width = 6)
+ggsave(device = 'png', filename = 'figures/lambda-3-fig.png', height = 5, width = 6, bg = 'white')
 # Factor 4
 lambda.4 <- ggplot(lambda.plot.df, aes(x = Factor4, fill = Community)) + 
   geom_density(alpha = 0.5) + 
   scale_fill_viridis_d() + 
   theme_bw(base_size = 18) + 
   labs(x = "Factor 4", y = "Density") + 
-  theme(legend.position = 'top')
+  theme(legend.position = 'top', 
+        text = element_text(family = 'LM Roman 10'))
 # Part of Figure S2
 lambda.4
-ggsave(device = 'pdf', filename = 'figures/lambda-4-fig.pdf', height = 5, width = 6)
+ggsave(device = 'png', filename = 'figures/lambda-4-fig.png', height = 5, width = 6, bg = 'white')
 # Factor 5
 lambda.5 <- ggplot(lambda.plot.df, aes(x = Factor5, fill = Community)) + 
   geom_density(alpha = 0.5) + 
   scale_fill_viridis_d() + 
   theme_bw(base_size = 18) + 
   labs(x = "Factor 5", y = "Density") + 
-  theme(legend.position = 'top')
+  theme(legend.position = 'top', 
+        text = element_text(family = 'LM Roman 10'))
 lambda.5
 # Part of Figure S3
-ggsave(device = 'pdf', filename = 'figures/lambda-5-fig.pdf', height = 5, width = 6)
+ggsave(device = 'png', filename = 'figures/lambda-5-fig.png', height = 5, width = 6, bg = 'white')
 
 # Compare WAIC across models ----------------------------------------------
 # lfJSDM ---------------------------
