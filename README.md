@@ -1,8 +1,8 @@
 # [Joint species distribution models with imperfect detection for high-dimensional spatial data](https://arxiv.org/abs/2204.02707)
 
-### Ecology 
-
 ### [Jeffrey W. Doser](https://www.jeffdoser.com/), [Andrew O. Finley](https://www.finley-lab.com/), [Sudipto Banerjee](http://sudipto.bol.ucla.edu/)
+
+### Ecology 
 
 ### Code/Data DOI: [![DOI](https://zenodo.org/badge/472435954.svg)](https://zenodo.org/badge/latestdoi/472435954)
 
