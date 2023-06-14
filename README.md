@@ -1,8 +1,10 @@
 # [Joint species distribution models with imperfect detection for high-dimensional spatial data](https://arxiv.org/abs/2204.02707)
 
-### In Review
+### Ecology 
 
-### Jeffrey W. Doser, Andrew O. Finley, Sudipto Banerjee
+### [Jeffrey W. Doser](https://www.jeffdoser.com/), [Andrew O. Finley](https://www.finley-lab.com/), [Sudipto Banerjee](http://sudipto.bol.ucla.edu/)
+
+### Code/Data DOI: [![DOI](https://zenodo.org/badge/472435954.svg)](https://zenodo.org/badge/latestdoi/472435954)
 
 ### spOccupancy Package [Website](https://www.jeffdoser.com/files/spoccupancy-web/) and [Repository](https://github.com/doserjef/spOccupancy/)
 
