@@ -1,4 +1,4 @@
-# [Joint species distribution models with imperfect detection for high-dimensional spatial data](https://arxiv.org/abs/2204.02707)
+# [Joint species distribution models with imperfect detection for high-dimensional spatial data](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.4137)
 
 ### [Jeffrey W. Doser](https://www.jeffdoser.com/), [Andrew O. Finley](https://www.finley-lab.com/), [Sudipto Banerjee](http://sudipto.bol.ucla.edu/)
 
